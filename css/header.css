@@ -80,7 +80,7 @@ header {width:81.2%;  margin: 0 auto;position: relative;}
   width: 98%;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-clip: padding-box;
+  background-clip: padding-box;    top: 22% !important;
 }
 @media (min-width: 32em) {
 

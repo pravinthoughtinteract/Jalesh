@@ -1,0 +1,206 @@
+.abt-main{width:100%;float:left; margin: 40px 0 100px;}
+.abt-top-txt p{border-bottom: 0;width:auto;padding: 0 20%;line-height: 27px;color:#000;}
+.abt-bg{background:url('../images/about/about-bg.jpg');background-repeat:no-repeat;}
+.abt-sub-txt{width:100%;float:left;margin:0;padding: 10% 0;}
+.abt-1{width:100%;float:left;margin:0 0;padding:0;} 
+.abt-2{width:100%;float:left;margin:0 0;padding:0;} 
+.abt-3{width:100%;float:left;margin:0 0;padding:0;}
+.abt-main h3{font-size: 35px;text-align: center;text-transform: uppercase;color: #fff; }
+.abt-main p{color: #fff;font-size: 15px;text-align: center;padding: 0 4%;}
+.abt-1txt{border-bottom:1px solid #a8a8a8;}
+.abt-1txt, .abt-2txt{width:85%;margin:0 auto;padding: 3% 0 4%;}
+.abt-2txt ul{margin: 0 auto;padding:0;width: 65%;}
+.abt-2txt ul li{list-style-type: disc;font-size: 17px;color:#fff;margin-right: 43px;text-align: center;float: left;}
+.abt-2txt ul li:nth-child(1){list-style-type: none;}
+.abt-top-txt h3 {text-align:center;}
+.abt-top-txt h3 a{color: #333 !important;font-weight: bold;margin: 0 auto;border: 1px solid #000;font-size: 18px;padding: 10px 27px;text-decoration: none;transition: 0.5s ease;}
+.abt-top-txt h3 a:hover{border: 1px solid #460f5a; text-decoration: none; background-color: #460f5a; transition: 0.5s ease;color:#fff !important;}
+
+.porel{position: relative;}
+.about-karnika{position: absolute; top: 40px; width: 169px;right: 0;}
+
+.envirment-policy-container{width:90%;margin:0 auto;}
+.envirment-policy{width:100%;float:left;margin:0;}
+.envirment-policy p{border-bottom: 0;width:auto;padding: 0 20%;line-height: 27px;color:#000; text-align:center;}
+.envirment-policy h2{font-size: 25px;text-align: center;text-transform: uppercase;color: #333333; font-weight:bold;     float: left;     width: 100%;     padding-bottom: 15px;}
+
+.clean-waves-logo{width:253px; height:auto; margin: 50px auto 40px; clear: both;}
+
+@media only screen and (min-width:1601px) and (max-width:1700px){
+.abt-2txt ul {width: 76%;}
+.abt-top-txt p {padding: 0 9%;}
+.envirment-policy p {padding: 0 9%;}
+}
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.abt-2txt ul {width: 76%;}
+.abt-top-txt p {padding: 0 9%;}
+.abt-main {margin: 5% 0;}
+.abt-sub-txt {padding: 14% 0;}
+.envirment-policy p {padding: 0 9%;}
+}
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.abt-2txt ul {width: 90%;}
+.abt-top-txt p {padding:0 5%;}
+.abt-main {margin: 5% 0;}
+.abt-sub-txt {padding: 14% 0;}
+.envirment-policy p {padding: 0 5%;}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px){
+.abt-2txt ul {width: 95%;}
+.abt-top-txt p {padding:0 5%;}
+.abt-main {margin: 5% 0;}
+.abt-sub-txt {padding: 9% 0;}
+.abt-bg {background-position: center;}
+.abt-top-txt h3 a {font-size: 17px;padding: 8px 23px;}
+.envirment-policy p {padding: 0 9%; margin: 0px 0 20px 0;}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){
+.abt-2txt ul {width: 100%;}
+.abt-top-txt p {padding:0 5%;line-height: 24px;}
+.abt-main {margin: 5% 0;}
+.abt-sub-txt {padding: 9% 0;}
+.abt-bg {background-position: center;}
+.abt-main p {line-height: 19px;}
+.abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
+.envirment-policy p {padding: 0 5%;line-height: 24px;margin: 0px 0 20px 0;}
+}
+
+@media only screen and (min-width:1101px) and (max-width:1200px){
+.abt-2txt ul {width: 100%;}
+.abt-top-txt p {padding:0 5%;line-height: 24px;}
+.abt-main {margin: 5% 0;}
+.abt-sub-txt {padding: 9% 0;}
+.abt-bg {background-position: center;}
+.abt-main p {line-height: 19px;}
+.abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
+.envirment-policy p {padding: 0 5%;line-height: 24px;margin: 0px 0 20px 0;}
+}
+
+@media only screen and (min-width:1000px) and (max-width:1100px){
+.abt-main h3 {font-size: 27px;margin-bottom: 8px;}
+.abt-2txt ul {width: 89%;}
+.abt-top-txt p {padding:0 5%;line-height: 24px;}
+.abt-main {margin: 5% 0;}
+.abt-sub-txt {padding: 13% 0;}
+.abt-bg {background-position: center;}
+.abt-main p {line-height: 20px;font-size: 13px;}
+.abt-2txt ul li {font-size: 15px;margin-right: 27px;}
+.abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
+.envirment-policy p {padding: 0 5%;line-height: 24px;margin: 0px 0 20px 0;}
+}
+
+@media only screen and (min-width:701px) and (max-width:800px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 22px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+
+.envirment-policy p {padding: 0 5%;margin-bottom: 22px;}
+}
+
+
+@media only screen and (min-width:601px) and (max-width:700px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 22px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.envirment-policy p {padding:0;margin-bottom: 22px;}
+
+}
+
+@media only screen and (min-width:501px) and (max-width:600px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 15px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.envirment-policy p {padding:0;margin-bottom: 15px;}
+
+}
+@media only screen and (min-width:401px) and (max-width:500px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 15px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.envirment-policy p {padding:0;margin-bottom: 15px;}
+
+}
+
+@media only screen and (min-width:361px) and (max-width:400px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 15px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.envirment-policy p {padding:0;margin-bottom: 15px;}
+
+
+}
+
+@media only screen and (min-width:321px) and (max-width:360px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 15px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.envirment-policy p {padding:0;margin-bottom: 15px;}
+
+}
+@media only screen and (min-width:0px) and (max-width:320px){
+.abt-bg {background-position: center;background-size: cover;}
+.abt-sub-txt {padding: 16% 0;}
+.abt-top-txt p{padding:0;margin-bottom: 15px;}
+.abt-1txt, .abt-2txt {width: 96%;}
+.abt-main h3 {font-size: 26px;text-align: left;}
+.abt-main p {font-size: 15px;text-align: left;padding:0;}
+.abt-2txt ul{width: 100%;}
+.abt-2txt ul li:nth-child(1) {list-style-type: disc; }
+.abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
+.abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.envirment-policy p {padding:0;margin-bottom: 15px;}
+
+}

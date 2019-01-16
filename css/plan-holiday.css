@@ -1,0 +1,520 @@
+.plan-holiday{}
+.plan-holiday-section { width: 100%; float: left;background-color:#15264c;}
+.plan-holiday-banner{ width: 100%; float: left;    margin: 90px 0 0 0;}
+.plan-holiday-banner img { width: 100%; position: relative;    float: left;}
+.plan-holiday-section-plan {width: 80%;margin: 0 9.9% 100px;padding:2% 4%;background-color: #fff;float: left;}
+.plan-holiday-section-plan h1 { font-size: 45px; text-align: center; text-transform: uppercase; color: #551a57;margin:0px 0 40px 0;width: 100%;float: left;  position: relative;}
+.plan-holiday-section-plan h1:before {width: 40px; height: 4px; background-color: #551a57; content: ''; left: 50%; margin-left: -5px; bottom: -20px;    position: absolute;}
+.plan-holiday-section-plan p {color:#551a57;font-size:15px;text-align:center;margin:0px 0 40px 0;padding:0 0 40px 0;border-bottom:1px solid #dddddd;float:left;width:100%;}
+
+.holiday{ float: left;width: 100%;}
+.holiday img{width:100%; height:auto; min-height: 276px; float:left;}
+
+.holiday-main{     top: 50%;     left: 50%;     transform: translate(-50%, -50%);     position: absolute;     color: #fff;     width: 100%;     text-align: center;}
+.holiday-main p{ float: left;color: #fff;  margin: 0;    padding: 0 0 15px 0;    border: 0; font-size:18px}
+.holiday-main h3{ float: left;width: 100%;  color: #fff;  margin: 0;  padding:0;     text-align: center;  border: 0; font-size:48px}
+.holiday-main h4{width: 56%;  color: #fff;  margin: 0 auto;    padding:0;    border: 0; font-size:30px;    line-height: 36px;}
+.holiday-main a{width: 300px;color: #fff !important;font-weight:bold;margin: 0 auto;border: 1px solid #fff;font-size:18px;padding: 7px 27px;text-decoration:none;transition: 0.5s ease;}
+.holiday-main a:hover{color: #fff !important;border: 1px solid #460f5a;text-decoration:none;background-color: #460f5a;transition: 0.5s ease;}
+
+.holid-sec{width: 100%; height:auto; float: left;}
+.holiday-one{float: left;width: 50.1%;position:relative;}
+.holiday-two{float: left;width: 24.1%;position:relative;} 
+.holiday-three{float: left;width: 25.8%;position:relative;} 
+.holiday-four{float: left;width: 25.7%;position:relative;} 
+.holiday-five {float: left;width: 48.3%;position:relative;} 
+.holiday-six {float: left;width: 25.9%;position:relative;} 
+.holiday-seven {float: left;width: 25.8%;position:relative;} 
+.holiday-eight {float: left;width: 25.9%;position:relative;} 
+.holiday-nine {float: left;width: 48.1%;position:relative;} 
+
+
+
+
+.plan-holiday-section-plan-inner-page {width: 80%;margin: 35px 9.9% 100px;padding: 0;float: left;}
+.plan-holiday-section-plan-inner-page h1 { font-size: 45px; text-align: center; text-transform: uppercase; color: #fff;margin:0px 0 40px 0;width: 100%;float: left;  position: relative;}
+.plan-holiday-section-plan-inner-page p {color:#fff;font-size:15px;text-align:center;margin:0;padding:0 0 40px 0;float:left;width:100%;}
+
+.holiday-inner-page{width: 100%;margin:0px;padding: 0 2% 25px;background-color: #fff;float: left;}
+.holiday-inner-page-cont{width:100%; height:auto; float:left;border:1px solid #dddddd; margin-top:25px;}
+
+.holiday-inner-left{width:36%; height:auto; float:left;}
+.holiday-inner-left img{width:100%;}
+.holiday-inner-right{width:64%; height:auto; float:left; padding:2%;}
+
+.holiday-inner-right h2{ font-size: 24px; text-align: left; text-transform: uppercase; color: #330066;    padding-bottom: 20px;}
+.holiday-inner-right p{ font-size: 16px; text-align: left;  color: #333333; padding: 0px !important; margin: 0px !important;}
+
+.itineraries-but-sec{width:100%; height:auto; float:left; }
+.itineraries-but{width: 199px;height:auto;margin: 0 auto;}
+.itineraries-but a{color:#fff;background:#2d0e2e;border:1px solid #917391;padding:10px 20px;margin: 0 auto 40px;font-size:15px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;float: left;transition: all 0.5s ease;} 
+.itineraries-but a:hover{color:#fff; background:#f37061; border:1px solid #ffccc6;} 
+
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    /* background-color: #f1f1f1; */
+    color: black;
+    float: left;font-family: 'Philosopher', sans-serif;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 51px;
+    transition: 0.3s;
+    font-size: 22px;
+    margin-right: 5px;
+    background-color: #2d0e2e;
+    font-family: 'Philosopher', sans-serif;
+    text-transform:uppercase;
+    color:#fff;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+ background-color: #f37061;
+    color: #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+background-color: #f37061;
+    color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+	width:100%;
+	display: none;
+	padding: 20px 0;
+	float: left;
+}
+
+/* Style the close button */
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+
+.blank-bg{background:url('../images/bg22.jpg') right no-repeat; background-size:cover;}
+
+
+
+.cols-6{width:50%; height:auto; float:left; position:relative;}
+.cols-3{width:25%; height:auto; float:left; position:relative;}
+
+/* Start Internet Explorere 9 CSS */
+
+@media screen and (min-width:0\0) { 
+.holiday-main{left:0; top:25%;}
+.navi-getion nav li.nav-item ul.maind {
+    float: left;
+    list-style: none;
+    background: #FFF;
+    position: fixed;
+    width: auto;
+    zoom: 1;
+    margin-top: 30px;
+    text-align: left;
+padding: 30px;}
+ 
+} 
+
+/* End Internet Explorere 9 CSS */
+
+@media only screen and (min-width:1601px) and (max-width:1700px){
+.plan-holiday-section-plan {width: 83%;}
+.holiday-main h3 {font-size: 45px;}
+.holiday-main p {font-size: 17px;}
+.itineraries-but { width: 165px;}
+.itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
+.holiday img { min-height: auto;}
+}
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.plan-holiday-section-plan h1 {font-size: 41px;}
+.holiday-main h3 {font-size: 40px;}
+.holiday-main p {font-size: 16px;}
+.holiday-main h4 {font-size: 28px;line-height: 33px;}
+.plan-holiday-section-plan-inner-page p { margin: 0 0 20px 0;    padding: 0 0 20px 0;}
+.itineraries-but { width: 165px;}
+.itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
+.holiday img { min-height: auto;}
+}
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.plan-holiday-section-plan h1 {font-size: 38px;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 38px;margin: 0px 0 20px 0;}
+.holiday-main h3 {font-size: 38px;}
+.holiday-main p {font-size: 15px;}
+.holiday-main h4 {font-size: 26px;line-height: 34px;}
+.holiday-main a {font-size: 15px;padding: 7px 22px; }
+.plan-holiday-section-plan-inner-page p { margin: 0 0 20px 0;    padding: 0 0 20px 0;}
+.itineraries-but { width: 165px;}
+.itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
+.holiday img { min-height: auto;}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px){
+.plan-holiday-banner {margin: 81px 0 0 0;}
+.plan-holiday-section-plan h1 {font-size: 30px;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 30px;margin: 0px 0 20px 0;}
+.holiday-inner-right h2 {font-size: 22px;padding-bottom: 16px; }
+.holiday-inner-right p {font-size: 15px;}
+.holiday-main h3 {font-size: 30px;}
+.holiday-main p {font-size: 14px;}
+.holiday-main h4 {font-size: 22px;line-height: 31px;}
+.holiday-main a {font-size: 14px;padding: 6px 24px;}
+.plan-holiday-section-plan-inner-page p { margin: 0 0 20px 0;    padding: 0 0 20px 0;}
+.holiday-four {width: 25.6%;}
+.itineraries-but { width: 165px;}
+.itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
+
+.tab button {padding: 9px 40px; font-size: 18px;}
+.holiday img { min-height: auto;}
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){
+.plan-holiday-section-plan {width: 82%;}
+.plan-holiday-banner {margin: 78px 0 0 0;}
+.plan-holiday-section-plan h1 {font-size: 24px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 24px;margin: 0px 0 20px 0;}
+.holiday-inner-right h2 {font-size: 20px;padding-bottom: 16px; }
+.holiday-inner-right p {font-size: 14px;}
+.plan-holiday-section-plan p {font-size: 14x;}
+.holiday-main h3 {font-size: 24px;}
+.holiday-main p {font-size: 12px;}
+.holiday-main h4 {font-size: 18px;line-height: 25px;}
+.holiday-main a {font-size: 12px;padding: 6px 24px;}
+.plan-holiday-section-plan-inner-page p { margin: 0 0 20px 0;    padding: 0 0 20px 0;}
+.itineraries-but { width: 165px;}
+.itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
+.tab button {padding: 9px 40px; font-size: 18px;}
+.holiday img { min-height: auto;}
+}
+
+@media only screen and (min-width:1101px) and (max-width:1200px){
+.plan-holiday-section-plan {width: 86%;margin: 0 6.9% 100px;}
+.plan-holiday-banner {margin: 78px 0 0 0;}
+.plan-holiday-section-plan h1 {font-size: 24px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 24px;margin: 0px 0 20px 0;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.plan-holiday-section-plan-inner-page {width: 90%;margin: 35px 5% 100px; }
+.holiday-inner-right h2 {font-size: 20px;padding-bottom: 16px; }
+.holiday-inner-right p {font-size: 14px;}
+.holiday-main h3 {font-size: 24px;}
+.holiday-main p {font-size: 11px;padding: 0 0 9px 0;}
+.holiday-main h4 {font-size: 16px;line-height: 20px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page p { margin: 0 0 20px 0;    padding: 0 0 20px 0;}
+.itineraries-but { width: 165px;}
+.itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
+.tab button {padding: 9px 40px; font-size: 18px;}
+.holiday img { min-height: auto;}
+}
+
+@media only screen and (min-width:1000px) and (max-width:1100px){
+.plan-holiday-section-plan {width: 90.4%;margin: 0 5% 100px;}
+.plan-holiday-banner {margin: 78px 0 0 0;}
+.plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 22px;margin: 0px 0 20px 0;}
+.plan-holiday-section-plan-inner-page {width: 90%;margin: 35px 5% 100px; }
+.holiday-inner-right h2 {font-size: 20px;padding-bottom: 16px; }
+.holiday-inner-right p {font-size: 14px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 22px;}
+.holiday-main p {font-size: 11px;padding: 0 0 9px 0;}
+.holiday-main h4 {font-size: 16px;line-height: 20px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page p { margin: 0 0 20px 0;    padding: 0 0 20px 0;}
+.tab button {padding: 9px 40px; font-size: 18px;}
+.holiday img { min-height: auto;}
+
+}
+
+@media only screen and (min-width:701px) and (max-width:800px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3.5% 50px;}
+.plan-holiday-banner {margin:23px 0 0 0;}
+.plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 22px;margin: 0px 0 9px 0;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 100px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 14px;line-height: 20px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+
+}
+
+
+@media only screen and (min-width:601px) and (max-width:700px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3.5% 50px;}
+.plan-holiday-banner {margin:23px 0 0 0;}
+.plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 14px;line-height: 20px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+}
+
+@media only screen and (min-width:480px) and (max-width:500px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;}
+.plan-holiday-banner {margin:0 0 0 0;}
+.holid-sec {position: relative;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+.plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1{font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 16px;line-height: 22px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.holiday-inner-left {width: 100%;}
+.holiday-inner-right {width: 96%;padding: 6% 2%;}
+.plan-holiday-section-plan-inner-page p { font-size: 13px;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+}
+@media only screen and (min-width:414px) and (max-width:479px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;}
+.plan-holiday-banner {margin:0 0 0 0;}
+.holid-sec {position: relative;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+.plan-holiday-section-plan h1 {font-size: 21px;margin: 6px 0 30px 0;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 21px;margin: 6px 0 30px 0;}
+.plan-holiday-section-plan h1:before {left: 0;right: 0;margin: 0 auto;bottom: -9px;height: 3px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 16px;line-height: 22px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.holiday-inner-left {width: 100%;}
+.holiday-inner-right {width: 96%;padding: 6% 2%;}
+.plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+}
+@media only screen and (min-width:401px) and (max-width:413px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;}
+.plan-holiday-banner {margin:0 0 0 0;}
+.holid-sec {position: relative;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+.plan-holiday-section-plan-inner-page h1{font-size: 21px;margin: 6px 0 30px 0;}
+.plan-holiday-section-plan h1 {font-size: 21px;margin: 6px 0 30px 0;}
+.plan-holiday-section-plan h1:before {left: 0;right: 0;margin: 0 auto; }
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 16px;line-height: 22px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.holiday-inner-left {width: 100%;}
+.holiday-inner-right {width: 96%;padding: 6% 2%;}
+.plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+}
+
+
+@media only screen and (min-width:361px) and (max-width:400px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;padding: 3%;}
+.plan-holiday-banner {margin:0 0 0 0;}
+.holid-sec {position: relative;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
+.plan-holiday-section-plan h1:before {left: 0;right: 0;margin: 0 auto;bottom: -9px;height: 3px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 15px;line-height: 22px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.holiday-inner-left {width: 100%;}
+.holiday-inner-right {width: 96%;padding: 6% 2%;}
+.plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+}
+
+@media only screen and (min-width:321px) and (max-width:360px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;padding: 3%;}
+.plan-holiday-banner {margin:0 0 0 0;}
+.holid-sec {position: relative;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 50%;}
+.holiday-three {width: 50%;}
+.holiday-four {width: 50%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 50%;position: absolute;right: 0;height: 141px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 50%;}
+.holiday-eight{width: 50%;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.holiday img { min-height: auto;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 21px;margin: 12px 0 10px 0;}
+.plan-holiday-section-plan h1 {font-size: 21px;margin: 12px 0 30px 0;}
+.plan-holiday-section-plan h1:before {left: 0;right: 0;margin: 0 auto;bottom: -9px;height: 3px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 25px;}
+.holiday-main p {font-size: 14px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 15px;line-height: 22px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.holiday-inner-left {width: 100%;}
+.holiday-inner-right {width: 96%;padding: 6% 2%;}
+.plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0 0 30px 0;}
+
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+}
+@media only screen and (min-width:0px) and (max-width:320px){
+.plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;padding: 3%;}
+.plan-holiday-banner {margin:0 0 0 0;}
+.holid-sec {position: relative;}
+.holiday-one {width: 100%;}
+.holiday-two {width: 48.3%;}
+.holiday-three {width: 51.7%;}
+.holiday-four {width: 48.3%;}
+.holiday-five {width: 100%;}
+.holiday-six{width: 51.8%;position: absolute;right: 0;height: 125px;}
+.holiday-six img{height:100%;}
+.holiday-seven{width: 48.3%;}
+.holiday-eight{width: 51.7%;height: 124px;}
+.holiday-eight img{height:100%;}
+.holiday-nine{width: 100%;}
+.plan-holiday-section-plan-inner-page h1 {font-size: 18px;margin: 15px 0 30px 0;}
+.plan-holiday-section-plan h1 {font-size: 18px;margin: 15px 0 30px 0;}
+.plan-holiday-section-plan h1:before {left: 0;right: 0;margin: 0 auto;bottom: -9px;height: 3px;}
+.plan-holiday-section-plan p {font-size: 13px;}
+.holiday-main h3 {font-size: 18px;}
+.holiday-main p {font-size: 12px;padding: 0 0 9px 0;line-height: 14px;}
+.holiday-main h4 {font-size: 15px;line-height: 22px;}
+.holiday-main a {font-size: 11px;padding: 5px 19px;}
+.plan-holiday-section-plan-inner-page {width: 93%;margin: 35px 4% 50px;}
+.holiday-inner-right h2 {font-size: 18px;padding-bottom: 8px;}
+.holiday-inner-right p {font-size: 13px;}
+.holiday-inner-left {width: 100%;}
+.holiday-inner-right {width: 96%;padding: 6% 2%;}
+.plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
+.itineraries-but { margin: 35px auto;}
+.tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
+.holiday img { min-height: auto;}
+.cols-6{width:100%;}
+.cols-3{width:100%; }
+
+}

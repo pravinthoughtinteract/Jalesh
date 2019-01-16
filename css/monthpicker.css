@@ -1,0 +1,201 @@
+
+
+/* monthpicker.css */
+
+.monthpicker {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;width: 46% !important;
+}
+
+.monthpicker_selector *::selection {
+    background: transparent;
+}
+
+.monthpicker_input {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+      font-size: 24px;
+    line-height: 50px;
+    color: #262052;border:none !important;
+}
+
+.monthpicker_input .placeholder {
+        font-size: 24px;
+    line-height: 50px;
+    color: #262052;
+}
+
+
+
+.monthpicker_input.active {
+    background-color: #D4D4D4;
+    color: #262052;
+}
+
+.monthpicker_selector {
+    position: absolute;
+    top: 71px;
+    background-color: #fff;
+    min-width: 260px;
+    box-shadow: 1px 2.5px 5px 0;
+    z-index: 100;
+    border: 4px solid #993f5c;
+  padding: 9px 15px 15px;
+}
+
+.monthpicker_selector>table {
+    color: #000;
+    width: 100%;
+    text-align: center;
+    border-spacing : 0;
+    border-collapse : collapse;
+    font-size: .9em;
+}
+
+.monthpicker_selector>table tr:first-child td {
+    padding-top: 3px;
+    padding-bottom: 3px; 
+}
+
+.monthpicker_selector>table tr:first-child>td:nth-child(1) {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+}
+
+.monthpicker_selector>table tr:first-child>td:nth-child(2) {
+    position: relative;
+}
+
+.monthpicker_selector>table tr:first-child>td:nth-child(3) {
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: right;
+}
+
+.yearSwitch {
+    padding: 3px 8px;
+    border-radius: 50%;
+    background: #D4D4D4;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.yearSwitch.off {
+    visibility: hidden;
+}
+
+.yearValue {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: none;
+    border: none;
+    color: #262052;
+    outline: none;
+    font-size: 20px;
+        line-height: 59px;
+}
+
+/* months */
+.monthpicker_selector .month {
+    /* border: 1px solid #e2e2e2; */
+    cursor: pointer;
+    font-size: 19px;
+    color: #262052;
+}
+.monthpicker_selector .month:hover {
+    background-color: #262052; color: #fff;
+}
+.month.selected {
+    background: #262052;
+    color: #fff;
+    font-weight: bold;
+}
+.monthpicker_selector .month.off {
+    color: #666;
+    cursor: not-allowed;
+}
+.monthpicker_selector .month.off:hover {
+    background: none;
+}
+
+.monthpicker_selector>table tr td:first-child {
+    border-left: none;
+}
+
+.monthpicker_selector>table tr td:last-child {
+    border-right: none;
+}
+
+.monthpicker_selector>table tr:last-child td {
+    border-bottom: none;
+}
+
+@media only screen and (min-width:1001px) and (max-width:1100px){
+.monthpicker_input {font-size: 18px;line-height: 35px;}
+.monthpicker_input .placeholder { font-size: 18px;line-height: 35px;}
+.monthpicker_selector {top: 47px;}
+
+}
+
+
+@media only screen and (min-width:1101px) and (max-width:1200px){
+.monthpicker_input {font-size: 18px;line-height: 35px;}
+.monthpicker_input .placeholder { font-size: 18px;line-height: 35px;}
+.monthpicker_selector {top: 47px;}
+
+}
+
+
+@media only screen and (min-width:1201px) and (max-width:1300px){
+.monthpicker_input {font-size:18px;line-height: 35px;}
+.monthpicker_input .placeholder { font-size: 18px;line-height: 35px;}
+.monthpicker_selector {top: 47px;}
+.monthpicker_selector .month { font-size: 19px;}
+}
+
+
+@media only screen and (min-width:1301px) and (max-width:1400px){
+.monthpicker_input {font-size: 20px;line-height: 33px;}
+.monthpicker_input .placeholder { font-size: 20px;line-height: 35px;}
+.monthpicker_selector {top: 47px;}
+
+}
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.monthpicker_input {font-size: 20px;line-height: 36px; padding:0 8px !important;}
+.monthpicker_input .placeholder { font-size: 20px;line-height: 35px;}
+.monthpicker_selector {top: 47px;}
+
+}
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.monthpicker_input {font-size: 20px;line-height: 36px; padding:0 8px !important;}
+.monthpicker_input .placeholder { font-size: 20px;line-height: 35px;}
+.monthpicker_selector {top: 47px;}
+
+}
+
+
+
+@media only screen and (min-width:0px) and (max-width:360px){
+	
+.monthpicker_input {font-size: 20px;line-height: 45px; padding: 1px 4px !important; }
+.monthpicker_input .placeholder { font-size: 20px;line-height: 45px;}
+.monthpicker_selector {top: 47px;}
+.monthpicker { width: 100% !important;}
+
+}

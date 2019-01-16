@@ -1,0 +1,234 @@
+.footer{width: 100%; background-image: url(../images/ft-bg.png); position: relative; background-position: top left; float: left; background-repeat: no-repeat; background-color: #000; background-position:56px 8px;}
+.footer-container { width: 100%; margin: 0 auto; position: relative; max-width: 1524px;}
+.footer-sub{width:100%;float:left;margin-top: 6%;position: relative;    margin-bottom: 3%;}
+.ft-one{width: 29%;float:left;}
+.ft-one h5{ font-size:20px;font-weight:600;color:#999999;line-height: 40px;}
+.ft-one p{font-size: 16px;font-weight:normal;color:#999999;padding: 4px 0; margin:0;}
+.ft-one p a{color:#999999;text-decoration:none;}
+.ft-one p a:hover{color:#f37061;}
+.ft-two{width: 19%;float: left;margin-left: 3%; text-transform: uppercase;}
+.ft-two ul{margin:0;padding:0;list-style-type:none;}
+.ft-two li{padding: 0 0 6px 0;}
+.ft-two li a{ font-size:18px;font-weight:600;color:#999999;text-decoration:none;}
+.ft-two li a:hover{color:#f37061;}
+.ft-three{width: 100%;float: left;position: relative; padding:10px; text-align:center;}
+.ft-three p{ font-size: 14px;font-weight:normal;color:#999999;padding: 4px 0;}
+.call-ft{width: 17px; height: 18px; background: url(../images/call-ft.png) no-repeat !important; vertical-align: middle; display: inline-block;margin-right: 8px;}
+.mail-ft{width: 18px; height: 15px; background: url(../images/mail-ft.png) no-repeat !important; vertical-align: middle; display: inline-block;margin-right: 8px;}
+
+
+.book-your-dream-section{height:300px; width:100%; background:#471e4a url(../images/accomodation/bg-3.jpg); position:relative;background-position:center center;background-size:contain;float:left;background-repeat:no-repeat; }
+.book-your-dream-section h5{font-size:48px; color:#fff;  text-align: center;   text-transform: uppercase; margin:25px 0;width: 100%;    float: left;}
+.holiday-dream-section{width:100%;float:left;margin: 60px 0 0 0;text-align: center;} 
+.holiday-dream-section img{width: 100px;margin: 0 auto;float: none;}
+.holiday-dream-link{width: 8%;margin: 0 auto;height: auto;}
+.holiday-dream-link a{color:#fff; background:#2d0e2e; border:1px solid #917391; padding:10px 20px; margin:0 auto; font-size:15px;  letter-spacing:2px; text-transform:uppercase; text-decoration:none;float: left;transition: all 0.5s ease;} 
+.holiday-dream-link a:hover{color:#fff; background:#f37061; border:1px solid #ffccc6;} 
+
+.uparrow{transition:all 0.5s ease;background-position: 0px -40px;position:fixed; bottom:10px; right: 10px; margin-left: -22px;  display:none; background: url(../images/up.jpg) no-repeat;width:45px;height:40px;z-index: 1111;}
+.uparrow:hover{background-position: 0px -40px;transition:all 0.5s ease;}
+
+.ft-three p a{color:#999; text-decoration:none;}
+.ft-three p a:hover{color:#f37061; text-decoration:none;}
+
+
+
+ 
+
+ 
+/* Start Download Brochure Form */
+ 
+ 
+ 
+/* End Download brochure Form */
+
+
+/* Start Social Media Css */
+
+.social{ width:100%; height:auto; float:left;}
+.social a{ font-size:18px;font-weight:600;color:#999999;text-decoration:none;}
+.social .fa {font-size: 24px !important;width: 50px;height: 50px;line-height: 50px;text-align: center;text-decoration: none;margin: 5px;   -webkit-border-radius: 50%;-moz-border-radius: 50;border-radius: 50%; }
+.social .fa:hover {opacity: 0.9;color:#fff; }
+.fa-facebook {background: #191818;color: white; } 
+.fa-twitter {background: #191818;color: white; }
+.fa-linkedin {background: #191818;color: white; }
+.fa-youtube {background: #191818;color: white; }
+.fa-instagram {background:#191818;color: white; }
+.fa-pinterest {background: #191818;color: white; }
+
+/* End Social Media Css */
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1200px){	
+.footer-container{width: 90%;}
+.ft-one h5 { font-size: 18px; line-height:normal;}
+.ft-one p { font-size: 14px;}
+.ft-two li a { font-size: 14px;}
+.ft-two {width: 22%;margin-left: 1%;}
+.ft-three p { font-size: 13px;}
+.book-your-dream-section {height: 157px;}
+.book-your-dream-section h5 {font-size:23px;margin: 10px 0;}
+.holiday-dream-link { width: 13.2%; margin: 0px auto; }
+.holiday-dream-section {margin: 20px 0 0 0;}
+.holiday-dream-section img {width: 84px;margin: 0 auto;}
+.holiday-dream-link a{font-size: 12px;letter-spacing: 1px; padding: 7px 7px; }
+.holiday-dream-link {    width: 10%; margin:0 auto;}
+.social .fa { font-size: 20px !important; width: 40px; height: 40px; line-height: 40px;}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){	
+.footer-container{width:80%;}
+.ft-one h5 { font-size: 18px;    line-height: normal;}
+.ft-one p { font-size: 14px;}
+.ft-two li a { font-size: 14px;}
+.ft-two {width: 18%;margin-left: 1%;}
+.ft-three p {    font-size: 13px;}
+.ft-one {width: 36%;}
+.book-your-dream-section h5 {    font-size: 25px;margin: 20px 0;}
+.book-your-dream-section {height: 197px;}
+.holiday-dream-section {margin: 25px 0 0 0;}
+.holiday-dream-link a{font-size: 12px;letter-spacing: 1px;}
+.holiday-dream-link {    width: 10%; margin:0 auto;}
+.social .fa { font-size: 20px !important; width: 40px; height: 40px; line-height: 40px;}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px){	
+.footer-container{width:80%;}
+.ft-one h5 { font-size: 18px;    line-height: normal;}
+.ft-one p { font-size: 14px;}
+.ft-two li a { font-size: 14px;}
+.ft-two {width: 18%;margin-left: 0%;}
+.ft-three p {font-size: 13px;}
+.ft-one {width: 37%;}
+.book-your-dream-section h5 {font-size: 30px;}
+.book-your-dream-section {height: 211px;}
+.holiday-dream-section {  margin: 20px 0 0 0;}
+.holiday-dream-link a{font-size: 12px;letter-spacing: 1px;}
+.holiday-dream-link {  width: 9.5%;margin: 0 auto;}
+.social .fa { font-size: 20px !important; width: 40px; height: 40px; line-height: 40px;}
+
+}
+
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.footer-container{width:80%;}
+.ft-one h5 { font-size: 18px;    line-height: normal;}
+.ft-one p { font-size: 14px;}
+.ft-two li a { font-size: 14px;}
+.ft-two {width: 18%;margin-left: 0%;}
+.ft-three p {    font-size: 13px;}
+.ft-one {width: 39%;}	
+.book-your-dream-section h5 {font-size: 30px;}
+.book-your-dream-section {height: 224px;}
+.holiday-dream-section {margin: 25px 0 0 0;}
+.holiday-dream-link a{font-size: 12px;letter-spacing: 1px;}
+.holiday-dream-link {    width: 10%; margin: 0 auto;}
+.social .fa { font-size: 20px !important; width: 40px; height: 40px; line-height: 40px;}
+}
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.footer-container{width:80%;}
+.ft-one h5 { font-size: 18px;    line-height: normal;}
+.ft-one p { font-size: 14px;}
+.ft-two li a { font-size: 14px;}
+.ft-two {width: 18%;margin-left: 1%;}
+.ft-three p {    font-size: 13px;}
+.ft-one { width: 43%;}	
+.book-your-dream-section {height: 247px;}
+.book-your-dream-section h5 {font-size: 30px;} 
+.holiday-dream-section {margin: 35px 0 0 0;}
+.holiday-dream-link a{font-size: 12px;letter-spacing: 1px;}
+.holiday-dream-link {    width: 10%; margin: 0 auto;}
+}
+@media only screen and (min-width:1601px) and (max-width:1700px){
+.footer-container{width:80%;}
+.ft-one h5 { font-size: 18px;    line-height: normal;}
+.ft-one p { font-size: 14px;}
+.ft-two li a { font-size: 14px;}
+.ft-two {  width: 18%;margin-left: 5%;}
+.ft-three p {    font-size: 13px;}
+.ft-one { width: 37%}
+.book-your-dream-section {height: 260px;}
+.book-your-dream-section h5 {font-size: 40px;} 
+.holiday-dream-section {  margin: 45px 0 0 0;}
+.holiday-dream-link a{font-size: 12px;letter-spacing: 1px;}
+.holiday-dream-link {    width: 10%; margin: 0 auto;}
+}
+
+@media only screen and (min-width:769px) and (max-width:800px){
+	
+.footer-container {width: 93%;}
+.ft-one {width: 100%;}
+.ft-two {width: 100%; margin-left: inherit; margin-top: 20px;}
+.ft-two li {padding: 0 0 3px 0; }
+.ft-two li a {font-size: 16px;}
+.ft-three {width: 100%;float: left;position: relative;bottom: inherit;right: inherit; }
+.footer-sub {margin-top: 6%; margin-bottom: 6%;}
+.book-your-dream-section { height:auto; padding: 0 3%;}
+.holiday-dream-section {margin: 20px 0 0 0;}
+.book-your-dream-section h5 { font-size: 23px; margin: 15px 0 0px;}
+.holiday-dream-section img {    margin: 0px 46%; width: 59px;}
+.holiday-dream-link {margin: 10px auto;  float: none;width: 23%;}
+.holiday-dream-link a {padding: 5px 15px;    font-size: 12px;    letter-spacing: normal;    margin: 5px 0;  }
+.mob-hidden{display:none;}
+}
+
+
+
+@media only screen and (min-width:481px) and (max-width:768px){
+	
+.footer-container {width: 93%;}
+.ft-one {width: 100%;}
+.ft-two {width: 100%; margin-left: inherit; margin-top: 20px;}
+.ft-two li {padding: 0 0 3px 0; }
+.ft-two li a {font-size: 16px;}
+.ft-three {width: 100%;float: left;position: relative;bottom: inherit;right: inherit; }
+.footer-sub {margin-top: 6%; margin-bottom: 6%;}
+.book-your-dream-section { height:auto; padding: 2% 3%;}
+.holiday-dream-section {margin: 20px 0 0 0;}
+.book-your-dream-section h5 { font-size: 23px; margin: 15px 0 0px;}
+.holiday-dream-section img {    margin: 0px 46%; width: 59px;}
+.holiday-dream-link {width: 17%;margin: 0 auto;}
+.holiday-dream-link a {padding: 5px 15px;    font-size: 12px;    letter-spacing: normal;    margin: 5px 0;  }
+.mob-hidden{display:none;}
+}
+
+
+
+
+@media only screen and (min-width:361px) and (max-width:480px){
+	
+.footer-container {width: 93%;}
+.ft-one {width: 100%;}
+.ft-two {width: 100%; margin-left: inherit; margin-top: 20px;}
+.ft-two li {padding: 0 0 3px 0; }
+.ft-two li a {font-size: 16px;}
+.ft-three {width: 100%;float: left;position: relative;bottom: inherit;right: inherit; }
+.footer-sub {margin-top: 6%; margin-bottom: 6%;}
+.book-your-dream-section { height:auto; padding: 0 3%;}
+.holiday-dream-section {margin: 40px 0 0 0;}
+.book-your-dream-section h5 { font-size: 32px;    margin: 25px 0 10px;}
+.holiday-dream-link {width: 44%; margin: 10px 0% 40px 26%;}
+.holiday-dream-section img {margin: 0px 41.1%;}
+.holiday-dream-link {width: 60%;margin: 6px 0 30px 32%;float: inherit; }
+.mob-hidden{display:none;}
+}
+
+@media only screen and (min-width:0px) and (max-width:360px){
+	
+.footer-container {width: 93%;}
+.ft-one {width: 100%;}
+.ft-two {width: 100%; margin-left: inherit; margin-top: 20px;}
+.ft-two li {padding: 0 0 3px 0; }
+.ft-two li a {font-size: 16px;}
+.ft-three {width: 100%;float: left;position: relative;bottom: inherit;right: inherit; }
+.footer-sub {margin-top: 6%; margin-bottom: 6%;}
+.book-your-dream-section { height:auto; padding: 0 3%;}
+.holiday-dream-section {margin: 40px 0 0 0;}
+.book-your-dream-section h5 { font-size: 32px;    margin: 25px 0 10px;}
+.holiday-dream-link {width: 54%; margin: 0 auto; float:inherit;}
+.holiday-dream-section img {margin: 0px 41.1%;}
+.holiday-dream-link {width: 60%;margin: 0 0 30px 27%;float: inherit; }
+.mob-hidden{display:none;}
+}

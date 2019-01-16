@@ -1,0 +1,131 @@
+.marquee-theater{background-color: #626262; margin-bottom: 80px;}
+.marquee-theater h2,.marquee-theater p{ color:#fff;}
+.marquee-theater .dining-three-section{border: 0; margin-top: 65px;}
+.marquee-theater .dining-three-section-img img{  border: 13px solid #fff;} 
+.theatre-gal {
+    float: left;
+    width: 45%;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+}
+.theatre-gal img{ float:left; max-width:none; width:25%; height:auto; cursor:pointer; border: 1px solid #fff;}
+.marquee-theater .dining-three-cont{ margin-top:0;}
+.concert-box{ margin-bottom:80px;}
+.concert-box p, .concert-box h2{ text-align:left;}
+.artist-profile {clear:both;}
+.artist-profile h3 {
+    text-transform: uppercase;
+    font-size: larger;
+    margin-bottom: 15px;
+}
+.theatre-text{
+    width: 45%;
+    float: left;
+    margin: 0;
+}
+.dining-three-section.theatrebox{width:100%;}
+.theatre-b{
+    width: 50% !important;
+    position: static !important;
+    right: 10% !important;
+    float: right !important;margin-right: inherit !important;
+}
+.artist-profile h3 span{ color:#c4c4c4;}
+.pic-details p {
+    float: right;
+    width: 60%;
+    margin: 6px 15px 0px 0;
+    padding: 5px 0px 5px 0px;
+    text-align: left;
+    display: block;
+    border-bottom: 1px solid #ddd;
+}
+.pic-details p:last-child { border:0;}
+.pic-details img {
+    width: 30%;
+    height: auto;
+    float: left;
+}
+
+.pic-details {
+    background-color: #fcfcfc;
+    clear: both;
+    width: 100%;
+    float: left;
+}
+.concert-box .dining-three-section-right-img img {
+    width: 33%;
+    float: left;
+    height: auto;
+    padding: 5px 5px 5px 0px;
+    background-color: #fff; cursor:pointer;
+}
+.events-desc{float: right; width: 67%;}
+
+.concert-box-img{ padding:0 5px 0 5px; background-color:#fff}
+
+
+.entertainment-video{width:100%; height:70vh; float:left; display:block; overflow:hidden;}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+	width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+}
+@media screen and (max-width:1440px){
+.marquee-theater{margin-top: 0;}
+	.dining-three-section-right, .dining-three-section { height:auto;}
+}
+
+
+@media screen and (max-width:1366px){
+.marquee-theater{margin-top: 0;}
+	.dining-three-section-right, .dining-three-section { height:auto;}
+}
+
+@media screen and (max-width:1280px){
+.marquee-theater{margin-top: 0;}
+	.dining-three-section-right, .dining-three-section { height:auto;}
+}
+@media screen and (max-width:1024px){
+.marquee-theater{margin-top: 0;}
+		.dining-three-section-right, .dining-three-section { height: auto;}
+}
+
+@media screen and (max-width:767px){
+	.dining-three-section-right, .dining-three-section { height:auto;}
+	.dining-section{ padding:0 15PX;margin:0 auto;}
+	.theatre-text,.theatre-b,.theatre-gal{width:100%; clear:both;  margin-top: 20px;}
+	.dining-three-section.theatrebox{ padding:30px 15px;}
+	.events-desc{width:100%;}
+	.marquee-theater{margin-top: 0;}
+
+	}
+	@media only screen and (min-width:641px) and (max-width:768px){ 
+	 
+	 .entertainment-video {height: 360px;}
+	 
+	 }
+	
+	@media only screen and (min-width:481px) and (max-width:640px){ 
+	 
+	 .entertainment-video {height: 304px;}
+	 
+	 }
+	
+	@media only screen and (min-width:361px) and (max-width:480px){ 
+	 
+	 .entertainment-video {height: 192px;}
+	 
+	 }
+	
+	
+	 @media only screen and (min-width:0px) and (max-width:360px){ 
+	 
+	 .entertainment-video {height: 144px;}
+	 
+	 }

@@ -1,0 +1,991 @@
+.content-404{ width:100%; height:auto; float:left; background-color:#482472;}
+.content-404-in{ width:80%; height:auto; min-height: 600px; margin:0 auto; }
+
+
+.accomodation {
+ height: auto;
+ width: 100%;
+ background-image: url(../images/accomodation/bg-2.jpg);
+ position: relative;
+ background-position: center center;
+ background-size: cover;
+ float: left;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ padding: 0 0 30px 0;
+}
+.experience-banner{width:100%; float:left; margin:0;}
+.experience-banner img{width:100%;} 
+	
+
+
+.accomodation-section h1{  font-size:45px; text-align:center; text-transform:uppercase;  color:#551a57; margin: 50px 0 40px 0;width: 100%;
+ float: left;
+ position: relative;}
+.accomodation-section h1:before {
+ width: 40px;
+ height: 4px;
+ background-color: #551a57;
+ content: '';
+ left: 50%;
+ margin-left: -5px;
+ bottom:-20px;
+ position: absolute;
+}
+
+
+.accomodation-section h2{  font-size:35px; text-align:center; text-transform:uppercase;  color:#551a57; margin: 30px 0 30px 0;width: 100%;
+ float: left;
+ position: relative;}
+
+
+
+.accomodation-section p{color:#551a57; font-size:15px;text-align:center;margin: 40px 0 10px 0;}
+.accomodation h3{  font-size:45px; text-align:center; text-transform:uppercase;  color:#ffffff; font-weight: 600;margin: 50px 0 30px 0;}
+.tab { overflow: hidden;width: 45.5%; margin: 35px auto;}
+.tab button { margin: 0 20px 0 0;  background-color:#fff;text-transform:uppercase;  float: left; border:1px solid #e3e3e3; color:#4a4a4a; outline: none; cursor: pointer; padding: 5px 55px;  transition: 0.3s; font-size: 17px;}
+.tab button:last-child{margin:0 0 0 0;}
+.tab button:hover { background-color: #551a57;color: #ffffff;}
+.tab button.active { background-color:#551a57; color: #ffffff;}
+.tab button.active:before {content: ""; position: absolute; width: 0px; margin:29px 0 0px 2%; border-left: 9px solid transparent; border-right: 9px solid transparent;border-top: 7px solid #551a57;}
+.tab button:nth-child(2).active:before {margin:29px 0 0px 1.5%; }
+.tab button:nth-child(3).active:before { margin:29px 0 0px 1.5%;}
+.tab button:last-child.active:before { margin: 29px 0 0px 1.5%;}
+ 
+.tabcontent { display: none; padding: 6px 12px; border: 0px solid #ccc; border-top: none;}
+.topright { float: right; cursor: pointer; font-size: 28px; display:none;}
+.topright:hover {color: red;}
+
+.accomodation-section{ width:100%; float:left;}
+.accomodation-section .oceanview{width: 81.2%; /* float: left; */margin: 0 auto;}
+.accomodation-section .oceanview-img{width: 34%;  float: left;  margin: 0 0.5% 0 0;}
+.accomodation-section .oceanview-img img{width:100%;}
+.accomodation-section .oceanview-img-one{ width: 65%;float: left;margin: 0 0 0.5% 0; }
+.accomodation-section .oceanview-img-one img{width:100%;}
+.accomodation-section .oceanview-img-two{ width:32.6%; float:left;margin: 0 auto;}
+.accomodation-section .oceanview-img-two img{width:100%;}
+.accomodation-section .oceanview-img-three{width: 32%;float: left;margin: 0 0px 0 0.5%;border: 1px solid #767a7c;position: relative;}
+.accomodation-section .oceanview-img-three h5{font-size: 17px; width: 100%; background: #7e2952; padding: 25px; color:#fff; text-transform: uppercase; border-bottom: 1px solid #858889; }
+.accomodation-section .oceanview-img-three h6{ color:#fff; font-size:16px;}
+.accomodation-section .oceanview-img-three .text-on{ background:#323232; width: 100%; float: left; padding:35px;}
+.accomodation-section .oceanview-img-three ul{width:100%; float:left;}
+.accomodation-section .oceanview-img-three ul li{width:69px; height:69px; border-left:1px solid #858889; float:left;border-bottom: 1px solid #858889;}
+.accomodation-section .oceanview-img-three ul li:nth-child(1){border-left:0;}
+.accomodation-section .oceanview-img-three ul li:nth-child(8){border-left:0;}
+.accomodation-section .oceanview-img-three ul li a{width: 100%;  height: 100%;  float: left;transition: all 0.5s ease;} 
+.accomodation-section .oceanview-img-three ul li a:hover{background:#000;}
+.accomodation-section .oceanview-img-three ul li a.active{background:#000;}
+.icon-1{  width: 69px; height:70px; background:url(../images/accomodation/icons-1.png) no-repeat 22px 23px;float: left; border-right: 1px solid #666; border-bottom: 1px solid #666;}
+.icon-1:hover{background-color:#000; cursor:pointer;}
+.icon-2{  width: 69px; height:70px; background:url(../images/accomodation/icons-2.png) no-repeat 22px 29px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-2:hover{background-color:#000; cursor:pointer;}
+.icon-3{  width: 69px; height:70px; background:url(../images/accomodation/icons-3.png) no-repeat 23px 24px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-3:hover{background-color:#000; cursor:pointer;}
+.icon-4{  width: 69px; height:70px; background:url(../images/accomodation/icons-4.png) no-repeat 22px 28px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-4:hover{background-color:#000; cursor:pointer;}
+.icon-5{  width: 69px; height:70px; background:url(../images/accomodation/icons-5.png) no-repeat 23px 27px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-5:hover{background-color:#000; cursor:pointer;}
+.icon-6{  width: 72px; height:70px; background:url(../images/accomodation/icons-6.png) no-repeat 22px 28px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-6:hover{background-color:#000; cursor:pointer;}
+.icon-7{  width: 69px; height:70px; background:url(../images/accomodation/icons-7.png) no-repeat 28px 23px ;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-7:hover{background-color:#000; cursor:pointer;}
+.icon-8{  width: 69px; height:70px; background:url(../images/accomodation/icons-8.png) no-repeat 22px 25px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-8:hover{background-color:#000; cursor:pointer;}
+.icon-9{  width: 69px; height:70px; background:url(../images/accomodation/icons-9.png) no-repeat 22px 22px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-9:hover{background-color:#000; cursor:pointer;}
+.icon-10{  width: 69px; height:70px; background:url(../images/accomodation/icons-10.png) no-repeat 22px 25px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-10:hover{background-color:#000; cursor:pointer;}
+.icon-11{  width:69px; height:70px; background:url(../images/accomodation/icons-11.png) no-repeat 22px 25px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-11:hover{background-color:#000; cursor:pointer;}
+.icon-12{  width: 69px; height:70px; background:url(../images/accomodation/icons-12.png) no-repeat 22px 25px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-12:hover{background-color:#000; cursor:pointer;}
+.icon-13{  width: 72px; height:70px; background:url(../images/accomodation/icons-13.png) no-repeat 27px 20px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-13:hover{background-color:#000; cursor:pointer;}
+.icon-14{  width: 69px; height:70px; background:url(../images/accomodation/icons-14.png) no-repeat 20px 25px;float: left; border-right:1px solid #666;border-bottom: 1px solid #666;}
+.icon-14:hover{background-color:#000; cursor:pointer;}
+.icon-15{  width: 69px; height:70px; background:url(../images/accomodation/icons-15.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-15:hover{background-color:#000; cursor:pointer;}
+.icon-16{  width: 69px; height:70px; background:url(../images/accomodation/icons-16.png) no-repeat 25px 25px;float: left;border-right: 1px solid #666;border-bottom: 1px solid #666;}
+.icon-16:hover{background-color:#000; cursor:pointer;}
+.icon-17{  width: 69px; height:70px; background:url(../images/accomodation/icons-17.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;}
+.icon-17:hover{background-color:#000; cursor:pointer;}
+.icon-18{  width: 69px; height:70px; background:url(../images/accomodation/icons-18.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;}
+.icon-18:hover{background-color:#000; cursor:pointer;}
+.icon-19{  width: 69px; height:70px; background:url(../images/accomodation/icons-19.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;}
+.icon-19:hover{background-color:#000; cursor:pointer;}
+.icon-20{  width: 69px; height:70px; background:url(../images/accomodation/icons-20.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;}
+.icon-20:hover{background-color:#000; cursor:pointer;}
+.icon-21{  width: 69px; height:70px; background:url(../images/accomodation/icons-21.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;}
+.icon-21:hover{background-color:#000; cursor:pointer;}
+.icon-22{  width: 69px; height:70px; background:url(../images/accomodation/icons-22.png) no-repeat 25px 25px;float: left; border-right: 1px solid #666;}
+.icon-22:hover{background-color:#000; cursor:pointer;}
+.accomodation-section .oceanview-img-three ul li:nth-child(3) a img{margin:33% 33%; width: 34%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(4) a img{margin: 37% 33%;  width: 34%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(5) a img{margin: 32% 32%; width: 34%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(6) a img{ margin: 34% 30%;width: 39%;float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(7) a img{ margin: 29% 42%; width: 15%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(8) a img{ margin: 33% 33%; width: 33%;float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(9) a img{margin: 26% 36%; width: 28%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(10) a img{margin: 32% 32%;width: 35%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(11) a img{ margin: 34% 34%; width: 32%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(12) a img{ margin: 36% 31%; width: 38%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(13) a img{margin: 30% 39%;width: 22%; float: left;}
+.accomodation-section .oceanview-img-three ul li:nth-child(14) a img{ margin: 34% 28%;  width: 43%; float: left;} 
+
+.accomodation-section .oceanview-fourth-section{ width:100%; float:left;margin: 10px auto; background:#fff;}
+.accomodation-section .oceanview-fourth-section ul {width:100%; float:left; border: 1px solid #767a7c;}
+.accomodation-section .oceanview-fourth-section ul li{color:#323232;font-size:16px;width:auto;float:left;text-transform:uppercase;background:url(../images/accomodation/star.png) no-repeat 24px 4px;text-align:left;padding:0 0 0 40px;margin:10px 0;}
+.accomodation-section .oceanview-fourth-section ul li:nth-child(2){  background-position: 24px 4px;}
+.accomodation-section .oceanview-fourth-section ul li:nth-child(3){  background-position: 25px 4px;}
+
+.accomodation-section .oceanview-fifth-section{ width:100%; float:left;  background:#00000050;border: 1px solid #767a7c;}
+.accomodation-section .oceanview-fifth-section h5{ font-size: 20px;  color: #fff;text-align: right;  padding: 16px;  float: left;text-transform: uppercase;width: 11%;background: #f47061;border-right: 1px solid #767a7c;
+ 
+
+}
+.accomodation-section .oceanview-fifth-section h6{ font-size: 15px;  color: #fff; margin: 10px auto;  text-align: center;text-transform: uppercase; }
+.accomodation-section .oceanview-fifth-section  .deck-5 ul, .deck-9 ul { width:73%;margin: 0 auto;}
+.accomodation-section .oceanview-fifth-section  .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul { width:61%;margin: 0 auto;}
+.accomodation-section .oceanview-fifth-section ul li{  float:left;}
+.deck-5{ width: 15%;float: left;border-right: 1px solid #767a7c;}
+.deck-6{  width:12%;float: left;border-right: 1px solid #767a7c;}
+.deck-7{ width: 12%; float: left;border-right: 1px solid #767a7c;}
+.deck-8{ width: 12%;float: left;border-right: 1px solid #767a7c;}
+.deck-9{width: 15%;float: left;border-right: 1px solid #767a7c;}
+.deck-10{width: 12%;float: left;border-right: 1px solid #767a7c;}
+.deck-11{width: 12%;float: left; }
+.deck-12{width: 14%;float: left;border-right: 1px solid #767a7c;}
+.deck-13{width: 14%;float: left;}
+
+.oc{ font-size:18px; font-weight:bold; color:#000; background:#dddc6d;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.oi{ font-size:18px; font-weight:bold; color:#000; background:#efc6e7;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }	
+.oj{ font-size:18px; font-weight:bold; color:#000; background:#f28f6c;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.ob{ font-size:18px; font-weight:bold; color:#000; background:#cebe88;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.oh{ font-size:18px; font-weight:bold; color:#000; background:#3ba1d4;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.og{ font-size:18px; font-weight:bold; color:#000; background:#dd84b4;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.ov{ font-size:18px; font-weight:bold; color:#000; background:#b6a5ca;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.oa{ font-size:18px; font-weight:bold; color:#000; background:#e35636;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.od{ font-size:18px; font-weight:bold; color:#000; background:#ed9042;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.of{ font-size:18px; font-weight:bold; color:#000; background:#a0897c;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.oe{ font-size:18px; font-weight:bold; color:#000; background:#95c3c3;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+
+.ib{ font-size:18px; font-weight:bold; color:#000; background:#dfe1df;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.ib-1{ font-size:18px; font-weight:bold; color:#000; background:#dfe1df;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin:10px auto; float:none !important; text-align: center; }
+.ie{ font-size:18px; font-weight:bold; color:#000; background:#fbdd5a;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.if{ font-size:18px; font-weight:bold; color:#000; background:#905d3b;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.ic{ font-size:18px; font-weight:bold; color:#000; background:#898792;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.ic-1{ font-size:18px; font-weight:bold; color:#000; background:#898792;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin:10px auto; float:none !important; text-align: center; }
+.ia{ font-size:18px; font-weight:bold; color:#000; background:#cbc643;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.id{ font-size:18px; font-weight:bold; color:#000; background:#fcf5b9;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+
+
+.bb{ font-size:18px; font-weight:bold; color:#000; background:#74a9c9;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.bd{ font-size:18px; font-weight:bold; color:#000; background:#e6331c;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.be{ font-size:18px; font-weight:bold; color:#000; background:#a07ab6;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.ba{ font-size:18px; font-weight:bold; color:#000; background:#73a43d;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+.bc{ font-size:18px; font-weight:bold; color:#000; background:#c0d29e;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin: 0 5px 10px; text-align: center; }
+
+.ma{ font-size:18px; font-weight:bold; color:#000; background:#abb7ae;	padding:5px; text-transform: uppercase; line-height: normal; width: 45px; margin:10px auto; float:none !important; text-align: center; }
+
+
+.accomodation-section .oceanview-six-section{ width:100%; float:left;  background:#551a57a3;border: 1px solid #767a7c; margin: 10px auto;}
+.accomodation-section .oceanview-six-section-in {float: left;border-right: 1px solid #767a7c; width: 11%; background: #551a57;}
+.accomodation-section .oceanview-six-section-in h5{font-size:17px;color:#fff; text-align: right; padding: 16px 60px 16px 20px;float: left; border-right:1px solid #767a7c;text-transform: uppercase; width: 100%;}	
+.accomodation-section .oceanview-six-section-in h5 span{ float: right; width:2.5%; line-height: normal; margin: -13px 0px 0px 10px;position: absolute;border-left: 1px solid #ffffff54; padding: 0 10px 0 10px;}
+.accomodation-section .oceanview-six-section-in h5 span img{width:100%;}
+.accomodation-section .oceanview-six-section p{float: left; margin: 22px 40px; font-size: 17px; color: #fff; text-align: left; text-transform: uppercase;}
+.accomodation-section .oceanview-six-section  a{padding: 4px 20px; font-size: 15px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061;margin: 20px 20px 20px 0;  float: left;} 
+.accomodation-section .oceanview-six-section  a:hover{background: #d25251;}
+.border-right{border-left: 1px solid #ffffff5e;padding: 0 0 0 50px;}
+.hover-text{display:none;}
+.hover-text:first-child{display:block;}
+
+
+/* ON HOVER CONTENT */
+.hover-element{  margin: 0px 10px; text-align: center; padding: 5px 10px; opacity: 0; transform: translateX(40px); transition: all 1.5s ease; position: absolute; bottom: 20px; z-index: 99; color: #fff;left: 0;    font-size: 13px}
+.hover-target{  cursor: pointer;  padding: 34px 35px;color:#fff;}
+.hover-target:hover + .hover-element{  opacity: 1; transform: translateX(0);}
+
+
+@media only screen and (min-width:1000px) and (max-width:1200px){
+.accomodation-section p { margin: 40px auto 10px auto; width: 80%;}
+.accomodation-section h1 { margin: 40px 0 25px 0; font-size: 27px;}	
+.accomodation-section h2 { margin: 25px 0; font-size: 18px;}
+.tab button{font-size: 13px; padding: 5px 40px; margin: 0 10px 0 0; line-height: normal;}
+.tab { width: 63.5%; margin: 25px auto;}
+.tab button.active:before {  margin: 20px 0 0px 2.6%;} 
+.tab button:last-child.active:before { margin:20px 0 0px 2.1%;}
+.tab button:nth-child(3).active:before { margin:20px 0 0px 2%;}
+.tab button:nth-child(2).active:before { margin: 20px 0 0px 1.8%;}
+.accomodation h3 { font-size: 27px; margin: 30px 0 20px 0;}
+.accomodation-section .oceanview-fourth-section ul li{font-size: 12px; width:23%;margin: 5px 0;}
+.accomodation-section .oceanview-img-three h5 { font-size: 12px;padding: 15px;}
+.icon-1{ width: 35px; height: 35px; background-position:4px 5px; }
+.icon-2{ width: 35px;	 height: 35px; background-position:5px 10px;}
+.icon-3{ width: 35px; height: 35px; background-position:5px 6px;}
+.icon-4{ width: 35px;	 height:35px; background-position:5px 10px;}
+.icon-5{ width: 36px; height: 35px; background-position:6px 9px;}
+.icon-6{ width: 36px;	 height: 35px; background-position:4px 9px;}
+.icon-7{ width: 38px; height: 35px; background-position:12px 4px;}
+.icon-8{width: 35px;height: 35px;background-position: 5px 6px;}
+.icon-9{ width: 35px; height: 35px; background-position:7px 1px;}
+.icon-10{width:35px;height: 35px;background-position: 5px 6px;}
+.icon-11{width: 35px;height: 35px;background-position: 6px 9px;}
+.icon-12{width: 36px;height: 35px;background-position: 5px 10px;}
+.icon-13{width: 36px;height: 35px;background-position: 10px 4px;}
+.icon-14{width: 38px;height: 35px;background-position: 5px 7px;}
+.icon-15{width: 38px;height: 35px;background-position: 5px 7px;}
+.icon-16{width: 38px;height: 35px;background-position: 5px 7px;}
+.hover-target{ padding:17px 17px;}
+.accomodation-section .oceanview-fifth-section h6 { margin: 6px auto;font-size: 12px;}
+.oc{ font-size:12px; width: 30px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 30px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 30px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 30px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width:30px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 30px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+
+.bb{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 30px; margin: 0 3px 10px;}
+
+.ma{ font-size:12px;  width: 30px; margin:10px auto; float:none !important; }
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul {width: 93%;}
+.accomodation-section .oceanview-fifth-section h5 {font-size: 14px;width: 16%; padding: 15px;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 77%;}
+.accomodation-section .oceanview-six-section-in h5 { font-size: 12px; padding: 16px 52px 16px 14px;}
+.accomodation-section .oceanview-six-section p {  margin: 0px 0; font-size: 12px; padding: 20px; width: auto;}
+.accomodation-section .oceanview-six-section a { padding: 4px 20px;font-size: 12px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061; margin: 17px 20px 14px 0;float: left;}
+.accomodation-section .oceanview-img-three .text-on{padding: 15px;}
+.hover-element{ bottom: 2px;  font-size: 11px;padding: 5px 0px;}
+.accomodation-section .oceanview-six-section-in h5 span { width: 4%;margin: -10px 0px 0px 16px; padding: 0 10px 0 10px;}
+.accomodation-section .oceanview-six-section-in{width:16%;}
+.holiday-dream-section img { width: 75px;margin: 0 47%;}
+.experience-banner { margin:0;}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){
+.accomodation-section p { margin: 40px auto 10px auto; width: 80%;}
+.accomodation-section h1 { margin: 40px 0 25px 0; font-size: 27px;}	
+.accomodation-section h2 { margin: 25px 0; font-size: 18px;}
+.tab button{font-size: 14px; padding: 5px 40px; margin: 0 10px 0 0;}
+.tab { width: 53.5%; margin: 25px auto;}
+.tab button.active:before {  margin: 25px 0 0px 2.6%;} 
+.tab button:last-child.active:before { margin:25px 0 0px 2.1%;}
+.tab button:nth-child(3).active:before { margin: 25px 0 0px 2%;}
+.tab button:nth-child(2).active:before { margin: 25px 0 0px 1.8%;}
+.accomodation h3 { font-size: 27px; margin: 30px 0 20px 0;}
+.accomodation-section .oceanview-fourth-section ul li{font-size: 12px; width: 19%;margin: 5px 0;}
+.accomodation-section .oceanview-img-three h5 { font-size: 12px;padding: 15px;}
+.icon-1{ width: 45px; height: 45px; background-position:12px 14px;}
+.icon-2{ width: 45px;	 height: 45px; background-position:12px 19px;}
+.icon-3{ width: 45px; height: 45px; background-position:15px 15px;}
+.icon-4{ width: 45px;	 height: 45px; background-position:12px 19px;}
+.icon-5{ width: 45px; height: 45px; background-position:15px 20px;}
+.icon-6{ width: 45px;	 height: 45px; background-position:12px 18px;}
+.icon-7{ width: 47px; height: 45px; background-position:20px 14px;}
+.icon-8{ width: 45px;	 height: 45px; background-position:15px 15px;}
+.icon-9{ width: 45px; height: 45px; background-position:13px 7px;}
+.icon-10{ width:45px;	 height: 45px; background-position:15px 15px;}
+.icon-11{ width: 45px; height: 45px; background-position:15px 15px;}
+.icon-12{ width: 45px;	 height: 45px; background-position:15px 15px;}
+.icon-13{ width: 45px; height: 45px; background-position:15px 15px;}
+.icon-14{ width: 47px;	 height: 45px; background-position:15px 15px;}
+.hover-target{ padding:22px 22px;}
+.accomodation-section .oceanview-fifth-section h6 { margin: 6px auto;font-size: 12px;}
+.oc{ font-size:12px; width: 37px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 37px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 37px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 37px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width:37px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 37px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+
+
+.bb{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 37px; margin: 0 3px 10px;}
+
+.ma{ font-size:12px;  width: 37px; margin:10px auto; float:none !important; }
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul {width: 90%;}
+.accomodation-section .oceanview-fifth-section h5 {font-size: 14px;width: 12%;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 75%;}
+.accomodation-section .oceanview-six-section-in h5 { font-size: 12px; padding: 16px 52px 16px 14px;}
+.accomodation-section .oceanview-six-section p {  margin: 0px 25px; font-size: 12px; padding: 20px; width: auto;}
+.accomodation-section .oceanview-six-section a { padding: 4px 20px;font-size: 12px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061; margin: 17px 20px 14px 0;float: left;}
+.accomodation-section .oceanview-img-three .text-on{padding: 23px;}
+.hover-element{  bottom: 11px; font-size: 13px;}
+.accomodation-section .oceanview-six-section-in h5 span { width: 3%;margin: -10px 0px 0px 16px; padding: 0 10px 0 10px;}
+.accomodation-section .oceanview-six-section-in{width:12%;}
+.holiday-dream-section img { width: 75px;margin: 0 47%;}
+.experience-banner { margin: 0;}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px){
+
+.accomodation-section p { margin: 40px auto 10px auto; width: 80%;}
+.accomodation-section h1 { margin: 40px 0 25px 0; font-size: 33px;}	
+.accomodation-section h2 { margin: 25px 0; font-size: 25px;}	
+.tab button{font-size: 14px; padding: 5px 40px; margin: 0 10px 0 0;}
+.tab { width: 49.5%; margin: 25px auto;}
+.tab button.active:before {  margin: 25px 0 0px 2.5%;} 
+.tab button:last-child.active:before { margin: 25px 0 0px 1.6%;}
+.tab button:nth-child(3).active:before { margin: 25px 0 0px 1.5%;}
+.tab button:nth-child(2).active:before { margin: 25px 0 0px 1.5%;}
+.accomodation h3 { font-size: 35px; margin: 30px 0 20px 0;}
+.accomodation-section .oceanview-fourth-section ul li{font-size: 14px; width: auto;}
+.accomodation-section .oceanview-img-three h5 { font-size: 14px;padding: 15px;}
+.icon-1{ width: 48px; height: 53px; background-position:12px 14px;}
+.icon-2{ width: 48px;	 height: 53px; background-position:12px 19px;}
+.icon-3{ width: 48px; height: 53px; background-position:15px 15px;}
+.icon-4{ width: 48px;	 height: 53px; background-position:12px 19px;}
+.icon-5{ width: 49px; height: 53px; background-position:15px 20px;}
+.icon-6{ width: 49px;	 height: 53px; background-position:12px 18px;}
+.icon-7{ width: 49px; height: 53px; background-position:20px 14px;}
+.icon-8{ width: 48px;	 height: 53px; background-position:15px 15px;}
+.icon-9{ width: 48px; height: 53px; background-position:15px 15px;}
+.icon-10{ width:48px;	 height: 53px; background-position:15px 15px;}
+.icon-11{ width: 48px; height: 53px; background-position:15px 15px;}
+.icon-12{ width: 49px;	 height: 53px; background-position:15px 15px;}
+.icon-13{ width: 49px; height: 53px; background-position:15px 15px;}
+.icon-14{ width: 49px;	 height: 53px; background-position:15px 15px;}
+.icon-16{ width: 48px;	 height: 53px; background-position:12px 19px;}
+.hover-target{ padding: 26px 25px;}
+.accomodation-section .oceanview-fifth-section h6 { margin: 6px auto;font-size: 12px;}
+.oc{ font-size:12px; width: 40px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 40px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width: 40px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 40px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+
+.bb{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+.ma{ font-size:12px;  width: 40px; margin:10px auto; float:none !important; }
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul {width: 90%;}
+.accomodation-section .oceanview-fifth-section h5 {font-size: 14px;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 75%;}
+.accomodation-section .oceanview-six-section-in h5 { font-size: 12px; padding: 16px 52px 16px 14px;}
+.accomodation-section .oceanview-six-section p { margin: 0px 40px; font-size: 13px; padding: 20px;width: auto;}
+.accomodation-section .oceanview-six-section a { padding: 4px 20px;font-size: 12px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061; margin: 17px 20px 14px 0;float: left;}
+.accomodation-section .oceanview-img-three .text-on{padding: 21px;}
+.hover-element{bottom: 7px;}
+.accomodation-section .oceanview-six-section-in h5 span { width: 3%;margin: -10px 0px 0px 16px; padding: 0 10px 0 10px;}
+.experience-banner { margin:0px;}
+}
+
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.accomodation-section h1 {margin: 45px 0 30px 0;font-size: 35px;}
+.accomodation-section h2 {margin: 30px 0;font-size: 25px;}	
+.accomodation-section .oceanview-img-three .text-on { padding: 27px;}
+.tab button{font-size: 14px; padding: 5px 40px; margin: 0 10px 0 0;}
+.tab { width: 46.5%; margin: 25px auto;}
+.tab button.active:before {  margin: 25px 0 0px 2.5%;} 
+.tab button:last-child.active:before { margin: 25px 0 0px 1.6%;}
+.tab button:nth-child(3).active:before { margin: 25px 0 0px 1.5%;}
+.tab button:nth-child(2).active:before { margin: 25px 0 0px 1.5%;}
+.accomodation h3 { font-size: 35px; margin: 30px 0 20px 0;}
+.accomodation-section .oceanview-fourth-section ul li{font-size: 14px; width: auto;}
+.accomodation-section .oceanview-img-three h5 { font-size: 14px;padding: 15px;}
+.icon-1{ width: 52px; height: 53px; background-position:12px 14px;}
+.icon-2{ width: 50px;	 height: 53px; background-position:12px 19px;}
+.icon-3{ width: 52px; height: 53px; background-position:15px 15px;}
+.icon-4{ width: 50px;	 height: 53px; background-position:12px 19px;}
+.icon-5{ width: 52px; height: 53px; background-position:15px 20px;}
+.icon-6{ width: 52px;	 height: 53px; background-position:12px 18px;}
+.icon-7{ width: 50px; height: 53px; background-position:20px 14px;}
+.icon-8{ width: 52px;	 height: 53px; background-position:15px 15px;}
+.icon-9{ width: 50px; height: 53px; background-position:14px 10px;}
+.icon-10{ width: 52px;	 height: 53px; background-position:13px 15px;}
+.icon-11{ width: 50px; height: 53px; background-position:13px 15px;}
+.icon-12{ width: 52px;	 height: 53px; background-position:13px 15px;}
+.icon-13{ width: 52px; height: 53px; background-position:18px 15px;}
+.icon-14{ width: 50px;	 height: 53px; background-position:10px 15px;}
+.icon-16{ width: 52px;	 height: 53px; background-position:10px 15px;}
+.hover-target{ padding: 26px 25px;}
+.accomodation-section .oceanview-fifth-section h6 { margin: 6px auto;font-size: 12px;}
+.oc{ font-size:14px; width: 40px; margin: 0 5px 10px;  }
+.oi{ font-size:14px;  width: 40px; margin: 0 5px 10px;}	
+.oj{font-size:14px;  width: 40px; margin: 0 5px 10px;}	
+.ob{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oh{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.og{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ov{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oa{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.od{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.of{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oe{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+.ib{font-size:14px;  width: 40px; margin: 0 auto 10px;}
+.ib-1{font-size:14px;  width: 40px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.if{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ic{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ic-1{font-size:14px;  width: 40px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.id{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+
+.bb{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.bd{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.be{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ba{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.bc{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+.ma{ font-size:14px;  width: 40px; margin: 8px auto; float:none !important;  }
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul {width: 90%;}
+.accomodation-section .oceanview-fifth-section h5 {font-size: 14px;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 75%;}
+.accomodation-section .oceanview-six-section-in h5 { font-size: 12px; padding: 16px 52px 16px 14px;}
+.accomodation-section .oceanview-six-section p { margin: 0px 40px; font-size: 13px; padding: 20px;}
+.accomodation-section .oceanview-six-section a { padding: 4px 20px;font-size: 12px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061; margin: 17px 20px 14px 0;float: left;}
+.accomodation-section .oceanview-six-section-in h5 span {width: 3%;}
+.hover-element{ bottom: 12px;}
+.experience-banner { margin: 0;}
+
+}
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.accomodation-section h1 {margin: 45px 0 30px 0;font-size: 35px;}	
+.accomodation-section h2 {margin: 30px 0;font-size: 25px;}	
+.tab button{font-size: 14px; padding: 5px 40px; margin: 0 10px 0 0;}
+.tab { width: 45.5%; margin: 25px auto;}
+.tab button.active:before {  margin: 25px 0 0px 2.5%;} 
+.tab button:last-child.active:before { margin: 25px 0 0px 1.6%;}
+.tab button:nth-child(3).active:before { margin: 25px 0 0px 1.5%;}
+.tab button:nth-child(2).active:before { margin: 25px 0 0px 1.5%;}
+.accomodation h3 { font-size: 35px; margin: 30px 0 20px 0;}
+.accomodation-section .oceanview-fourth-section ul li{font-size: 14px; width: auto;}
+.accomodation-section .oceanview-img-three h5 { font-size: 17px;padding: 20px;}
+.icon-1{width: 58px; height: 58px; background-position:12px 14px;}
+.icon-2{ width: 58px; height: 58px; background-position:12px 19px;}
+.icon-3{ width: 58px; height: 58px; background-position:15px 15px;}
+.icon-4{ width: 58px; height: 58px; background-position:12px 19px;}
+.icon-5{ width: 58px; height: 58px; background-position:15px 20px;}
+.icon-6{ width: 55px; height: 58px; background-position:12px 18px;}
+.icon-7{ width: 55px; height: 58px; background-position:20px 14px;}
+.icon-8{ width: 58px; height: 58px; background-position:15px 15px;}
+.icon-9{ width: 58px; height: 58px; background-position:15px 15px;}
+.icon-10{ width: 58px; height: 58px; background-position:15px 15px;}
+.icon-11{ width: 58px; height: 58px; background-position:15px 15px;}
+.icon-12{ width: 58px; height: 58px; background-position:15px 15px;}
+.icon-13{ width: 55px; height: 58px; background-position:15px 15px;}
+.icon-14{width: 55px; height: 58px; background-position:15px 15px;}
+.icon-15{width: 55px; height: 58px; background-position:15px 15px;}
+.icon-16{width: 55px; height: 58px; background-position:15px 15px;}
+.hover-target{ padding: 26px 25px;}
+.accomodation-section .oceanview-fifth-section h6 { margin: 6px auto;font-size: 12px;}
+.oc{ font-size:14px; width: 40px; margin: 0 5px 10px;  }
+.oi{ font-size:14px;  width: 40px; margin: 0 5px 10px;}	
+.oj{font-size:14px;  width: 40px; margin: 0 5px 10px;}	
+.ob{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oh{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.og{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ov{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oa{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.od{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.of{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oe{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+.ib{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ib-1{font-size:14px;  width: 40px; margin: 0 5px 10px;float:none !important;}
+.ie{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.if{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ic{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ic-1{font-size:14px;  width: 40px; margin: 0 5px 10px; float:none !important; }
+.ia{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.id{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+
+.bb{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.bd{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.be{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ba{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.bc{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+.ma{ font-size:14px; font-weight:bold; color:#000; background:#abb7ae;	padding:5px; text-transform: uppercase; line-height: normal; width: 40px; margin:10px auto; float:none !important; text-align: center; }
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul {width: 90%;}
+.accomodation-section .oceanview-fifth-section h5 {font-size: 14px;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 75%;}
+.accomodation-section .oceanview-six-section-in h5 { font-size: 12px; padding: 16px 52px 16px 14px;}
+.accomodation-section .oceanview-six-section p { margin: 0px 40px; font-size: 13px; padding: 20px;}
+.accomodation-section .oceanview-six-section a { padding: 4px 20px;font-size: 12px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061; margin: 17px 20px 14px 0;float: left;}
+.hover-element{ bottom: 10px;}
+}
+
+
+@media only screen and (min-width:1601px) and (max-width:1700px){
+.accomodation-section h1 {margin: 45px 0 30px 0;font-size:40px;}
+.accomodation-section h1 {margin: 30px 0;font-size:30px;}	
+.tab button{font-size: 14px; padding: 5px 40px; margin: 0 10px 0 0;}
+.tab { width:40.5%; margin: 25px auto;}
+.tab button.active:before {  margin: 25px 0 0px 2%;} 
+.tab button:last-child.active:before { margin: 25px 0 0px 1.6%;}
+.tab button:nth-child(3).active:before { margin: 25px 0 0px 1.5%;}
+.tab button:nth-child(2).active:before { margin: 25px 0 0px 1.5%;}
+.accomodation h3 { font-size: 40px; margin: 30px 0 20px 0;}
+.accomodation-section .oceanview-fourth-section ul li{font-size: 14px; width: auto;}
+.accomodation-section .oceanview-img-three h5 { font-size: 17px;padding: 20px;}
+.icon-1{width: 60px; height: 58px; background-position:12px 14px;}
+.icon-2{ width:60px; height: 58px; background-position:12px 19px;}
+.icon-3{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-4{ width: 60px;height: 58px; background-position:12px 19px;}
+.icon-5{ width: 60px; height: 58px; background-position:15px 20px;}
+.icon-6{ width: 60px; height: 58px; background-position:12px 18px;}
+.icon-7{ width: 61px; height: 58px; background-position:20px 14px;}
+.icon-8{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-9{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-10{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-11{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-12{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-13{ width: 60px; height: 58px; background-position:15px 15px;}
+.icon-14{width: 61px; height: 58px; background-position:15px 15px;}
+.hover-target{ padding: 26px 25px;}
+.accomodation-section .oceanview-fifth-section h6 { margin: 7px auto;font-size: 12px;}
+.oc{ font-size:14px; width: 40px; margin: 0 5px 10px;  }
+.oi{ font-size:14px;  width: 40px; margin: 0 5px 10px;}	
+.oj{font-size:14px;  width: 40px; margin: 0 5px 10px;}	
+.ob{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oh{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.og{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ov{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oa{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.od{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.of{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.oe{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+.ib{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ib-1{font-size:14px;  width: 40px; margin: 0 5px 10px;float:none !important;}
+.ie{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.if{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ic{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ic-1{font-size:14px;  width: 40px; margin: 0 5px 10px; float:none !important; }
+.ia{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.id{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+
+.bb{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.bd{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.be{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.ba{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+.bc{font-size:14px;  width: 40px; margin: 0 5px 10px;}
+
+.ma{ font-size:14px; font-weight:bold; color:#000; background:#abb7ae;	padding:5px; text-transform: uppercase; line-height: normal; width: 40px; margin:10px auto; float:none !important; text-align: center; }
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul {width: 90%;}
+.accomodation-section .oceanview-fifth-section h5 {font-size: 15px;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 75%;}
+.accomodation-section .oceanview-six-section-in h5 { font-size: 12px; padding: 16px 52px 16px 14px;}
+.accomodation-section .oceanview-six-section p { margin: 0px 40px; font-size: 13px; padding: 20px;}
+.accomodation-section .oceanview-six-section a { padding: 4px 20px;font-size: 12px; border-radius: 20px; color: #fff; text-decoration: none;background: #f47061; margin: 17px 20px 14px 0;float: left;}
+.hover-element{ bottom: 10px;}
+}
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:900px){ 
+ 
+.experience-banner {margin: 25px 0 0 0;}
+.accomodation-section {width: 93%;margin: 0 auto; float:none;}
+.accomodation-section h1 {font-size: 32px;margin: 30px 0 30px 0;}
+.accomodation-section h1:before { left: 50%; margin-left: -20px; bottom: -15px;}
+.accomodation-section p { margin: 0px 0 30px 0; float: left; line-height: 19px;}
+.tab{width: 100%;}
+.tab button { margin:0;padding: 5px 55px;font-size: 17px;width: 50%;}	
+.tab button.active:before {display:none;}	
+.accomodation h3{font-size: 32px; margin: 30px 0 15px 0;}	
+.tabcontent{padding: 6px 0px;}	
+.accomodation-section .oceanview {width: 100%;}
+.accomodation-section .oceanview-img {width: 100%; margin: 0 0 5px 0;}
+.oceanview-img-one{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-two{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-three {width: 100%; margin: 0 0 5px 0;}
+.icon-1 {width: 77px;}
+.icon-2 {width: 77px;}
+.icon-3 {width: 77px;}
+.icon-4 {width: 77px;}
+.icon-5 {width: 77px;}
+.icon-6 {width: 77px;}
+.icon-7 {width: 77px;}
+.icon-8 {width: 77px;}
+.icon-9 {width: 77px;}
+.icon-10 {width: 77px;}
+.icon-11 {width: 77px;}
+.icon-12 {width: 77px;}
+.icon-13 {width: 77px;}
+.icon-14 {width: 77px;}
+.icon-15 {width: 77px;}
+.icon-16 {width: 77px;}
+.icon-17 {width: 77px;}
+.icon-18 {width: 77px;}
+.icon-19 {width: 77px;}
+.icon-20 {width: 77px;}
+.accomodation-section .oceanview-fourth-section ul li {width: 70%;  background: url(../images/accomodation/star.png) no-repeat 0px 4px;text-align:left;padding: 0 0 0 13px;margin-left: 10px;}
+.accomodation-section .oceanview-fourth-section ul li:nth-child(3) {background-position: 0px 3px; }
+.accomodation-section .oceanview-fifth-section h5 {font-size: 18px; padding: 14px;width: 100%; text-align:center;}
+.deck-5 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-6 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-8 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-9 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-10 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-11 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul { width: 45%;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 30%;margin: 0 auto; }
+.oc{ font-size:12px; width: 40px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 40px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width: 40px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 40px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+
+.bb{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.accomodation-section .oceanview-six-section-in {width: 100%;border-right:none;}
+.accomodation-section .oceanview-six-section-in h5 {width: 23%;    font-size: 15px;    padding: 16px 0 18px;    text-align: left;    border-right: none;    margin: 0 38%;}
+.accomodation-section .oceanview-six-section-in h5 span {width:7%; margin: -13px 0px 0px 32px;}
+.accomodation-section .oceanview-six-section p {float: left;width: 100%; margin: 22px 0px; font-size: 15px; text-align: center;}
+.accomodation-section .oceanview-six-section a {margin: 0px 0% 20px 39%;}
+.border-right { padding: 0px;}
+
+ }
+
+
+
+
+
+
+
+ @media only screen and (min-width:481px) and (max-width:768px){ 
+ 
+.experience-banner {margin: 25px 0 0 0;}
+.accomodation-section {width: 93%;margin: 0 auto; float:none;}
+.accomodation-section h1 {font-size: 32px;margin: 30px 0 30px 0;}
+.accomodation-section h1:before { left: 50%; margin-left: -20px; bottom: -15px;}
+.accomodation-section p { margin: 0px 0 30px 0; float: left; line-height: 19px;}
+.accomodation-section h2 {font-size: 22px;margin: 0px 0 30px 0;}
+.tab{width: 100%;}
+.tab button { margin:0;padding: 5px 55px;font-size: 17px;width: 50%;}	
+.tab button.active:before {display:none;}	
+.accomodation h3{font-size: 32px; margin: 30px 0 15px 0;}	
+.tabcontent{padding: 6px 0px;}	
+.accomodation-section .oceanview {width: 100%;}
+.accomodation-section .oceanview-img {width: 100%; margin: 0 0 5px 0;}
+.oceanview-img-one{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-two{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-three {width: 100%; margin: 0 0 5px 0;}
+.icon-1 {width: 77px;}
+.icon-2 {width: 77px;}
+.icon-3 {width: 77px;}
+.icon-4 {width: 77px;}
+.icon-5 {width: 77px;}
+.icon-6 {width: 77px;}
+.icon-7 {width: 77px;}
+.icon-8 {width: 77px;}
+.icon-9 {width: 77px;}
+.icon-10 {width: 77px;}
+.icon-11 {width: 77px;}
+.icon-12 {width: 77px;}
+.icon-13 {width: 77px;}
+.icon-14 {width: 77px;}
+.icon-15 {width: 77px;}
+.icon-16 {width: 77px;}
+.icon-17 {width: 77px;}
+.icon-18 {width: 77px;}
+.icon-19 {width: 77px;}
+.icon-20 {width: 77px;}
+.accomodation-section .oceanview-fourth-section ul li {width: 70%;  background: url(../images/accomodation/star.png) no-repeat 0px 4px;text-align:left;padding: 0 0 0 13px;margin-left: 10px;}
+.accomodation-section .oceanview-fourth-section ul li:nth-child(3) {background-position: 0px 3px; }
+.accomodation-section .oceanview-fifth-section h5 {font-size: 18px; padding: 14px;width: 100%; text-align:center;}
+.deck-5 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-6 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-8 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-9 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-10 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-11 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul { width: 45%;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 30%;margin: 0 auto; }
+.oc{ font-size:12px; width: 40px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 40px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width: 40px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 40px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+
+.bb{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.accomodation-section .oceanview-six-section-in {width: 100%;border-right:none;}
+.accomodation-section .oceanview-six-section-in h5 {width: 23%;    font-size: 15px;    padding: 16px 0 18px;    text-align: left;    border-right: none;    margin: 0 38%;}
+.accomodation-section .oceanview-six-section-in h5 span {width:7%; margin: -13px 0px 0px 32px;}
+.accomodation-section .oceanview-six-section p {float: left;width: 100%; margin: 22px 0px; font-size: 15px; text-align: center;}
+.accomodation-section .oceanview-six-section a {margin: 0px 0% 20px 39%;}
+.border-right { padding: 0px;}
+
+ }
+
+
+
+
+ @media only screen and (min-width:361px) and (max-width:480px){ 
+ 
+.experience-banner { margin: 0px;}
+.accomodation-section {width: 93%;margin: 0 auto; float:none;}
+.accomodation-section h1 {font-size: 32px;margin: 30px 0 30px 0;}
+.accomodation-section h1:before { left: 50%; margin-left: -20px; bottom: -15px;}
+.accomodation-section p { margin: 0px 0 30px 0; float: left; line-height: 19px;}
+.accomodation-section h2 {font-size: 22px;margin: 0px 0 30px 0;}
+.tab{width: 100%;}
+.tab button { margin:0;padding: 5px 55px;font-size: 17px;width: 100%;}	
+.tab button.active:before {display:none;}	
+.accomodation h3{font-size: 32px; margin: 30px 0 15px 0;}	
+.tabcontent{padding: 6px 0px;}	
+.accomodation-section .oceanview {width: 100%;}
+.accomodation-section .oceanview-img {width: 100%; margin: 0 0 5px 0;}
+.oceanview-img-one{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-two{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-three {width: 100%; margin: 0 0 5px 0;}
+.icon-1 {width: 77px;}
+.icon-2 {width: 77px;}
+.icon-3 {width: 77px;}
+.icon-4 {width: 77px;}
+.icon-5 {width: 77px;}
+.icon-6 {width: 77px;}
+.icon-7 {width: 77px;}
+.icon-8 {width: 77px;}
+.icon-9 {width: 77px;}
+.icon-10 {width: 77px;}
+.icon-11 {width: 77px;}
+.icon-12 {width: 77px;}
+.icon-13 {width: 77px;}
+.icon-14 {width: 77px;}
+.icon-15 {width: 77px;}
+.icon-16 {width: 77px;}
+.icon-17 {width: 77px;}
+.icon-18 {width: 77px;}
+.icon-19 {width: 77px;}
+.icon-20 {width: 77px;}
+.accomodation-section .oceanview-fourth-section ul li {width: 70%;  background: url(../images/accomodation/star.png) no-repeat 0px 4px;text-align:left;padding: 0 0 0 13px;margin-left: 10px;}
+.accomodation-section .oceanview-fourth-section ul li:nth-child(3) {background-position: 0px 3px; }
+.accomodation-section .oceanview-fifth-section h5 {font-size: 18px; padding: 14px;width: 100%; text-align:center;}
+.deck-5 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-6 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-8 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-9 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-10 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-11 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul { width: 68%;}
+.accomodation-section .oceanview-fifth-section .deck-6 ul, .deck-8 ul, .deck-10 ul, .deck-11 ul {width: 47%;margin: 0 auto; }
+.oc{ font-size:12px; width: 40px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 40px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width: 40px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 40px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+
+.bb{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.accomodation-section .oceanview-six-section-in {width: 100%;border-right:none;}
+.accomodation-section .oceanview-six-section-in h5 {width: inherit;font-size: 15px;padding: 16px 0 18px;text-align: left;border-right:none;margin-left: 33%;}
+.accomodation-section .oceanview-six-section-in h5 span {width: 12.5%; margin: -13px 0px 0px 32px;}
+.accomodation-section .oceanview-six-section p {float: left;width: 100%; margin: 22px 0px; font-size: 15px; text-align: center;}
+.accomodation-section .oceanview-six-section a {margin: 0px 0% 20px 39%;}
+.border-right { padding: 0px;}
+
+ }
+
+
+
+
+
+
+
+
+
+ @media only screen and (min-width:0px) and (max-width:360px){ 
+ 
+.experience-banner { margin: 0px;}
+.accomodation-section {width: 93%;margin: 0 auto; float:none;}
+.accomodation-section h1 {font-size: 32px;margin: 30px 0 30px 0;}
+.accomodation-section h1:before { left: 50%; margin-left: -20px; bottom: -15px;}
+.accomodation-section p { margin: 0px 0 30px 0; float: left; line-height: 19px;}
+.accomodation-section h2 {font-size: 22px;margin: 0px 0 30px 0;}
+.tab{width: 100%;}
+.tab button { margin:0;padding: 5px 55px;font-size: 17px;width: 100%;}	
+.tab button.active:before {display:none;}	
+.accomodation h3{font-size: 32px; margin: 30px 0 15px 0;}	
+.tabcontent{padding: 6px 0px;}	
+.accomodation-section .oceanview {width: 100%;}
+.accomodation-section .oceanview-img {width: 100%; margin: 0 0 5px 0;}
+.oceanview-img-one{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-two{width:100% !important; margin: 0 0 5px 0 !important;}
+.accomodation-section .oceanview-img-three {width: 100%; margin: 0 0 5px 0;}
+.icon-1 {width: 77px;}
+.icon-2 {width: 77px;}
+.icon-3 {width: 77px;}
+.icon-4 {width: 77px;}
+.icon-5 {width: 77px;}
+.icon-6 {width: 77px;}
+.icon-7 {width: 77px;}
+.icon-8 {width: 77px;}
+.icon-9 {width: 77px;}
+.icon-10 {width: 77px;}
+.icon-11 {width: 77px;}
+.icon-12 {width: 77px;}
+.icon-13 {width: 77px;}
+.icon-14 {width: 77px;}
+.icon-15 {width: 77px;}
+.icon-16 {width: 77px;}
+.icon-17 {width: 77px;}
+.icon-18 {width: 77px;}
+.icon-19 {width: 77px;}
+.icon-20 {width: 77px;}
+.accomodation-section .oceanview-fourth-section ul li {width: 70%;  background: url(../images/accomodation/star.png) no-repeat 0px 4px;text-align:left;padding: 0 0 0 13px;margin-left: 10px;}
+.accomodation-section .oceanview-fourth-section ul li:nth-child(3) {background-position: 0px 3px; }
+.accomodation-section .oceanview-fifth-section h5 {font-size: 18px; padding: 14px;width: 100%; text-align:center;}
+.deck-5 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-6 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-8 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-9 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-10 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.deck-11 {width: 50%; border-right: 1px solid #767a7c; border-bottom: 1px solid #767a7c;}
+.accomodation-section .oceanview-fifth-section .deck-5 ul, .deck-9 ul { width: 90%;}
+.oc{ font-size:12px; width: 40px; margin: 0 3px 10px;  }
+.oi{ font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.oj{font-size:12px;  width: 40px; margin: 0 3px 10px;}	
+.ob{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oh{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.og{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ov{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oa{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.od{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.of{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.oe{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+.ib{font-size:12px;  width: 40px; margin: 0 auto 10px;}
+.ib-1{font-size:12px;  width: 40px; margin: 0 auto 10px;float:none !important;}
+.ie{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.if{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ic-1{font-size:12px;  width: 40px; margin: 0 auto 10px; float:none !important; }
+.ia{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.id{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+
+
+.bb{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bd{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.be{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.ba{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.bc{font-size:12px;  width: 40px; margin: 0 3px 10px;}
+.accomodation-section .oceanview-six-section-in {width: 100%;border-right:none;}
+.accomodation-section .oceanview-six-section-in h5 {width: inherit;font-size: 15px;padding: 16px 0 18px;text-align: left;border-right:none;margin-left: 29%;}
+.accomodation-section .oceanview-six-section-in h5 span {width: 12.5%; margin: -13px 0px 0px 29px;}
+.accomodation-section .oceanview-six-section p {float: left;width: 100%; margin: 22px 0px; font-size: 15px; text-align: center;}
+.accomodation-section .oceanview-six-section a {margin: 0px 0% 20px 35%;}
+.border-right { padding: 0px;}
+
+ }

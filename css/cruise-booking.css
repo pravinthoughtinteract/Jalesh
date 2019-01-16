@@ -1,0 +1,391 @@
+.cruise-booking{width:100%; height:auto; float:left; background-color:#15264c;}
+.cruise-container{width:80%; height:auto; margin:0 auto;}
+
+/* ---Booking Breadcum--- */
+
+#booking-breadcum{width:80%; height:auto; margin:0 auto;padding:40px 0;text-align:center;}
+#booking-breadcum ul {width: 100%;margin: 0 auto;display: block;font-family: 'Philosopher', sans-serif;}
+#booking-breadcum ul li {     display: inline-block;    margin: 0px -1px 25px;    padding: 0;    float: left;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {content: '------------------';color: #e0e0e0;font-weight: 400;font-size:12px;}
+#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{content:'------------------';font-weight:400;visibility:hidden;font-size:12px;}
+#booking-breadcum .badges{padding:5px 11px;-webkit-border-radius:50%;border-radius:50%;background-color:transparent;color:#fff;font-size:20px;border:2px solid #c94e50;font-weight: lighter;}
+#booking-breadcum li.active .badges{padding:4px 12px;-webkit-border-radius:50%;border-radius:50%;background-color:#c94e50;color:#fff;font-size:20px;border:2px solid #c94e50;font-weight:lighter;}
+#booking-breadcum li > p {font-size: 16px;padding: 10px 5px 0;text-align: center;color:#999999; }
+#booking-breadcum li.active > p {font-size: 14px;padding: 10px 5px 0;text-align: center;color:#fff; }
+.visible-xs{
+    display: none !important;
+}
+
+.visible-sm{
+    display: block !important;
+}
+
+
+/* --- End Booking Breadcum--- */
+
+.cruise-booking-cont{width:100%; height:auto; float:left; background-color:#fff; position:relative; padding:0px 22px 70px;margin-bottom: -60px; z-index: 1;}
+.cruise-booking-section{width:100%; height:auto; float:left; margin:22px 0 0; border:1px solid #c9c6c9;}
+.cruise-booking-image{width:32.2%; height:auto; float:left;}
+.cruise-booking-image img{width:100%;}
+.cruise-booking-details{width:47%; height:auto;min-height:248px; float:left; padding: 0 2%; position:relative;}
+.cruise-booking-details a{text-decoration:none;}
+.cruise-booking-details h3{font-size:24px; color:#bd4851;line-height: 32px; font-weight:bold; text-align: left; padding-top: 22px;}
+.cruise-booking-details h4{font-size:24px;color:#330066; line-height: 32px;font-weight:400;text-align: left; padding-bottom: 10px; }
+.cruise-booking-details p{font-size:16px; color:#333;line-height: 24px; font-weight:400; text-align: left;}
+.cruise-booking-details p span{font-size:18px; color:#333;font-weight:bold; }
+.terms-condition{width:200px;height:auto;position: relative;margin-top: 15px;}
+.terms-condition a{font-size:13px; color:#333;line-height: 24px; padding-left: 22px; font-weight:400;}
+.terms-condition a:hover{color:#bd4851;}
+.terms-condition a:before{content: ''; width:17px; height:11px; background:url('../images/terms-icon.png') no-repeat; position:absolute; left:0; top:6px;}
+.cruise-booking-price{width:20%;height:auto;min-height:250px;float:right;background-color:#efeeef;position: relative;}
+
+.booking-price-start {width:100%;height:auto;float:left;text-align:center;font-size: 18px;color:#333;margin-top: 35px;}
+.booking-price-start sup{font-size:24px; color:#333;}
+.booking-price-amount {width:100%;height:auto;float:left;text-align:center;color:#4a1359;font-size: 27px;}
+.booking-price-amount span{font-size: 45px;line-height: 45px;margin-left: 0px;}
+
+.booking-price-amount p{font-size:16px; color:#333;line-height: 24px; font-weight:400; margin-top:inherit !important;}
+.cruise-booking-price p{font-size:16px;color:#333;line-height: 24px;font-weight:400;text-align:center;margin-top: 10px;float: left;width: 100%;}
+.booking-price-amount span sup{font-size:34px; padding-right: 3px;font-family: 'RUPEE_FORADIAN';}
+.view-dates{width:100%;height:auto;position: absolute;bottom: 0;z-index: 99;}
+.view-dates a{width:100%;height:auto;font-size:18px;color:#fff;line-height: 24px;padding: 10px;font-weight:400;float:left;text-align: center;background-color:#460f5a;background-image:linear-gradient(90deg, #460f5a , #d25251);top:0;z-index:99;background:rgb(70,15,90);background:-moz-linear-gradient(left, rgba(70,15,90,1) 1%, rgba(70,15,90,1) 48%, rgba(210,82,81,1) 100%);background:-webkit-linear-gradient(left, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);background:linear-gradient(to right, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#460f5a', endColorstr='#d25251',GradientType=1 );border:none;cursor:pointer;-webkit-transition: all .4s linear;transition: all .10s linear;}
+.view-dates a:hover{background: rgb(210,82,81);background:-moz-linear-gradient(left, rgba(210,82,81,1) 1%, rgba(210,82,81,1) 48%, rgba(70,15,90,1) 100%);background:-webkit-linear-gradient(left, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);background:linear-gradient(to right, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d25251', endColorstr='#460f5a',GradientType=1 );-webkit-transition: all 0.4s ease-in; transition: all 0.4s ease-in; text-decoration:none;}
+.pagination {display: inline-block;    padding-left: 0;margin: 20px 0;border-radius: 4px; float:right;  }
+.pagination a {color: black;float: left;padding: 8px 16px;text-decoration: none;transition: background-color .3s;border: 1px solid 551755;margin: 0 4px; }
+.pagination li{float:left;}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {z-index: 2;color: #fff;background-color: #551755;border-color: #551755;} 
+.pagination a.active {background-color: #551755;color: #fff;border: 1px solid #551755; }
+.pagination a:hover:not(.active) {background-color: #551755; color:#FFF;}
+
+.itinerary-content{width:100%; height:auto; float:left;}
+.itinerary-left{width: 32%;height:auto;float:left;}
+.itinerary-middle{width: 14%;height:auto;float:left;margin: 0 3%;}
+.itinerary-right{width: 48%;height:auto;float:left;}
+.itinerary-left img{width: 100%;}
+.itinerary-content h3{font-size: 20px;color:#bd4851;line-height: 22px;font-weight:400;text-align: left;padding-bottom: 10px;}
+.itinerary-middle ul{width: 100%;height:auto;float:left;margin:0;}
+.itinerary-middle ul li{font-size: 16px;color:#000;line-height: 22px;font-weight:400;text-align: left;padding-bottom: 5px;}
+.itinerary-right p{ font-size: 16px;}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1100px){
+#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum {width: 95%;}
+.cruise-booking-details h3 {font-size: 14px;line-height: normal;padding-top: 13px;}
+.cruise-booking-details h4{font-size: 14px;line-height: normal;padding-bottom: 5px;padding-top: 5px;}
+.cruise-booking-details p {font-size: 12px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 13px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{ min-height: 180px;    width: 46%;}
+.cruise-booking-price{    min-height: 180px;}
+.booking-price-start{font-size: 18px;margin-top: 7px;}
+.booking-price-amount{font-size: 18px;line-height: 23px;}
+.booking-price-amount span {font-size: 27px;line-height: 27px;}
+.cruise-booking-price p{font-size: 13px;line-height: 15px;margin-top: 12px;}
+.view-dates a{ font-size: 14px; padding: 5px;}
+.view-dates { margin-top: 36px;}
+.cruise-booking-image {width: 34%;}
+.booking-price-amount span sup {font-size: 20px;}
+#booking-breadcum ul li {margin: 0px -5px 25px;}
+.itinerary-middle ul li {font-size: 14px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
+    content: '--------------';
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 8px;
+}
+#booking-breadcum li > p { font-size: 13px;}
+#booking-breadcum li.active > p { font-size: 13px;}
+}
+
+@media only screen and (min-width:1101px) and (max-width:1200px){
+#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum {width: 95%;}
+.cruise-booking-details h3 { font-size: 16px; line-height: normal; padding-top: 20px;}
+.cruise-booking-details h4{ font-size: 16px;line-height: normal; padding-bottom: 5px; }
+.cruise-booking-details p {font-size: 12px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 13px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{ min-height: 180px;    width: 46%;}
+.cruise-booking-price{    min-height: 180px;}
+.booking-price-start{font-size: 18px;margin-top: 17px;}
+.booking-price-amount{font-size: 25px;line-height: 29px;}
+.booking-price-amount span {font-size: 35px;line-height: 32px;}
+.cruise-booking-price p{font-size: 14px;line-height: 17px;margin-top: 15px;}
+.view-dates a{ font-size: 16px;    padding: 7px;}
+.view-dates {     margin-top: 36px;}
+.cruise-booking-image {width: 34%;}
+.booking-price-amount span sup {font-size: 20px;}
+#booking-breadcum ul li {margin: 0px -5px 25px;}
+.itinerary-middle ul li {font-size: 14px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
+    content: '--------------';
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 12px;
+}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){
+#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum {width: 95%;}
+.cruise-booking-details h3 { font-size: 16px; line-height: normal; padding-top: 10px;}
+.cruise-booking-details h4{ font-size: 16px;line-height: normal;    padding-bottom: 5px; padding-top: 5px; }
+.cruise-booking-details p {font-size: 12px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 13px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{ min-height: 171px;    width: 46%;}
+.cruise-booking-price{    min-height: 171px;}
+.booking-price-start{font-size: 18px;margin-top: 12px;}
+.booking-price-amount{font-size: 22px;line-height: 28px;}
+.booking-price-amount span {font-size: 32px;line-height: 32px;}
+.cruise-booking-price p{font-size: 14px;line-height: 15px;margin-top: 10px;}
+.view-dates a{    font-size: 15px;line-height: normal;    padding: 8px;}
+.view-dates {     margin-top: 48px;}
+.cruise-booking-image {width: 34%;}
+.booking-price-amount span sup {font-size: 20px;}
+#booking-breadcum ul li {margin: 0px -5px 25px;}
+.itinerary-middle ul li {font-size: 14px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
+    content: '--------------';
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 12px;
+}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px){
+#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum {width: 95%;}
+.cruise-booking-details h3 {    font-size: 16px;       line-height: normal;     padding-top: 20px;}
+.cruise-booking-details h4{   font-size: 16px;line-height: normal; padding-bottom: 5px; padding-top: 5px; }
+.cruise-booking-details p {font-size: 12px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 13px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{ min-height: 180px;    width: 46%;}
+.cruise-booking-price{min-height: 180px;}
+.booking-price-start{font-size: 18px;margin-top: 12px;}
+.booking-price-amount{font-size: 22px;line-height: 28px;}
+.booking-price-amount span {font-size: 32px;line-height: 32px;}
+.cruise-booking-price p{font-size: 13px;line-height: 16px;margin-top: 12px;}
+.view-dates a{font-size: 15px;   padding: 7px;}
+.view-dates {margin-top: 36px;}
+.cruise-booking-image {width: 34%;}
+#booking-breadcum ul li {margin: 0px -5px 25px;}
+.itinerary-middle ul li {font-size: 14px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
+    content: '--------------';
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+}
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
+#booking-breadcum {width: 85%;}
+.cruise-booking-details h3 { font-size: 18px; line-height: normal; padding-top: 20px;}
+.cruise-booking-details h4{ font-size: 18px;line-height: normal; padding-bottom: 5px; padding-top: 5px; }
+.cruise-booking-details p {font-size: 14px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 15px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{ min-height: 194px;    width: 46%;}
+.cruise-booking-price{    min-height: 194px;}
+.booking-price-start{font-size: 18px;margin-top: 17px;}
+.booking-price-amount{font-size: 25px;line-height: 29px;}
+.booking-price-amount span {font-size: 35px;line-height: 32px;}
+.cruise-booking-price p{font-size: 14px;line-height: 17px;margin-top: 15px;}
+.view-dates a{ font-size: 16px;    padding: 7px;}
+.view-dates { margin-top: 34px;}
+.cruise-booking-image {width: 34%;}
+.itinerary-middle ul li {font-size: 14px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
+    content: '--------------';
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 12px;
+}
+}
+
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+#booking-breadcum {width: 82%;}
+.cruise-booking-details h3 {    font-size: 20px;       line-height: normal;     padding-top: 20px;}
+.cruise-booking-details h4{   font-size: 20px;line-height: normal;    padding-bottom: 5px; }
+.cruise-booking-details p {font-size: 14px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 15px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{    min-height: 205px;}
+.cruise-booking-price{    min-height: 205px;}
+.booking-price-start{font-size: 18px;margin-top: 17px;}
+.booking-price-amount{font-size: 25px;line-height: 29px;}
+.booking-price-amount span {font-size: 35px;line-height: 32px;}
+.cruise-booking-price p{font-size: 14px;line-height: 20px;}
+.view-dates a{ font-size: 16px;    padding: 7px;}
+.view-dates { margin-top: 45px;}
+
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
+    content: '--------------';
+    color: #e0e0e0;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+}
+@media only screen and (min-width:1601px) and (max-width:1700px){
+#booking-breadcum {width: 77%;}
+.cruise-booking-details h3 {    font-size: 20px;       line-height: normal;     padding-top: 20px;}
+.cruise-booking-details h4{   font-size: 20px;line-height: normal;    padding-bottom: 5px; }
+.cruise-booking-details p {font-size: 14px;line-height: 20px;}
+.cruise-booking-details p span {font-size: 15px;line-height: 20px;}
+.terms-condition{bottom: 10px;}
+.cruise-booking-details{    min-height: 216px;}
+.cruise-booking-price{    min-height: 216px;}
+.booking-price-start{font-size: 20px;margin-top:38px;}
+.booking-price-amount{    font-size: 50px;  line-height: 50px;}
+.view-dates a{    font-size: 16px;}
+}
+
+@media only screen and (min-width:801px) and (max-width:999px){
+.cruise-booking-image {width: 100%;}
+.cruise-booking-details {    width: 100%;    min-height: auto;}
+.cruise-booking-price {width: 100%;    min-height: 158px;}
+.cruise-booking-cont{    margin-bottom: -20px;}
+#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:visible}
+#booking-breadcum ul li{  width: -webkit-fill-available;    margin: 0px -1px 10px;}
+.booking-price-start{    margin-top: 20px;font-size: 18px;}
+.booking-price-amount span sup {font-size: 20px;}
+.booking-price-amount{    font-size: 35px;}
+.view-dates{margin-top: 10px;}
+.terms-condition{position: relative;    bottom: auto;}
+.cruise-booking-details h4{font-size: 20px;line-height: 27px;}
+.cruise-booking-details h3{font-size: 20px;line-height: 27px;}
+.cruise-booking-details p{font-size: 15px;line-height: 22px;}
+.cruise-booking-details p span { font-size: 16px;}
+.itinerary-content h3{font-size: 18px;}
+
+
+#booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
+#booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
+#booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
+#booking-breadcum li > p {font-size: 13px; padding: 5px 5px 0; margin: 0;}
+.hidden-xs {display: none !important;}
+.visible-xs {display: block !important;}
+.badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
+}
+
+@media only screen and (min-width:769px) and (max-width:800px){
+.cruise-booking-image {width: 100%;}
+.cruise-booking-details {    width: 100%;    min-height: auto;}
+.cruise-booking-price {width: 100%;    min-height: 158px;}
+.cruise-booking-cont{    margin-bottom: -20px;}
+#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:visible}
+#booking-breadcum ul li{  width: -webkit-fill-available;    margin: 0px -1px 10px;}
+.booking-price-start{    margin-top: 20px;font-size: 18px;}
+.booking-price-amount span sup {font-size: 20px;}
+.booking-price-amount{    font-size: 35px;}
+.view-dates{margin-top: 10px;}
+.terms-condition{position: relative;    bottom: auto;}
+.itinerary-left { width: 100%;}
+.itinerary-middle {width: 100%; margin: 4px 1%;}
+.itinerary-right {width: 100%; padding: 0 1%;}
+.cruise-booking-details h4{font-size: 20px;line-height: 27px;}
+.cruise-booking-details h3{font-size: 20px;line-height: 27px;}
+.cruise-booking-details p{font-size: 15px;line-height: 22px;}
+.cruise-booking-details p span { font-size: 16px;}
+.itinerary-content h3{font-size: 18px;}
+
+
+#booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
+#booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
+#booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
+#booking-breadcum li > p {font-size: 13px; padding: 5px 5px 0; margin: 0;}
+.hidden-xs {display: none !important;}
+.visible-xs {display: block !important;}
+.badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+.cruise-booking-image {width: 100%;}
+.cruise-booking-details {    width: 100%;    min-height: auto;}
+.cruise-booking-price {width: 100%;    min-height: 210px;}
+.cruise-booking-cont{    margin-bottom: -20px;}
+#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:visible}
+#booking-breadcum ul li{  width: -webkit-fill-available;    margin: 0px -1px 10px;}
+.booking-price-start{ margin-top: 15px;font-size: 18px;}
+.booking-price-amount span sup {font-size: 20px;}
+.booking-price-amount{ font-size: 25px;}
+.booking-price-amount span { font-size: 35px; line-height: 35px;}
+.view-dates{margin-top: 10px;}
+.terms-condition{position: relative;    bottom: auto;}
+.itinerary-left { width: 100%;}
+.itinerary-middle {width: 100%; margin: 4px 1%;}
+.itinerary-right {width: 100%; padding: 0 1%;}
+.cruise-booking-details h4{font-size: 20px;line-height: 27px;}
+.cruise-booking-details h3{font-size: 20px;line-height: 27px;}
+.cruise-booking-details p{font-size: 15px;line-height: 22px;}
+.cruise-booking-details p span { font-size: 16px;}
+.itinerary-content h3{font-size: 18px;}
+
+
+
+#booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
+#booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
+#booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
+#booking-breadcum li > p {font-size: 13px; padding: 5px 5px 0; margin: 0;}
+.hidden-xs {display: none !important;}
+.visible-xs {display: block !important;}
+.badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
+}
+
+@media only screen and (min-width:0px) and (max-width:480px){ 
+.cruise-booking-image {width: 100%;}
+.cruise-booking-details { width: 100%; min-height: auto; margin-bottom: 20px;}
+.cruise-booking-price {width: 100%; min-height: 210px;}
+.cruise-booking-cont{ margin-bottom: -20px;}
+#booking-breadcum { width: 100%;}
+#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:hidden}
+#booking-breadcum ul li{  width: 50%;    margin: 0px -1px 10px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {display:none;}
+.booking-price-start{ margin-top: 15px;font-size: 18px;}
+.booking-price-amount span sup {font-size: 20px;}
+.booking-price-amount{ font-size: 25px;}
+.booking-price-amount span { font-size: 35px; line-height: 35px;}
+.view-dates{margin-top: 10px;}
+.terms-condition{position: relative;    bottom: auto;}
+.itinerary-left { width: 100%;}
+.itinerary-middle {width: 100%; margin: 4px 1%;}
+.itinerary-right {width: 100%; padding: 0 1%;}
+.cruise-booking-details h4{font-size: 20px;line-height: 27px;}
+.cruise-booking-details h3{font-size: 20px;line-height: 27px;}
+.cruise-booking-details p{font-size: 15px;line-height: 22px;}
+.cruise-booking-details p span { font-size: 16px;}
+.itinerary-content h3{font-size: 18px;}
+.cruise-container {width: 90%;}
+
+
+#booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
+#booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
+#booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
+#booking-breadcum li > p {font-size: 13px; padding: 5px 5px 0; margin: 0;}
+.hidden-xs {display: none !important;}
+.visible-xs {display: block !important;}
+.badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
+
+}

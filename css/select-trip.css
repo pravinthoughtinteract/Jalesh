@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdbe1', end
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;}
 
-.select-trip-sec-cont:hover{background-color:#dcdcdc;}
+.select-trip-sec-cont:hover{background-color:#f3f3f3;}
 
 .trip-col-15{width: 14%;height:auto;float:left;border-right:1px solid #999;text-align:center;padding: 5px 2%;}
 .trip-col-15:last-child{border-right:none;}
@@ -49,10 +49,73 @@ transition: all 0.4s ease-in;}
 .select-trip-sec-cont h4 span{color: #55266c;}
 
 
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont{width:100%; height:auto; float:left; background-color:#fff; position:relative; padding:40px 0;}
+.stateroom-container{width:100%;height:auto;float:left;padding:0px 40px;position: relative;}
+.stateroom-head{width:100%;height:auto;float:left;border-bottom: 1px solid #cccccc;padding-bottom: 30px;position:relative;}
+.stateroom-head h1{font-size:32px;color:#c94e50; line-height: 32px;font-weight:400;text-align: left; padding-bottom: 10px; margin:0; }
+.stateroom-head p{font-size:16px; color:#15264c;line-height: 24px; font-weight:400; text-align: left;padding: 0; margin:0;}
+.stateroom-contin{width: 120px;height:auto;position: absolute;top: 10px;right: 50px;z-index:1;}
+.stateroom-contin a{width:100%;height:auto;font-size: 21px;color:#fff;line-height: 24px;padding: 12px;font-weight:400;float:left;text-align: center;background-color:#460f5a;background-image:linear-gradient(90deg, #460f5a , #d25251);top:0;z-index:99;background:rgb(70,15,90);background:-moz-linear-gradient(left, rgba(70,15,90,1) 1%, rgba(70,15,90,1) 48%, rgba(210,82,81,1) 100%);background:-webkit-linear-gradient(left, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);background:linear-gradient(to right, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#460f5a', endColorstr='#d25251',GradientType=1 );border:none;cursor:pointer;-webkit-transition: all .4s linear;transition: all .10s linear;}
+.stateroom-contin a:hover{color:#fff; background: rgb(210,82,81);background:-moz-linear-gradient(left, rgba(210,82,81,1) 1%, rgba(210,82,81,1) 48%, rgba(70,15,90,1) 100%);background:-webkit-linear-gradient(left, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);background:linear-gradient(to right, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d25251', endColorstr='#460f5a',GradientType=1 );-webkit-transition: all 0.4s ease-in; transition: all 0.4s ease-in; text-decoration:none;}
+.stateroom-contin a:focus{color:#fff; text-decoration:none;}
+.review-stateroom-section{width:100%; height:auto; float:left; margin:22px 0 0;padding:10px; background-color: #e8e8e8;}
+.review-stateroom-image{width: 24.2%;height:auto;float:left;border: 4px solid #b84551;}
+.review-stateroom-image img{width:100%;}
+.review-stateroom-details{width: 57%;height:auto;min-height:248px;float:left;padding: 0 3%;position:relative;}
+.review-stateroom-details a{text-decoration:none;}
+.stateroom-lable{width:120px;padding:5px; background-color:#ff6251;font-size:17px; color:#fff;line-height: 24px; font-weight:400; border-radius: 5px; text-align: center;}
+.stateroom-cabin-lable{width: 180px;padding: 8px 15px;background-color:#724e81;font-size: 14px;color:#fff;line-height: 18px;font-weight:400;text-align: center;position: absolute;top: 0;right: 6%;}
+.review-stateroom-details h3{font-size:30px; color:#c94e50;line-height: 32px; font-weight:bold; text-align: left; padding-top: 22px;}
+.review-stateroom-details h4{font-size:25px;color:#383838; line-height: 32px;font-weight:400;text-align: left; padding-bottom: 10px; margin:0; }
+.review-stateroom-details p{font-size:16px; color:#333;line-height: 24px; font-weight:400; text-align: left;}
+.review-stateroom-details p span{font-size:18px; color:#333;font-weight:bold; }
+.stateroom-size{width:50%;height:auto;float:left;padding:15px;margin-top: 10px;background-color:#fff;-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.40);-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.40);box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.40);}
+.stateroom-size-cont{width:45%; float:left; margin-right:5%;}
+.stateroom-size-cont:last-child{margin-right:0;}
+.review-stateroom-details h5{font-size:16px;color:#c94e50; line-height: 16px;font-weight:400;text-align: left; padding-bottom: 8px; margin:0; }
+.review-stateroom-details h6{font-size:16px;color:#000; line-height: 16px;font-weight:400;text-align: left; padding:0px; margin:0; }
+.review-stateroom-features{ width:100%; height:auto; float:left; margin-top: 20px;}
+.review-stateroom-features h5{font-size:18px;color:#c94e50; line-height: 16px;font-weight:400;text-align: left; padding-bottom: 8px; margin:0; }
+.review-stateroom-features ul{ width:100%; height:auto; float:left; list-style: disc;list-style-position: inside;}
+.review-stateroom-features ul li{ width:30%; height:auto; float:left; margin-right:3%;}
+.review-stateroom-price{width:18%;height:auto;min-height:285px;float:right;background-color:#fff;position: relative;}
+.stateroom-price-start {width:100%;height:auto;float:left;text-align:center;font-size: 18px;color:#333;margin-top: 25px;}
+.stateroom-price-start sup{font-size:24px; color:#333;}
+.stateroom-price-amount {width:100%;height:auto;float:left;text-align:center;color:#4a1359;font-size: 27px;}
+.stateroom-price-amount span{font-size: 45px;line-height: 45px;margin-left: 0px;}
+.stateroom-price-amount p{font-size:16px; color:#333;line-height: 24px; font-weight:400; margin-top:inherit !important;}
+.review-stateroom-price p{font-size: 13px;color:#333;line-height: 22px;font-weight:400;text-align:center;margin-bottom: 0;float: left;width: 100%;}
+.stateroom-price-amount span sup{font-size:34px; padding-right: 3px;font-family: 'RUPEE_FORADIAN';}
+.lines{width:100%;height:1px;background-color:#ccc;float:left;margin: 10px 0;}
+
+
+/* ---End-review-your-stateroom--- */
+
+
+/* ---Start-Change-your-stateroom (location)--- */
+
+.change-stateroom-location-cont{width:100%; height:auto; min-height: 780px; float:left; background-color:#fff; position:relative; padding:0 0 50px;}
+.location-container{width:100%;height:auto;float:left;padding:0px 40px;position: relative;}
+.cruise-img-cont{width:100%; height:auto; float:left; }
+.cruise-img-cont a{float:left;position: relative;}
+.cruise-img-cont a:hover{text-decoration:none;}
+.cruise-img-col{width:33.3%; height:auto; float:left; }
+.cruise-img-conts{width:100%;height:auto;position: relative; float:left;}
+.cruise-image{width:100%; height:auto; float:left;}
+.cruise-image img{width:100%;}
+.overlay {display: block;background: rgba(221, 165, 226, .32);text-align: center;opacity: 0;visibility: hidden;transition: all 0.2s ease;position: absolute;top: 0;left: 0;width: 100%;height: 100%; transition: 0.3s;}
+.cruise-img-cont a:hover .overlay{visibility: visible; opacity: 1;}
+.cruise-image-title{width:100%; height:auto; text-align:center; margin-top:40px; float:left;}
+.cruise-image-title h1{font-size:24px; color:#ce5050;line-height: 24px; font-weight:400;}
+.cruise-image-title h2{font-size:18px; color:#000;line-height: 24px; font-weight:400;}
+
+/* ---End-Change-your-stateroom--- */
+
+
 @media only screen and (min-width:1000px) and (max-width:1100px){
-#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum {width: 95%;}
 .cruise-booking-details h3 {font-size: 14px;line-height: normal;padding-top: 13px;}
 .cruise-booking-details h4{font-size: 14px;line-height: normal;padding-bottom: 5px;padding-top: 5px;}
 .cruise-booking-details p {font-size: 12px;line-height: 20px;}
@@ -68,17 +131,7 @@ transition: all 0.4s ease-in;}
 .view-dates { margin-top: 36px;}
 .cruise-booking-image {width: 34%;}
 .booking-price-amount span sup {font-size: 20px;}
-#booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 8px;
-}
-#booking-breadcum li > p { font-size: 13px;}
-#booking-breadcum li.active > p { font-size: 13px;}
-
 .select-trip-sec-cont { padding: 25px 5%;}
 .trip-date-proceed {width: 24%;}
 .trip-date-proceed span{font-size: 21px;}
@@ -87,12 +140,34 @@ transition: all 0.4s ease-in;}
 .select-trip-sec-cont h4{font-size: 14px;}
 .trip-col-15{width: 18%;}
 .select-trip-cont { margin-bottom: -21px;}
+
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont {padding: 30px 0;}
+.review-stateroom-image{width: 20%;}
+.review-stateroom-details {width: 55%;padding: 0 2%;}
+.review-stateroom-price {width: 25%; min-height: 235px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head p {font-size: 15px;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
+.review-stateroom-details h4 {font-size: 19px; line-height: 22px;}
+.stateroom-cabin-lable { padding: 5px 15px;font-size: 12px;line-height: 18px;}
+.stateroom-size {width: 86%;padding: 10px; margin-top: 5px;}
+.review-stateroom-details h5 {font-size: 14px; line-height: 14px;}
+.review-stateroom-details h6 {font-size: 14px;line-height: 14px;}
+.review-stateroom-features ul li { font-size: 14px; width: 45%;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 18px;}
+.stateroom-price-amount span {font-size:28px;line-height: 28px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+
 }
 
 @media only screen and (min-width:1101px) and (max-width:1200px){
-#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum {width: 95%;}
 .cruise-booking-details h3 { font-size: 16px; line-height: normal; padding-top: 20px;}
 .cruise-booking-details h4{ font-size: 16px;line-height: normal; padding-bottom: 5px; }
 .cruise-booking-details p {font-size: 12px;line-height: 20px;}
@@ -108,22 +183,35 @@ transition: all 0.4s ease-in;}
 .view-dates {     margin-top: 36px;}
 .cruise-booking-image {width: 34%;}
 .booking-price-amount span sup {font-size: 20px;}
-#booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
 .trip-col-15{width: 16%;}
 .select-trip-cont { margin-bottom: -21px;}
+
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont {padding: 30px 0;}
+.review-stateroom-details {width: 55%;padding: 0 2%;}
+.review-stateroom-price {width: 20%; min-height: 235px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head p {font-size: 15px;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
+.review-stateroom-details h4 {font-size: 19px; line-height: 22px;}
+.stateroom-cabin-lable { padding: 5px 15px;font-size: 12px;line-height: 18px;}
+.stateroom-size {width: 86%;padding: 10px; margin-top: 5px;}
+.review-stateroom-details h5 {font-size: 14px; line-height: 14px;}
+.review-stateroom-details h6 {font-size: 14px;line-height: 14px;}
+.review-stateroom-features ul li { font-size: 14px; width: 45%;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 18px;}
+.stateroom-price-amount span {font-size:28px;line-height: 28px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
 }
 
 @media only screen and (min-width:1201px) and (max-width:1300px){
-#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum {width: 95%;}
 .cruise-booking-details h3 { font-size: 16px; line-height: normal; padding-top: 10px;}
 .cruise-booking-details h4{ font-size: 16px;line-height: normal;    padding-bottom: 5px; padding-top: 5px; }
 .cruise-booking-details p {font-size: 12px;line-height: 20px;}
@@ -139,23 +227,41 @@ transition: all 0.4s ease-in;}
 .view-dates {     margin-top: 48px;}
 .cruise-booking-image {width: 34%;}
 .booking-price-amount span sup {font-size: 20px;}
-#booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
 .trip-col-15{width: 18%;}
 .trip-date-proceed {width: 26%;}
 .select-trip-cont { margin-bottom: -21px;}
+
+
+/* ---review-your-stateroom--- */
+
+
+.review-stateroom-cont {padding: 30px 0;}
+.review-stateroom-details {width: 55%;padding: 0 2%;}
+.review-stateroom-price {width: 20%; min-height: 235px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head p {font-size: 15px;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
+.review-stateroom-details h4 {font-size: 19px; line-height: 22px;}
+.stateroom-cabin-lable { padding: 5px 15px;font-size: 12px;line-height: 18px;}
+.stateroom-size {width: 80%;padding: 10px; margin-top: 5px;}
+.review-stateroom-details h5 {font-size: 14px; line-height: 14px;}
+.review-stateroom-details h6 {font-size: 14px;line-height: 14px;}
+.review-stateroom-features ul li { font-size: 14px;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 22px;}
+.stateroom-price-amount span {font-size:32px;line-height: 32px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+
+
+
 }
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
-#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum {width: 86%;}
+
 .cruise-booking-details h3 {    font-size: 16px;       line-height: normal;     padding-top: 20px;}
 .cruise-booking-details h4{   font-size: 16px;line-height: normal; padding-bottom: 5px; padding-top: 5px; }
 .cruise-booking-details p {font-size: 12px;line-height: 20px;}
@@ -171,15 +277,9 @@ transition: all 0.4s ease-in;}
 .view-dates {margin-top: 36px;}
 .cruise-booking-image {width: 34%;}
 .booking-price-amount span sup {font-size: 20px;}
-#booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
 
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
+
 
 
 .select-trip-sec-cont { padding: 25px 5%;}
@@ -190,12 +290,36 @@ transition: all 0.4s ease-in;}
 .select-trip-sec-cont h4{font-size: 16px;}
 .trip-col-15{width: 16%;}
 .select-trip-cont { margin-bottom: -21px;}
+
+
+/* ---review-your-stateroom--- */
+
+
+.review-stateroom-cont {padding: 30px 0;}
+.review-stateroom-details {width: 55%;padding: 0 2%;}
+.review-stateroom-price {width: 20%; min-height: 235px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head p {font-size: 15px;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
+.review-stateroom-details h4 {font-size: 19px; line-height: 22px;}
+.stateroom-cabin-lable { padding: 5px 15px;font-size: 12px;line-height: 18px;}
+.stateroom-size {width: 80%;padding: 10px; margin-top: 5px;}
+.review-stateroom-details h5 {font-size: 14px; line-height: 14px;}
+.review-stateroom-details h6 {font-size: 14px;line-height: 14px;}
+.review-stateroom-features ul li { font-size: 14px;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 22px;}
+.stateroom-price-amount span {font-size:32px;line-height: 32px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+
+
 }
 
 @media only screen and (min-width:1401px) and (max-width:1500px){
-#booking-breadcum .badges {    padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum li.active .badges{   padding: 2px 7px;    font-size: 14px;}
-#booking-breadcum {width: 85%;}
+
 .cruise-booking-details h3 { font-size: 18px; line-height: normal; padding-top: 20px;}
 .cruise-booking-details h4{ font-size: 18px;line-height: normal; padding-bottom: 5px; padding-top: 5px; }
 .cruise-booking-details p {font-size: 14px;line-height: 20px;}
@@ -211,14 +335,6 @@ transition: all 0.4s ease-in;}
 .view-dates { margin-top: 34px;}
 .cruise-booking-image {width: 34%;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
-
-
 
 .select-trip-sec-cont { padding: 25px 5%;}
 .trip-date-proceed {width: 23%;}
@@ -229,11 +345,37 @@ transition: all 0.4s ease-in;}
 .trip-col-15{width: 16%;}
 .select-trip-cont { margin-bottom: -21px;}
 
+
+/* ---review-your-stateroom--- */
+
+
+.review-stateroom-cont {padding: 30px 0;}
+.review-stateroom-details {width: 55%;padding: 0 2%;}
+.review-stateroom-price {width: 20%; min-height: 235px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head p {font-size: 15px;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
+.review-stateroom-details h4 {font-size: 19px; line-height: 22px;}
+.stateroom-cabin-lable { padding: 5px 15px;font-size: 12px;line-height: 18px;}
+.stateroom-size {width: 80%;padding: 10px; margin-top: 5px;}
+.review-stateroom-details h5 {font-size: 14px; line-height: 14px;}
+.review-stateroom-details h6 {font-size: 14px;line-height: 14px;}
+.review-stateroom-features ul li { font-size: 14px;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 22px;}
+.stateroom-price-amount span {font-size:32px;line-height: 32px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+
+
+
 }
 
 
 @media only screen and (min-width:1501px) and (max-width:1600px){
-#booking-breadcum {width: 82%;}
+
 .cruise-booking-details h3 {    font-size: 20px;       line-height: normal;     padding-top: 20px;}
 .cruise-booking-details h4{   font-size: 20px;line-height: normal;    padding-bottom: 5px; }
 .cruise-booking-details p {font-size: 14px;line-height: 20px;}
@@ -248,17 +390,10 @@ transition: all 0.4s ease-in;}
 .view-dates a{ font-size: 16px;    padding: 7px;}
 .view-dates { margin-top: 45px;}
 
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
-
 
 }
 @media only screen and (min-width:1601px) and (max-width:1700px){
-#booking-breadcum {width: 77%;}
+
 .cruise-booking-details h3 {    font-size: 20px;       line-height: normal;     padding-top: 20px;}
 .cruise-booking-details h4{   font-size: 20px;line-height: normal;    padding-bottom: 5px; }
 .cruise-booking-details p {font-size: 14px;line-height: 20px;}
@@ -276,8 +411,6 @@ transition: all 0.4s ease-in;}
 .cruise-booking-details {    width: 100%;    min-height: auto;}
 .cruise-booking-price {width: 100%;    min-height: 158px;}
 .cruise-booking-cont{    margin-bottom: -20px;}
-#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:visible}
-#booking-breadcum ul li{  width: -webkit-fill-available;    margin: 0px -1px 10px;}
 .booking-price-start{    margin-top: 20px;font-size: 18px;}
 .booking-price-amount span sup {font-size: 20px;}
 .booking-price-amount{    font-size: 35px;}
@@ -288,6 +421,33 @@ transition: all 0.4s ease-in;}
 .cruise-booking-details p{font-size: 15px;line-height: 22px;}
 .cruise-booking-details p span { font-size: 16px;}
 .itinerary-content h3{font-size: 18px;}
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont {padding: 20px 0;}
+.stateroom-container {padding: 0px 15px;}
+.stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
+.review-stateroom-section {padding: 5px;}
+.review-stateroom-image {width: 30%;}
+.review-stateroom-details {width: 69%;height: auto;min-height: auto;padding: 0 2%;margin-top: 15px;}
+.review-stateroom-details h3{font-size: 28px;line-height: 28px; padding-top: 20px;}
+.review-stateroom-details h4{font-size: 20px; line-height: 22px; margin: 0px;}
+.stateroom-cabin-lable {width: 100%; padding: 8px 15px;font-size: 14px;line-height: 18px;  position: relative; top: inherit; right: inherit;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.stateroom-size {width: 100%;padding: 10px; }
+.review-stateroom-details h6{font-size: 13px;}
+.stateroom-size-cont {width: 49%; margin-right: 2%;}	
+.review-stateroom-features ul li {width: 50%;margin-right: 0%;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 18px;}
+.stateroom-price-amount span {font-size:28px;line-height: 28px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+.review-stateroom-price {width: 69%;min-height: 240px;}
+
 }
 
 @media only screen and (min-width:769px) and (max-width:800px){
@@ -295,8 +455,7 @@ transition: all 0.4s ease-in;}
 .cruise-booking-details {    width: 100%;    min-height: auto;}
 .cruise-booking-price {width: 100%;    min-height: 158px;}
 .cruise-booking-cont{    margin-bottom: -20px;}
-#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:visible}
-#booking-breadcum ul li{  width: -webkit-fill-available;    margin: 0px -1px 10px;}
+
 .booking-price-start{    margin-top: 20px;font-size: 18px;}
 .booking-price-amount span sup {font-size: 20px;}
 .booking-price-amount{    font-size: 35px;}
@@ -310,6 +469,33 @@ transition: all 0.4s ease-in;}
 .cruise-booking-details p{font-size: 15px;line-height: 22px;}
 .cruise-booking-details p span { font-size: 16px;}
 .itinerary-content h3{font-size: 18px;}
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont {padding: 20px 0;}
+.stateroom-container {padding: 0px 15px;}
+.stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
+.review-stateroom-section {padding: 5px;}
+.review-stateroom-image {width: 30%;}
+.review-stateroom-details {width: 69%;height: auto;min-height: auto;padding: 0 2%;margin-top: 15px;}
+.review-stateroom-details h3{font-size: 28px;line-height: 28px; padding-top: 20px;}
+.review-stateroom-details h4{font-size: 20px; line-height: 22px; margin: 0px;}
+.stateroom-cabin-lable {width: 100%; padding: 8px 15px;font-size: 14px;line-height: 18px;  position: relative; top: inherit; right: inherit;}
+.stateroom-size {width: 100%;padding: 10px; }
+.review-stateroom-details h6{font-size: 13px;}
+.stateroom-size-cont {width: 49%; margin-right: 2%;}	
+.review-stateroom-features ul li {width: 50%;margin-right: 0%;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 18px;}
+.stateroom-price-amount span {font-size:28px;line-height: 28px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+.review-stateroom-price {width: 69%;min-height: 240px;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+
 }
 
 @media only screen and (min-width:481px) and (max-width:768px){
@@ -317,10 +503,6 @@ transition: all 0.4s ease-in;}
 .cruise-booking-details {    width: 100%;    min-height: auto;}
 .cruise-booking-price {width: 100%;    min-height: 210px;}
 .cruise-booking-cont{    margin-bottom: -20px;}
-#booking-breadcum { width: 100%;}
-#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:hidden}
-#booking-breadcum ul li{  width: 100%;    margin: 0px -1px 10px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {display:none;}
 .booking-price-start{ margin-top: 15px;font-size: 18px;}
 .booking-price-amount span sup {font-size: 20px;}
 .booking-price-amount{ font-size: 25px;}
@@ -338,6 +520,34 @@ transition: all 0.4s ease-in;}
 .select-trip-title h1 {font-size: 25px; margin: 0px 0 10px 0;}
 .select-trip-title h2 {font-size: 20px;}
 .select-trip-title {transform: translate(-52%, 0%);}
+
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont {padding: 20px 0;}
+.stateroom-container {padding: 0px 15px;}
+.stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
+.review-stateroom-section {padding: 5px;}
+.review-stateroom-image {width: 30%;}
+.review-stateroom-details {width: 69%;height: auto;min-height: auto;padding: 0 2%;margin-top: 15px;}
+.review-stateroom-details h3{font-size: 28px;line-height: 28px; padding-top: 20px;}
+.review-stateroom-details h4{font-size: 20px; line-height: 22px; margin: 0px;}
+.stateroom-cabin-lable {width: 100%; padding: 8px 15px;font-size: 14px;line-height: 18px;  position: relative; top: inherit; right: inherit;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.stateroom-size {width: 100%;padding: 10px; }
+.review-stateroom-details h6{font-size: 13px;}
+.stateroom-size-cont {width: 49%; margin-right: 2%;}	
+.review-stateroom-features ul li {width: 50%;margin-right: 0%;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 18px;}
+.stateroom-price-amount span {font-size:28px;line-height: 28px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+.review-stateroom-price {width: 69%;min-height: 240px;}
+
 }
 
 @media only screen and (min-width:0px) and (max-width:480px){ 
@@ -345,10 +555,6 @@ transition: all 0.4s ease-in;}
 .cruise-booking-details {    width: 100%;    min-height: auto;}
 .cruise-booking-price {width: 100%;    min-height: 210px;}
 .cruise-booking-cont{    margin-bottom: -20px;}
-#booking-breadcum {width: 100%;padding: 25px 0 20px;float: left;}
-#booking-breadcum li.active:first-child .line::before, #booking-breadcum li:last-child span.line::after{visibility:hidden}
-#booking-breadcum ul li{  width: 100%;    margin: 0px -1px 10px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {display:none;}
 .booking-price-start{ margin-top: 15px;font-size: 18px;}
 .booking-price-amount span sup {font-size: 20px;}
 .booking-price-amount{ font-size: 25px;}
@@ -357,6 +563,7 @@ transition: all 0.4s ease-in;}
 .terms-condition{position: relative;    bottom: auto;}
 .itinerary-left { width: 100%;}
 .itinerary-middle {width: 100%; margin: 4px 1%;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
 .itinerary-right {width: 100%; padding: 0 1%;}
 .cruise-booking-details h4{font-size: 20px;line-height: 27px;}
 .cruise-booking-details h3{font-size: 20px;line-height: 27px;}
@@ -366,6 +573,33 @@ transition: all 0.4s ease-in;}
 .select-trip-title h1 {font-size: 25px; margin: 0px 0 10px 0;}
 .select-trip-title h2 {font-size: 20px;}
 .select-trip-title {transform: translate(-52%, 0%);}
+
+
+/* ---review-your-stateroom--- */
+
+.review-stateroom-cont {padding: 20px 0;}
+.stateroom-container {padding: 0px 15px;}
+.stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
+.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
+.review-stateroom-section {padding: 5px;}
+.review-stateroom-image {width: 100%;}
+.review-stateroom-details {width: 100%; height: auto; min-height: auto; padding: 0 2%; margin-top: 15px;}
+.review-stateroom-details h3{font-size: 28px;line-height: 28px; padding-top: 20px;}
+.review-stateroom-details h4{font-size: 20px; line-height: 22px; margin: 0px;}
+.stateroom-cabin-lable {width: 100%; padding: 8px 15px;font-size: 14px;line-height: 18px;  position: relative; top: inherit; right: inherit;}
+.stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+.stateroom-size {width: 100%;padding: 10px; }
+.review-stateroom-details h6{font-size: 13px;}
+.stateroom-size-cont {width: 49%; margin-right: 2%;}	
+.review-stateroom-features ul li {width: 100%; margin-right: inherit;}
+.stateroom-price-start {font-size: 18px; margin-top: 22px;}
+.stateroom-price-amount { font-size: 18px;}
+.stateroom-price-amount span {font-size:28px;line-height: 28px;}
+.review-stateroom-price p{font-size: 13px;line-height: 16px;}
+.stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
+.stateroom-contin { width: 150px;}
+.review-stateroom-price {width: 100%;min-height: 240px;}
 
 }
 

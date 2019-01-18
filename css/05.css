@@ -1,0 +1,71 @@
+.nav {  padding-left: 0;  margin-bottom: 0;  list-style: none;}
+.nav > li {  position: relative;  display: block;}
+.nav > li > a {  position: relative;  display: block;  padding: 10px 15px;}
+.nav > li > a:hover,
+.nav > li > a:focus {  text-decoration: none;   background-color: #fbfbfb; color: #55266c;   border-left: 2px solid #cccccc;border-top: 2px solid #cccccc;border-right: 2px solid #cccccc;border-bottom: 0px solid #cccccc;}
+.nav > li.disabled > a {  color: #777;}
+.nav > li.disabled > a:hover,
+.nav > li.disabled > a:focus {  color: #777;  text-decoration: none;  cursor: not-allowed;  background-color: transparent;}
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {  background-color: #eee; border-color: #337ab7;}
+.nav .nav-divider {  height: 1px;  margin: 9px 0;  overflow: hidden;  background-color: #e5e5e5;}
+.nav > li > a > img {  max-width: none;}
+.nav-tabs {  border-bottom: 0px solid #ddd !important;}
+.nav-tabs > li {  float: left;  margin-bottom: -1px;}
+.nav-tabs > li > a{margin-right:0px;color:#999999;font-size:18px;font-weight:bold;line-height:1.42857143;background-color:#transparent;border:2px solid #cccccc; border-bottom:0; border-radius: 5px 5px 0 0; text-align:center;}
+.nav-tabs > li > a:hover {}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{color: #55266c;  cursor: default;    background-color: #fbfbfb;    font-size: 18px;    font-weight: bold;text-align:center;border-left: 2px solid #cccccc;border-top: 2px solid #cccccc;border-right:2px solid #cccccc;border-bottom:0px solid #cccccc;}
+.nav-tabs.nav-justified {  width: 100%;  border-bottom: 0;}
+.nav-tabs.nav-justified > li {  float: none;}
+.nav-tabs.nav-justified > li > a {  margin-bottom: 5px; text-align: center;}
+.nav-tabs.nav-justified > .dropdown .dropdown-menu {  top: auto;  left: auto;}
+@media (min-width: 768px) {
+.nav-tabs.nav-justified > li {    display: table-cell;    width: 1%;  }
+.nav-tabs.nav-justified > li > a {    margin-bottom: 0;  }
+}
+.nav-tabs.nav-justified > li > a {  margin-right: 0;  border-radius: 4px;}
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > .active > a:focus {  border: 1px solid #ddd;}
+@media only screen and (min-width:0px) and (max-width:1000px){
+.nav > li > a { padding: 10px 10px;font-size: 12px;} 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+}
+@media only screen and (min-width:361px) and (max-width:480px){
+.nav > li > a { padding: 10px 15px;font-size: 12px;} 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+}
+
+@media only screen and (min-width:1001px) and (max-width:1152px){ 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+.nav-tabs > li > a{font-size:12px;}
+ .nav > li > a{   padding: 8px 10px;}
+}
+
+@media only screen and (min-width:1153px) and (max-width:1280px){ 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+.nav-tabs > li > a{font-size:12px;}
+ .nav > li > a{   padding: 8px 10px;}
+}
+
+@media only screen and (min-width:1281px) and (max-width:1366px){ 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+.nav-tabs > li > a{font-size:12px;}
+ .nav > li > a{   padding: 8px 10px;}
+}
+
+@media only screen and (min-width:1367px) and (max-width:1440px){ 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+.nav-tabs > li > a{font-size:12px;}
+ .nav > li > a{   padding: 8px 10px;}
+}
+
+
+@media only screen and (min-width:1441px) and (max-width:1680px){ 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+.nav-tabs > li > a{font-size:12px;}
+ .nav > li > a{   padding: 8px 10px;}
+}

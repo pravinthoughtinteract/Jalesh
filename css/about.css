@@ -26,6 +26,34 @@
 
 .clean-waves-logo{width:253px; height:auto; margin: 50px auto 40px; clear: both;}
 
+.contact-main{width:100%;float:left;}
+.contact-container{width: 59%;margin: 0 auto;}
+.contact-sub{width:100%;float:left;padding: 9% 0 12%;}
+.contact-sub .contact-left{width:50%;float:left;}
+.contact-sub .contact-right{width:50%;float:left;}
+.contact-sub h3{font-weight:bold;font-size:20px;text-align:left;}
+.contact-sub p{font-weight:normal;font-size:18px;text-align:left;margin-top: 30px;}
+
+.contact-sub .contact-right ul{list-style-type:none;margin:0;padding:0;}
+.contact-sub .contact-right ul li{width:100%;float:left;padding: 0 0 17px;margin:0;}
+.contact-sub .contact-right ul li input{background: transparent;color: #000;padding: 2% 4%;width: 81%;float: left;outline: none;border: 1px solid #e8e8e8;font-size: 14px;line-height: 0;}
+.contact-sub .contact-right ul li textarea{background: transparent;color: #000;padding: 3% 4%;width: 81%;float: left;outline: none;border: 0px;border: 1px solid #e8e8e8;font-size: 14px;line-height: 0;height: 46px;}
+.contact-sub .contact-right ul li input.submit{font-family: 'Philosopher', sans-serif !important;background-color: #460f5a;background-image: linear-gradient(90deg, #460f5a , #d25251);color: #fff;padding: 18px 4%;width: 81%;float: left;outline: none;border: 1px solid #f37061;font-size: 16px;line-height: 0;text-transform:uppercase;cursor:pointer;transition: all 0.5s ease;}
+
+.contact-sub .contact-right ul li input.submit:hover {background: rgb(210,82,81);background:-moz-linear-gradient(left, rgba(210,82,81,1) 1%, rgba(210,82,81,1) 48%, rgba(70,15,90,1) 100%);background:-webkit-linear-gradient(left, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);background:linear-gradient(to right, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d25251', endColorstr='#460f5a',GradientType=1 );-webkit-transition: all 0.4s ease-in;
+transition: all 0.5s ease-in;}
+
+.contact-sub .contact-right ul li input::-webkit-input-placeholder {font-family: sans-serif;color: #898989;}
+.contact-sub .contact-right ul li input::-moz-placeholder {font-family: sans-serif;color: #898989;}
+.contact-sub .contact-right ul li input:-ms-input-placeholder {font-family: sans-serif;color: #898989;}
+.contact-sub .contact-right ul li input:-moz-placeholder {font-family: sans-serif;color: #898989;}
+
+
+.contact-sub .contact-right ul li textarea::-webkit-input-placeholder {font-family: sans-serif;color: #898989;}
+.contact-sub .contact-right ul li textarea::-moz-placeholder {font-family: sans-serif;color: #898989;}
+.contact-sub .contact-right ul li textarea:-ms-input-placeholder {font-family: sans-serif;color: #898989;}
+.contact-sub .contact-right ul li textarea:-moz-placeholder {font-family: sans-serif;color: #898989;}
+
 @media only screen and (min-width:1601px) and (max-width:1700px){
 .abt-2txt ul {width: 76%;}
 .abt-top-txt p {padding: 0 9%;}
@@ -38,6 +66,7 @@
 .abt-main {margin: 5% 0;}
 .abt-sub-txt {padding: 14% 0;}
 .envirment-policy p {padding: 0 9%;}
+.contact-container {width: 71%;}
 }
 
 @media only screen and (min-width:1401px) and (max-width:1500px){
@@ -46,6 +75,9 @@
 .abt-main {margin: 5% 0;}
 .abt-sub-txt {padding: 14% 0;}
 .envirment-policy p {padding: 0 5%;}
+.contact-container {width: 76%;}
+.contact-sub h3{font-size: 19px;}
+.contact-sub p {font-size: 16px;margin-top:20px;}
 }
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
@@ -56,6 +88,9 @@
 .abt-bg {background-position: center;}
 .abt-top-txt h3 a {font-size: 17px;padding: 8px 23px;}
 .envirment-policy p {padding: 0 9%; margin: 0px 0 20px 0;}
+.contact-container {width: 76%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:20px;}
 }
 
 @media only screen and (min-width:1201px) and (max-width:1300px){
@@ -67,6 +102,9 @@
 .abt-main p {line-height: 19px;}
 .abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
 .envirment-policy p {padding: 0 5%;line-height: 24px;margin: 0px 0 20px 0;}
+.contact-container {width: 75%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:20px;}
 }
 
 @media only screen and (min-width:1101px) and (max-width:1200px){
@@ -78,6 +116,9 @@
 .abt-main p {line-height: 19px;}
 .abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
 .envirment-policy p {padding: 0 5%;line-height: 24px;margin: 0px 0 20px 0;}
+.contact-container {width: 75%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:20px;}
 }
 
 @media only screen and (min-width:1000px) and (max-width:1100px){
@@ -91,7 +132,11 @@
 .abt-2txt ul li {font-size: 15px;margin-right: 27px;}
 .abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
 .envirment-policy p {padding: 0 5%;line-height: 24px;margin: 0px 0 20px 0;}
+.contact-container {width: 88%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:20px;}
 }
+
 
 @media only screen and (min-width:701px) and (max-width:800px){
 .abt-bg {background-position: center;background-size: cover;}
@@ -105,8 +150,14 @@
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
-
 .envirment-policy p {padding: 0 5%;margin-bottom: 22px;}
+
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 68%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:11px;}
 }
 
 
@@ -123,7 +174,12 @@
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
 .envirment-policy p {padding:0;margin-bottom: 22px;}
-
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 68%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:11px;}
 }
 
 @media only screen and (min-width:501px) and (max-width:600px){
@@ -139,6 +195,12 @@
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 68%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:11px;}
 
 }
 @media only screen and (min-width:401px) and (max-width:500px){
@@ -155,6 +217,15 @@
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 100%;}
+.contact-sub h3{font-size: 18px;}
+.contact-sub p {font-size: 16px;margin-top:11px;}
+.contact-sub .contact-right ul li input {width:91%;background: transparent;padding: 12px 4%;font-size: 12px;}
+.contact-sub .contact-right ul li textarea {width:91%;padding: 4% 4%;font-size: 12px;height: 38px;}
+.contact-sub .contact-right ul li input.submit {width:91%;}
 }
 
 @media only screen and (min-width:361px) and (max-width:400px){
@@ -171,7 +242,15 @@
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
-
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 100%;}
+.contact-sub h3{font-size: 16px;}
+.contact-sub p {font-size: 14px;margin-top:11px;}
+.contact-sub .contact-right ul li input {width:91%;background: transparent;padding: 12px 4%;font-size: 12px;}
+.contact-sub .contact-right ul li textarea {width:91%;padding: 4% 4%;font-size: 12px;height: 38px;}
+.contact-sub .contact-right ul li input.submit {width:91%;}
 }
 
 @media only screen and (min-width:321px) and (max-width:360px){
@@ -188,6 +267,16 @@
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 100%;}
+.contact-sub h3{font-size: 16px;}
+.contact-sub p {font-size: 14px;margin-top:11px;}
+.contact-sub .contact-right ul li input {width:91%;background: transparent;padding: 12px 4%;font-size: 12px;}
+.contact-sub .contact-right ul li textarea {width:91%;padding: 4% 4%;font-size: 12px;height: 38px;}
+.contact-sub .contact-right ul li input.submit {width:91%;}
+
 }
 @media only screen and (min-width:0px) and (max-width:320px){
 .abt-bg {background-position: center;background-size: cover;}
@@ -203,4 +292,14 @@
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
+
+.contact-container {width: 91%;}
+.contact-sub .contact-left {width:100%;}
+.contact-sub .contact-right {width:100%;margin-top:5%;}
+.contact-sub .contact-right ul li {width: 100%;}
+.contact-sub h3{font-size: 16px;}
+.contact-sub p {font-size: 14px;margin-top:11px;}
+.contact-sub .contact-right ul li input {width:91%;background: transparent;padding: 12px 4%;font-size: 12px;}
+.contact-sub .contact-right ul li textarea {width:91%;padding: 4% 4%;font-size: 12px;height: 38px;}
+.contact-sub .contact-right ul li input.submit {width:91%;}
 }

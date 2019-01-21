@@ -1,0 +1,102 @@
+.glossary-top{width:100%;float:left;margin:50px 0 0;padding: 9% 0 0;background:#f0f0f0;}
+.glossary-conta{width:81.2%;margin:0 auto;}
+.glossary-sub{width: 73%;float: right;margin:0;padding:0;position:relative;}
+.glossary-sub h1{font-size: 40px;text-align: left;text-transform: uppercase;color: #551a57;margin: 0;width: 100%;float: left;position: relative;line-height:2em;}
+.tab-section{width:100%;float:left;margin: 3% 0 1%;}
+.tab-section ul{margin:0;padding:0;list-style-type:none;}
+.tab-section ul li{border-right:1px solid #551a57;line-height: 34px;text-align:center;}
+.tab-section ul li a{font-size:37px;color:#551a57;font-weight:bold;text-decoration:none;text-align:center;}
+.tab-section ul li a:hover{color:#c14a51;}
+.tab-section ul li.active a{color:#c14a51;}
+.tab_content{width:100%;float:left;}
+.gloss_txt_cont{width:100%;float:left;}
+.gloss_txt_cont .left{width: 8%; float: left;}
+.gloss_txt_cont .right{    width: 90%;    float: left;    margin: 2% 0% 5% 1%;    border-left: 1px solid #c94e50;    padding: 0 0 0 3%;}
+.tab_content h2{font-size: 95px;text-align: left;text-transform: uppercase;color: #551a57;}
+.gloss_txt_cont .right ul{}
+.gloss_txt_cont .right li{color:#551a57;margin: 20px 0 20px 0;}
+.gloss_txt_cont .right li h3{font-size:36px;}
+.gloss_txt_cont .right li p{font-size:26px;}
+
+ 
+@media only screen and (min-width:0px) and (max-width:1000px){ 
+.glossary-sub {width: 100%;}
+.glossary-conta {width: 88.2%;}
+.gloss_txt_cont .right {    width: 100%;    margin: 0;    border-left: 0px solid #c94e50;    padding: 0 0 0 0;}
+.glossary-sub h1 {font-size: 30px;}
+.bx-wrapper .bx-next {    right: -44px !important;}
+.bx-wrapper .bx-controls-direction a{top:0 !important;}
+.bx-wrapper .bx-prev {    left: -45px!important;}
+.gloss_txt_cont .left {width: 100%;}
+.tab_content h2 {font-size: 50px;}
+.gloss_txt_cont .right li h3 {    font-size: 25px;}
+.gloss_txt_cont .right li {     margin: 10px 0 10px 0;}
+.gloss_txt_cont .right li p {    font-size: 16px;    line-height: normal;}
+}
+@media only screen and (min-width:1001px) and (max-width:1152px){ 
+.glossary-sub {width:88.5%;}
+.tab-section ul li{line-height:normal;}
+.glossary-top{    padding: 6% 0 0;}
+.tab-section ul li a {font-size: 25px;}
+.glossary-sub h1 {font-size: 28px;line-height: 1em;}
+.gloss_txt_cont .right li h3 {    font-size: 23px;}
+.gloss_txt_cont .right li p {   font-size: 14px;}
+.tab_content h2 {font-size:70px;}
+.gloss_txt_cont .left {width: 9%;}
+}
+@media only screen and (min-width:1153px) and (max-width:1280px){ 
+.glossary-sub {width: 79.5%;}
+.tab-section ul li{line-height:normal;}
+.glossary-top{    padding: 6% 0 0;}
+.tab-section ul li a {font-size: 25px;}
+.glossary-sub h1 {font-size: 28px;line-height: 1em;}
+.gloss_txt_cont .right li h3 {    font-size: 23px;}
+.gloss_txt_cont .right li p {   font-size: 14px;}
+.tab_content h2 {font-size:70px;}
+.gloss_txt_cont .left {width: 9%;}
+}
+@media only screen and (min-width:1281px) and (max-width:1367px){ 
+.glossary-sub {width: 79.5%;}
+.tab-section ul li{line-height:normal;}
+.glossary-top{    padding: 6% 0 0;}
+.tab-section ul li a {font-size: 25px;}
+.glossary-sub h1 {font-size: 28px;line-height: 1em;}
+.gloss_txt_cont .right li h3 {    font-size: 23px;}
+.gloss_txt_cont .right li p {   font-size: 14px;}
+.tab_content h2 {font-size:70px;}
+.gloss_txt_cont .left {width: 9%;}
+}
+@media only screen and (min-width:1368px) and (max-width:1440px){ 
+.glossary-sub {width: 79.5%;}
+.tab-section ul li{line-height:normal;}
+.glossary-top{    padding: 6% 0 0;}
+.tab-section ul li a {font-size: 25px;}
+.glossary-sub h1 {font-size: 28px;line-height: 1em;}
+.gloss_txt_cont .right li h3 {    font-size: 23px;}
+.gloss_txt_cont .right li p {   font-size: 14px;}
+.tab_content h2 {font-size:70px;}
+.gloss_txt_cont .left {width: 6%;}
+}
+@media only screen and (min-width:1441px) and (max-width:1600px){ 
+.glossary-sub {width: 81.5%;}
+.tab-section ul li{line-height:normal;}
+.glossary-top{    padding: 6% 0 0;}
+.tab-section ul li a {font-size: 25px;}
+.glossary-sub h1 {font-size: 30px;line-height: 1em;}
+.gloss_txt_cont .right li h3 {    font-size: 25px;}
+.gloss_txt_cont .right li p {   font-size: 16px;}
+.tab_content h2 {font-size:70px;}
+.gloss_txt_cont .left {width: 6%;}
+}
+@media only screen and (min-width:1601px) and (max-width:1680px){ 
+.glossary-sub {width: 78%;}
+.tab-section ul li{line-height:normal;}
+.glossary-top{    padding: 6% 0 0;}
+.tab-section ul li a {font-size: 30px;}
+.glossary-sub h1 {font-size: 35px;line-height: 1em;}
+.gloss_txt_cont .right li h3 {    font-size: 30px;}
+.gloss_txt_cont .right li p {   font-size: 20px;}
+.tab_content h2 {font-size: 78px;}
+.gloss_txt_cont .left {width: 7%;}
+
+}

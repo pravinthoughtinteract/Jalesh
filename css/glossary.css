@@ -9,7 +9,7 @@
 .tab-section ul li a:hover{color:#c14a51;}
 .tab-section ul li.active a{color:#c14a51;}
 .tab_content{width:100%;float:left;}
-.gloss_txt_cont{width:100%;float:left;}
+.gloss_txt_cont{width:100%;float:left;height:auto; min-height: 500px;}
 .gloss_txt_cont .left{width: 8%; float: left;}
 .gloss_txt_cont .right{    width: 90%;    float: left;    margin: 2% 0% 5% 1%;    border-left: 1px solid #c94e50;    padding: 0 0 0 3%;}
 .tab_content h2{font-size: 95px;text-align: left;text-transform: uppercase;color: #551a57;}

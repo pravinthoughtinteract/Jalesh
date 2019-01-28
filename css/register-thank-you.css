@@ -1,0 +1,185 @@
+
+
+
+
+
+.register-thank-wrapper{width:100%; height:auto; float:left; display:block;font-family: 'Philosopher', sans-serif !important;}
+.register-thank-content{width:800px; height:auto; margin:4% auto 0;}
+.register-thank-img{width:100%; height:auto; float:left;}
+.register-thank-img img{width:100%;}
+.register-thank-cont{width:100%;height:auto;float:left;margin-bottom: 22px;}
+.register-thank-cont h1{font-size: 25px; text-align: center; color: #ffffff; font-weight: 300;  margin:20px 0 10px; text-transform:uppercase; }
+.register-thank-cont h2{font-size: 18px; text-align: center; color: #ffffff; font-weight: 300; margin:0 0 5px;}
+.register-thank-cont p{font-size: 16px; text-align: center; color: #ffffff; font-weight: 300; margin:0 0 20px;}
+.register-thank-cont-inn{width:100%; height:auto; float:left; background-color:#551a57;}
+.forms{ width: 90%; margin: 0 auto;}
+.forms ul {
+    margin: 0;
+    float: left;
+    width: 100%;list-style:none; padding:0;
+}
+.forms li {
+    width: 31.9%;
+    float: left;    margin-bottom: 10px;
+
+}
+.forms li:last-child { width: 13%;}
+.forms li input, select {
+background:#f0f0f0; width:100%; height:35px;padding: 10px 12px;border:0;
+}
+
+
+.forms .submit {
+	width: 103px;
+	background-color: #f79b90;
+	padding: 10px;
+	margin: 0 11px 0 0;
+	font-size: 15px;
+	border: 0;
+	height: auto;
+	color: #000;
+}
+
+
+.forms .submit {
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  padding: 6px 0;
+  font-size: 17px;    font-family: 'Philosopher', sans-serif;
+  font-weight: 600;
+  letter-spacing: .1em;
+  cursor:pointer;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+  background-color: #f37061;text-transform:uppercase;
+
+
+}
+.forms .submit:hover, .forms .submit:focus {
+  background-color: #000; 
+  
+}
+
+
+.mar{margin-right:10px;}
+
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #000;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #000;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #000;
+}
+
+
+
+.thankyou-content{top: 50%;left: 50%;transform: translate(-50%, -50%);position: absolute;color: #fff;width: 34%;text-align: center;}
+.thankyou{ width: 90%; margin: 0 auto;}
+.thankyou p{font-size: 20px;text-align:center;/* text-transform:uppercase; */color:#f37061;margin: 15px 0 0px 0;width: 100%;float: left;position: relative;line-height: 28px; }
+
+.status{width:100%; height:35px; float:left;}
+.status span{font-size: 16px; text-align: center; color: #ffffff;}
+.status span:first-child{padding-right:10px;}
+
+
+@media only screen and (min-width:1000px) and (max-width:1100px){	
+.register-thank-content { width: 690px; margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 22px;margin: 11px 0 8px 0;line-height: 21px;}
+.forms {width: 95%;}
+.mar { margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+.register-thank-cont h2 {font-size: 16px;}
+.register-thank-cont p { font-size: 14px;}
+}
+
+ 
+ 
+ 
+ 
+
+@media only screen and (min-width:1101px) and (max-width:1200px){	
+.register-thank-content { width: 594px; margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 20px; margin: 20px 0 13px 0; line-height: 21px;}
+.forms {width: 95%;}
+.mar { margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+.register-thank-cont h2 {font-size: 16px;}
+.register-thank-cont p { font-size: 14px;}
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){	
+
+.register-thank-content {width: 710px;margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 25px;margin: 11px 0 22px 0;line-height: 21px;}
+.forms {width: 95%;}
+.mar { margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+}
+
+@media only screen and (min-width:1301px) and (max-width:1400px){
+	
+.register-thank-content { width: 665px; margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 24px;margin: 13px 0 8px 0;line-height: 18px;}
+.forms {width: 95%;}
+.mar { margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+.register-thank-cont h2 {font-size: 16px;}
+.register-thank-cont p { font-size: 14px;}
+}
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.register-thank-content {width: 770px;margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 27px;margin: 20px 0 25px 0;line-height: 21px;}
+.forms {width: 95%;}
+.mar { margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+
+}
+
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.register-thank-content { width: 594px; margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 20px; margin: 20px 0 13px 0; line-height: 21px;}
+.forms {width: 95%;}
+.mar { margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+
+}
+
+@media only screen and (min-width:1601px) and (max-width:1700px){
+.register-thank-content { width: 594px; margin: 1% auto 0;}
+.register-thank-cont h1 {font-size: 20px; margin: 20px 0 13px 0; line-height: 21px;}
+.forms {width: 95%;}
+.mar {margin-right: 5px; }
+.forms li input { font-size: 12px; padding: 7px 2%; height: 20px;}
+.forms .submit { width: 91px; padding: 10px; margin: 0 11px 0 0; font-size: 12px;}
+
+}
+
+
+
+  
+  
+ @media only screen and (min-width:0px) and (max-width:999px){ 
+.register-thank-content { width: 100%; margin: 0;}
+.register-thank-cont h1{font-size: 22px;margin: 9px 0 13px 0;line-height: 21px;}
+.forms li{width: 46%;margin-bottom:8px;}
+.register-thank-cont h2{font-size: 16px;}
+.register-thank-cont p{ font-size: 14px; margin: 0 0 15px;}
+ 
+ }
+ 

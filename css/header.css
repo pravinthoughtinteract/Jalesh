@@ -80,7 +80,7 @@ header {width:81.2%;  margin: 0 auto;position: relative;}
   width: 98%;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-clip: padding-box;    top: 22% !important;
+  background-clip: padding-box;    top: 20% !important;
 }
 @media (min-width: 32em) {
 
@@ -247,9 +247,9 @@ a.close:hover {
 
 .field-wrap {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   float: left;
-  width: 26%;
+  width: 23%;
   margin-right: 14px;
 }
 
@@ -346,12 +346,33 @@ a.close:hover {
 
 /************* End Login Popup ************/
 
-@media only screen and (min-width:0px) and (max-width:900px){
+
+@media only screen and (min-width:768px) and (max-width:900px){
 .topmar { margin-top: 0px;}
 .modal-box {width: 90%;}
 .button-block {width: 40%;}
 
-.field-wrap { margin-bottom: 10px;width: 100%; margin-right: inherit;}
+.field-wrap { margin-bottom: 19px;width: 23%; margin-right: 10px;}
+.modal-box {top: 9% !important;}
+.form label { position: absolute;  -webkit-transform: translateY(5px); transform: translateY(5px) !important; font-size:13px; left:10px;}
+.form label.active { -webkit-transform: translateY(19px); transform: translateY(24px) translateY(19px) !important; left: 2px; font-size: 13px; }
+
+
+}
+
+
+
+
+@media only screen and (min-width:0px) and (max-width:767px){
+.topmar { margin-top: 0px;}
+.modal-box {width: 90%;}
+.button-block {width: 40%;}
+
+.field-wrap { margin-bottom: 19px;width: 46%; margin-right: 10px;}
+.modal-box {top: 9% !important;}
+.form label { position: absolute;  -webkit-transform: translateY(5px); transform: translateY(5px) !important; font-size:13px; left:10px;}
+.form label.active { -webkit-transform: translateY(19px); transform: translateY(24px) translateY(19px) !important; left: 2px; font-size: 13px; }
+
 
 }
 
@@ -363,12 +384,13 @@ header {width: 91.2%;}
 .top-sun-nav ul li a {font-size: 18px;}
 .topmar {margin-top: 77px; }
 
-.form h1 {font-size: 20px;}
-.field-wrap { margin-bottom: 22px;margin-right: 7px;}
-.form label { font-size: 14px; padding: 4px 0;}
-.button { font-size: 14px; padding: 8px 0;}
-.form input, textarea {font-size: 14px; padding: 10px;}
-.modal-box { width: 56%; }
+.form h1 {font-size: 15px; margin: 12px 0;}
+.field-wrap { margin-bottom:15px;margin-right: 7px;}
+.form label { font-size: 12px; padding:0;}
+.button { font-size: 13px; padding: 6px;left: 9px;}
+.form input, textarea {font-size: 14px; padding: 6px 10px;}
+.modal-box { width: 50%; }
+.login-cont {width: 94%; margin: 0 3%;}
 }
 
 @media only screen and (min-width:1101px) and (max-width:1200px){	
@@ -376,23 +398,23 @@ header {width: 91.2%;}
 .top-sun-nav ul li a {font-size: 18px;}
 .topmar {margin-top: 77px; }
 
-.form h1 {font-size: 20px;}
-.field-wrap { margin-bottom: 22px;margin-right: 7px;}
-.form label { font-size: 14px; padding: 4px 0;}
-.button { font-size: 14px; padding: 8px 0;}
-.form input, textarea {font-size: 14px; padding: 10px;}
-.modal-box { width: 56%; }
+.form h1 {font-size: 16px; margin: 14px 0;}
+.field-wrap { margin-bottom:15px;margin-right: 7px;}
+.form label { font-size: 14px; padding:0;}
+.button { font-size: 13px; padding: 6px;left: 9px;}
+.form input, textarea {font-size: 14px; padding: 6px 10px;}
+.modal-box { width: 50%; }	
 }
 @media only screen and (min-width:1201px) and (max-width:1300px){	
 .slide-wrapper { padding:0;}
 .top-sun-nav ul li a {font-size: 18px;}
 .topmar {margin-top: 77px; }
-.form h1 {font-size: 20px;}
-.field-wrap { margin-bottom: 22px;margin-right: 7px;}
-.form label { font-size: 14px; padding: 4px 0;}
-.button { font-size: 14px; padding: 8px 0;}
-.form input, textarea {font-size: 14px; padding: 10px;}
-.modal-box { width: 56%; }
+.form h1 {font-size: 16px; margin: 14px 0;}
+.field-wrap { margin-bottom:15px;margin-right: 7px;}
+.form label { font-size: 14px; padding:0;}
+.button { font-size: 13px; padding: 6px;left: 9px;}
+.form input, textarea {font-size: 14px; padding: 6px 10px;}
+.modal-box { width: 50%; }
 }
 @media only screen and (min-width:1301px) and (max-width:1400px){	
 .slide-wrapper { padding:0;}
@@ -400,10 +422,10 @@ header {width: 91.2%;}
 .vrline {height: 17px;margin: 0 9px;}
 .topmar {margin-top: 81px; }
 .plan-holiday-section-plan { padding: 40px 4%;}
-.form h1 {font-size: 20px;}
-.field-wrap { margin-bottom: 22px;margin-right: 7px;}
-.form label { font-size: 14px; padding: 4px 0;}
-.button { font-size: 14px;}
+.form h1 {font-size: 16px; margin: 14px 0;}
+.field-wrap { margin-bottom:15px;margin-right: 7px;}
+.form label { font-size: 14px; padding:0;}
+.button { font-size: 13px; padding: 6px;left: 9px;}
 .form input, textarea {font-size: 14px; padding: 6px 10px;}
 
 }
@@ -414,18 +436,19 @@ header {width: 91.2%;}
 .topmar{margin-top:94px;}
 .plan-holiday-section-plan { padding: 45px 4%;}
 
-.form h1 {font-size: 20px;}
-.field-wrap { margin-bottom: 22px;margin-right: 7px;}
-.form label { font-size: 14px; padding: 4px 0;}
-.button { font-size: 14px;  padding: 8px 0;}
-.form input, textarea {font-size: 14px; padding: 10px;}
+.form h1 {font-size: 16px; margin: 14px 0;}
+.field-wrap { margin-bottom:15px;margin-right: 7px;}
+.form label { font-size: 14px; padding:0;}
+.button { font-size: 13px; padding: 6px;left: 9px;}
+.form input, textarea {font-size: 14px; padding: 6px 10px;}
 }
 
 @media only screen and (min-width:1501px) and (max-width:1600px){
 .slide-wrapper { padding:0;}
 .top-sun-nav ul li a {font-size: 20px;}	
-.form h1 {font-size: 20px;}
-.field-wrap { margin-bottom: 22px;margin-right: 7px;}
+.modal-box { top: 18% !important;}
+.form h1 {font-size: 19px;    margin: 15px 0;}
+.field-wrap { margin-bottom: 10px;margin-right: 7px;}
 .form label { font-size: 14px; padding: 4px 0;}
 .button { font-size: 14px;  padding: 8px 0;}
 .form input, textarea {font-size: 14px; padding: 10px;}
@@ -472,7 +495,10 @@ header { width: 95%;}
 .vrline { height: 15px;margin: 0 5px;}
 .slide-wrapper {padding: 70px 0 0 0;}
 
-.form h1 {font-size: 19px; margin: 15px 0;}
+.login-cont {	width: 94%;margin: 0 3%;}
+.form h1 {font-size: 15px; margin: 11px 0;}
 .button {margin-bottom: 15px;}
+.form input, textarea { font-size: 12px; width: 100%; padding: 5px;}
+.button { padding: 5px 0;font-size: 15px;}
 
 }

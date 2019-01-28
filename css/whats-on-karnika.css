@@ -11,6 +11,7 @@
 .experience-col{width:100%; height:auto; float:left; position:relative; margin-bottom:30px;}
 .experience-img{width:100%; height:auto; float:left;}
 .experience-img img{width:100%;float:left;}
+.caption-top{top: 200px !important;}
 .experience-caption{width: 72%;left: 14%;bottom: 100px;height:auto;float:left;position:absolute;}
 .experience-caption h2{font-size:42px; color:#fff; text-align:left;}
 .experience-caption p{color:#fff; font-size:20px;text-align:left;    margin:0;  padding:0; border-bottom:none;float: left; }
@@ -27,6 +28,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 18px;}
 .experience-caption { bottom: 90px;}
+.caption-top {top: 150px !important;}
 .experience-caption li {font-size: 16px; margin-right: 12px;}
 
 }
@@ -37,6 +39,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 16px;}
 .experience-caption { bottom: 60px;}
+.caption-top {top: 150px !important;}
 .experience-caption li {font-size: 16px; margin-right: 12px;}
 
 }
@@ -46,6 +49,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 16px;}
 .experience-caption { bottom: 60px;}
+.caption-top {top: 150px !important;}
 .experience-caption li {font-size: 16px; margin-right: 12px;}
 
 
@@ -58,6 +62,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 16px;}
 .experience-caption { bottom: 60px;}
+.caption-top {top: 120px !important;}
 .experience-caption li {font-size: 16px; margin-right: 12px;}
 }
 
@@ -68,6 +73,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 14px;}
 .experience-caption { bottom: 50px;}
+.caption-top {top: 120px !important;}
 .experience-caption li {font-size: 12px; margin-right: 11px;}
 
 }
@@ -92,6 +98,7 @@
 .experience-caption-line {margin: 5px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 13px;}
 .experience-caption { bottom: 30px;}
+.caption-top {top: 100px !important;}
 .experience-col ul {margin-top: 5px;}
 .experience-caption li {width: 46%;font-size: 10px; margin-right: 6px;}
 
@@ -106,6 +113,7 @@
 .experience-caption-line {margin: 5px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 13px;}
 .experience-caption { bottom: 30px;}
+.caption-top {top: 90px !important;}
 .experience-col ul {margin-top: 5px;}
 .experience-caption li {width: 46%;font-size: 10px; margin-right: 6px;}
 
@@ -121,6 +129,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 14px;}
 .experience-caption { bottom: 50px;}
+.caption-top {top: 90px !important;}
 .experience-caption li {font-size: 12px; margin-right: 11px;}
 
 }
@@ -135,6 +144,7 @@
 .experience-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
 .experience-caption p { font-size: 14px;}
 .experience-caption { bottom: 50px;}
+.caption-top {top: 90px !important;}
 .experience-caption li {font-size: 12px; margin-right: 11px;}
 
  }

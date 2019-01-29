@@ -1,11 +1,11 @@
 
-
+a, a:hover, a:focus{text-decoration:none !important;}
 
 /************* Banner ************/
 .mob-banner{display:none !important;}
 .slide-wrapper{display:block;padding: 120px 0 0 0;}
 .slide-wrapper .container{padding:0px;}
-.home-banner{width:100%; height:auto; float:left; display:block;}
+.home-banner{width:100%; height:722px; float:left; display:block; overflow:hidden;}
 .caption{height:auto;position:absolute;z-index:9;}
 .caption h1{font-size: 45px;text-align:left;text-transform:uppercase;animation-delay: 1.5s;animation-duration: 1s;font-weight:normal;color: #fff;}
 .caption h3{width:100%;font-size:23px;color:#fff;line-height:normal; font-weight:normal;margin:0px; text-align:left;float:left;padding:0px;animation-delay:2.5s; animation-duration:1s; } 
@@ -21,7 +21,7 @@
 .ban44{width: 90%;height:auto;left: 10%;top: 29%;}
 .land-btn{font-size: 19px !important; padding: 5px 15px !important;}
 
-.home-video{width:100%; height: 73vh; float:left; overflow:hidden;}
+.home-video{width:100%; height: 722px; float:left; overflow:hidden;}
 #myVideo {position:relative;right: 0;bottom: 0;min-width: 100%;min-height: 100%;  }
 video {width: 100%; height: auto;}
 
@@ -149,6 +149,8 @@ transition: all 0.4s ease-in;}
 
 @media only screen and (min-width:1000px) and (max-width:1100px){	
 .slide-wrapper { padding: 78px 0 0 0;}
+.home-banner{height:376px;}
+.home-video{height:376px;}
 .top-sun-nav ul li a {font-size: 20px;}
 .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {left: 7%;}
 .carousel-indicators { bottom: 5%;right: 4.5%;}
@@ -212,6 +214,8 @@ transition: all 0.4s ease-in;}
 
 @media only screen and (min-width:1101px) and (max-width:1200px){	
 .slide-wrapper { padding: 78px 0 0 0;}
+.home-banner{height:473px;}
+.home-video{height:473px;}
 .top-sun-nav ul li a {font-size: 20px;}
 .carousel-control { right: 19% !important;}
 .carousel-indicators {bottom: 5%;}
@@ -267,6 +271,8 @@ transition: all 0.4s ease-in;}
 }
 
 @media only screen and (min-width:1201px) and (max-width:1300px){	
+.home-banner{height:473px;}
+.home-video{height:473px;}
 .carousel-indicators { bottom: 7%;right: 9.7%;}
 .carousel-control { right: 14% !important;}
 .top-sun-nav ul li a {font-size: 20px;}
@@ -328,6 +334,8 @@ transition: all 0.4s ease-in;}
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
 .slide-wrapper { padding: 78px 0 0 0;}
+.home-banner{height:505px;}
+.home-video{height:505px;}
 .carousel-indicators { bottom: 7%;right: 9.7%;}
 .carousel-control { right: 14% !important;}
 .top-sun-nav ul li a {font-size: 20px;}
@@ -389,6 +397,8 @@ transition: all 0.4s ease-in;}
 
 @media only screen and (min-width:1401px) and (max-width:1500px){
 .slide-wrapper { padding: 78px 0 0 0;}
+.home-banner{height:534px;}
+.home-video{height:534px;}
 .carousel-indicators { bottom: 7%;right: 9.7%;}
 .carousel-control { right: 14% !important;}
 .top-sun-nav ul li a {font-size: 20px;}
@@ -451,6 +461,8 @@ transition: all 0.4s ease-in;}
 
 @media only screen and (min-width:1501px) and (max-width:1600px){
 .slide-wrapper { padding: 78px 0 0 0;}
+.home-banner{height:594px;}
+.home-video{height:594px;}
 .carousel-indicators { bottom: 7%;right: 9.7%;}
 .carousel-control { right: 14% !important;}
 .top-sun-nav ul li a {font-size: 20px;}
@@ -567,6 +579,7 @@ transition: all 0.4s ease-in;}
 }
 
 @media only screen and (min-width:801px) and (max-width:999px){
+	.home-banner {height: auto;}
 .uparrow { display: none !important;}
 .mob-banner{width:100%; height:auto;float:left; display:block;}
 .booking-form-cont {width: 95%;  padding: 25px 0 20px;} 
@@ -625,6 +638,7 @@ transition: all 0.4s ease-in;}
 
 
 @media only screen and (min-width:769px) and (max-width:800px){
+	.home-banner {height: auto;}
 .uparrow { display: none !important;}
 .mob-banner{width:100%; height:auto;float:left; display:block;}
 .booking-form-cont {width: 95%;  padding: 25px 0 20px;} 
@@ -684,6 +698,7 @@ transition: all 0.4s ease-in;}
 
 
 @media only screen and (min-width:481px) and (max-width:768px){
+	.home-banner {height: auto;}
 .uparrow { display: none !important;}
 .mob-banner{width:100%; height:auto;float:left; display:block;}
 .booking-form-cont {width: 95%;  padding: 25px 0 20px;} 
@@ -740,7 +755,8 @@ transition: all 0.4s ease-in;}
   
   
  @media only screen and (min-width:0px) and (max-width:480px){ 
- .uparrow { display: none !important;}
+.home-banner {height: auto;}
+.uparrow { display: none !important;}
 .mob-banner{width:100%; height:auto;float:left; display:block;}
 .booking-form-cont {width: 95%;  padding: 25px 0 20px;} 
 .booking-form-cont h1{font-size: 26px;}

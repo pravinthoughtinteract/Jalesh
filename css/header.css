@@ -210,7 +210,7 @@ a.close:hover {
   -webkit-transform: translateY(40px);
           transform: translateY(40px);
   left: 2px;
-  font-size: 13px;
+  font-size: 13px; display:none;
 }
 .form label.active .req {
   opacity: 0;

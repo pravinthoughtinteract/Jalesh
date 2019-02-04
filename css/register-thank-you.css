@@ -14,16 +14,15 @@
 .register-thank-cont-inn{width:100%; height:auto; float:left; background-color:#551a57;}
 .forms{ width: 90%; margin: 0 auto;}
 .forms ul {
-    margin: 0;
     float: left;
-    width: 100%;list-style:none; padding:0;
+    width: 100%;list-style:none; padding:0;    margin: 0 0 10px;
 }
 .forms li {
-    width: 31.9%;
-    float: left;    margin-bottom: 10px;
-
+    width: 48.1%;
+    float: left;
+    margin-bottom: 15px;
 }
-.forms li:last-child { width: 13%;}
+/* .forms li:last-child { width: 13%;} */
 .forms li input, select {
 background:#f0f0f0; width:100%; height:35px;padding: 10px 12px;border:0;
 }

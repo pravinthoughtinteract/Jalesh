@@ -32,7 +32,7 @@
 
 <!-- Select Trip CSS --> 
 <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> 
-<link href="css/jquery.scrolling-tabs.css" rel="stylesheet" type="text/css">
+<link href="css/jquery.scrolling-tabs-2.css" rel="stylesheet" type="text/css">
 
 <link rel="stylesheet" href="css/bootstrap.min.css"> 
 <link href="css/05.css" rel="stylesheet" type="text/css">
@@ -64,7 +64,19 @@
 });  });
  
     </script> 
-
+<script type="text/javascript">
+		$(document).ready(function($) {
+			$('#accordion').find('.accordion-toggle').click(function(){
+	
+				//Expand or collapse this panel
+				$(this).next().slideToggle('fast');
+	
+				//Hide the other panels
+				$(".accordion-content").not($(this).next()).slideUp('fast');
+	
+			});
+		});
+	</script>
    
 </head>
 <body> 
@@ -103,14 +115,14 @@
             <ul class="number">  
 			<li><i class="iconame2"></i><a href="tel:18002668927" class="noactive">18002668927 </a> </li> 
 			<span class="vrline"></span>
-			<li> <a class="js-open-modal noactive" href="#" data-modal-id="popup1">Login</a></li>
+			<li> <a class="js-open-modal noactive" href="#" data-modal-id="popup1">Register</a></li>
 			
 			</ul> 
                     
         </div>
 	 <nav>
 		<ul>
-		  <li class="nav-item"><a class="a-active" href="index.html">Home</a></li>
+		  <li class="nav-item"><a href="index.html">Home</a></li>
 		  <li class="nav-item"><a href="plan-your-holiday.html">Plan your Holiday</a></li>
 		  <li class="nav-item"><a href="#">EXPERIENCE </a>
 		  
@@ -137,7 +149,7 @@
 		   </li>
 		  <li class="nav-item"><a href="accomodation.html" class="">Accommodation</a></li>
 		  
-		  <li class="nav-item"><a href="customised-packages.html">CUSTOMISED PACKAGES</a></li>
+		  <li class="nav-item"><a href="personalized-events.html">Personalized Events</a></li>
 		  <li class="nav-item"><a href="#">The Ship</a>
 		   <ul class="maind sub-menu" style="display: none;">
 			<li class="nav-item"><a href="karnika.html" class="">Karnika</a></li>
@@ -149,7 +161,7 @@
 		</ul> 
 	  </nav> 
 	</header>
-	</div>  
+	</div>   
 	
 	
 	
@@ -622,6 +634,203 @@ Features</span></p>
 
 </div>
 
+<div id="accordion">
+
+	<h4 class="accordion-toggle tab-bg">Mini-Suite</h4>
+	<div class="accordion-content default">
+	  <p>If luxury had an identity, it has to be Mini-suite at Jalesh. Experience the luxury amenities, royally designed queen size bed, top-notch interiors that are specially designed to match your classy living.  </p>
+  
+  <img src="images/select-your-room/img-1.jpg">
+		<div class="category-section-main-sub">
+	<div class="main-sub-height">
+  <h4>Single Sofa + Two lower berths 
+that convert to queen-size bed
+</h4>
+<p class="booking-line">
+<span>Stateroom Size:</span> 336 SQ.FT. (32 m<sup>2</sup>)<br>
+<span>Occupancy:</span> Up to 3 guests
+</p>
+<p><span>
+Features</span></p>
+<ul>
+	<li>Two lower beds that convert to queen-size bed</li>
+	<li>TV</li>
+	<li>Private bath</li>
+	<li>Wardrobe</li>
+	<li>Safety deposit box</li>
+	<li>24 hour room service</li>
+	<li>Fridge</li>
+	<li>Desk and chair</li>
+	<li>Air-conditioner</li>
+	<li>Phone</li>
+	<li>Daily cabin service</li>
+	<li>Complimentary toiletries</li>
+	<li>Hair dryer</li>
+	<li>Bathrobe and slippers</li>
+	<li>Private balcony</li>
+</ul>
+
+</div>
+<div class="cruise-booking-price booking-price">
+	 <div class="booking-price-start">Total Price</div>
+	 <div class="booking-price-amount">INR <span>10,000 </span>
+	 <p>Per Cabin</p>
+	 </div>
+	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
+	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 
+	 </div> 
+
+</div>
+<div class="category-section-main last-border-bottom"></div>
+	</div>
+	<h4 class="accordion-toggle tab-bg">Balcony</h4>
+	<div class="accordion-content">
+	<p>Waking up to the ocean breeze is how mornings at the cruise will be for you. Facing the ocean is the Balcony stateroom that lets in the cool wind of the ocean blow your mind away. </p>
+  
+  <img src="images/select-your-room/img-2.jpg">
+		<div class="category-section-main-sub">
+	<div class="main-sub-height">
+  <h4>Single Sofa + Two lower berths 
+that convert to queen-size bed
+</h4>
+<p class="booking-line">
+<span>Stateroom Size:</span> 155 SQ.FT. (15 m<sup>2</sup>)<br>
+<span>Occupancy:</span> Up to 2 guests
+</p>
+<p><span>
+Features</span></p>
+<ul>
+	<li>Two lower beds that convert to queen-size bed</li>
+	<li>TV</li>
+	<li>Private bath</li>
+	<li>Wardrobe</li>
+	<li>Safety deposit box</li>
+	<li>24 hour room service</li>
+	<li>Fridge</li>
+	<li>Desk and chair</li>
+	<li>Air-conditioner</li>
+	<li>Phone</li>
+	<li>Daily cabin service</li>
+	<li>Complimentary toiletries</li>
+	<li>Hair dryer</li>
+	<li>Bathrobe and slippers (charges apply)</li>
+	<li>Private balcony</li>
+</ul>
+
+</div>
+<div class="cruise-booking-price booking-price">
+	 <div class="booking-price-start">Total Price</div>
+	 <div class="booking-price-amount">INR <span>10,000 </span>
+	 <p>Per Cabin</p>
+	 </div>
+	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
+	 <div class="view-dates"><a href="#stateroom2" role="tab" data-toggle="tab">Select & Continue</a></div>
+	 
+	 </div> 
+
+</div>
+
+<div class="category-section-main last-border-bottom"></div>
+	</div>
+	<h4 class="accordion-toggle tab-bg">Oceanview</h4>
+	<div class="accordion-content">
+	 <p>Isn’t it refreshing to start your day gazing at the vast ocean from your own private balcony? Ocean view rooms are specially crafted for the one who wants to be interrupted by the sound of the waves.</p>
+  
+  <img src="images/select-your-room/img-3.jpg">
+	 <div class="category-section-main-sub">
+	<div class="main-sub-height">
+  <h4>Single Sofa + Two lower berths 
+that convert to queen-size bed
+</h4>
+<p class="booking-line">
+<span>Stateroom Size:</span> 190 SQ.FT. (18 m<sup>2</sup>)<br>
+<span>Occupancy:</span> Up to 4 guests
+</p>
+<p><span>
+Features</span></p>
+<ul>
+	<li>Window or porthole</li>
+	<li>Two lower beds that convert to queen-size bed</li>
+	<li>TV</li>
+	<li>Private bath with shower</li>
+	<li>Wardrobe</li>
+	<li>Safety deposit box</li>
+	<li>24 hour room service</li>
+	<li>Fridge</li>
+	<li>Desk and chair</li>
+	<li>Air conditioning</li>
+	<li>Phone</li>
+	<li>Daily cabin service</li>
+	<li>Complimentary toiletries</li>
+	<li>Hair dryer</li>
+</ul>
+</div>
+
+<div class="cruise-booking-price booking-price">
+	 <div class="booking-price-start">Total Price</div>
+	 <div class="booking-price-amount">INR <span>10,000 </span>
+	 <p>Per Cabin</p>
+	 </div>
+	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
+	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 
+	 </div> 
+
+</div>
+
+<div class="category-section-main last-border-bottom"></div>
+	</div>
+<h4 class="accordion-toggle tab-bg">Interior</h4>
+	<div class="accordion-content">
+	<p>Relax in all the comfort of our spacious interior staterooms. Smartly crafted interiors include a wide array of amenities for your whole family to enjoy.</p>
+  
+  <img src="images/select-your-room/img-4.jpg">
+  
+  <div class="category-section-main-sub">
+	<div class="main-sub-height">
+  <h4>Single Sofa + Two lower berths
+that convert to queen-size bed
+</h4>
+<p class="booking-line">
+<span>Stateroom Size:</span> 190 SQ.FT. (18 m<sup>2</sup>)<br>
+<span>Occupancy:</span> Up to 4 guests
+</p>
+<p><span>
+Features</span></p>
+<ul>
+	<li>Two lower beds that convert to queen-size bed</li>
+	<li>TV</li>
+	<li>Private bath</li>
+	<li>Wardrobe</li>
+	<li>Safety deposit box</li>
+	<li>24 hour room service</li>
+	<li>Fridge</li>
+	<li>Desk and chair</li>
+	<li>Air-conditioner</li>
+	<li>Phone</li>
+	<li>Daily cabin service</li>
+	<li>Complimentary toiletries</li>
+	<li>Hair dryer</li>
+</ul>
+</div>
+
+<div class="cruise-booking-price booking-price">
+	 <div class="booking-price-start">Total Price</div>
+	 <div class="booking-price-amount">INR <span>10,000 </span>
+	 <p>Per Cabin</p>
+	 </div>
+	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
+	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 
+	 </div> 
+</div>
+<div class="category-section-main last-border-bottom"></div>
+
+  
+	</div>
+	</div>
+
 </div>			
 
 
@@ -638,46 +847,26 @@ Features</span></p>
 		<div class="ft-one">			
 			<h5>CONTACT US - </h5>
 			<p>Zen Cruises Pvt Ltd</p>
-				<p>Essel Corporate Resources Pvt. Ltd.</p>
+				
 				<p>18<sup>th</sup> floor, A wing Marathon Futurex, N M Joshi Marg,<br>Lower Parel, Mumbai  400 013</p>
 		<div class="ft-on-sub">
 			<p><a href="mailto:admin@jaleshcruises.com"><i class="mail-ft"></i>admin@jaleshcruises.com</a><br><a href="tel:18002668927"><i class="call-ft"></i>18002668927</a></p>
 		</div>
 		</div>
-		<div class="ft-two mob-hidden">
+		<div class="ft-two">
 			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="plan-your-holiday.html">Plan your Holiday</a></li>
 				<li><a href="entertainment.html">EXPERIENCE</a></li> 
 				<li><a href="accomodation.html">ACCOMMODATION</a></li> 
-				<li><a href="personalized-events.html">Personalized Events</a></li>
+				<li><a href="customised-packages.html">CUSTOMISED PACKAGES</a></li>
 				<li><a href="karnika.html">THE Ship</a></li>
 				<li><a href="about-jalesh.html">ABOUT JALESH</a></li>
 				<li><a href="environment-policy.html">Environment Policy</a></li>
 			</ul>
 		</div>
-		
-		
-		<div class="ft-two">
-			<ul>
-				<li><a href="download-brochure.html" class="brochure">Download E-brochure</a></li>
-				<li><a href="pdf/jalesh-brochure.pdf" target="_blank">View E-brochure</a></li>
-				<li><a href="glossary.html">Glossary</a></li>
-				
-			</ul>
-		</div>
-		<div class="ft-two">
-		<div class="social">
-			<a href="https://www.facebook.com/jaleshcruises" target="_blank" class="fa fa-facebook"></a>
-<a href="https://twitter.com/CruisesJalesh" target="_blank" class="fa fa-twitter"></a>
-<a href="https://www.instagram.com/jaleshcruises/" target="_blank" class="fa fa-instagram"></a>
-
-</div>
-
-
-		</div>
 		<div class="ft-three">
-			<p>Copyright © 2019 jaleshcruises. All rights reserved.</p>
+			<p>Copyright © 2018 jaleshcruises. All rights reserved.</p>
 		</div>
 		</div>
 	</div>
@@ -685,44 +874,47 @@ Features</span></p>
 
 <!-- Start Login Popup -->
 
-	<div id="popup1" class="modal-box">
-<a href="#" class="js-modal-close close">×</a>
-  
-
+	<div id="popup1" class="modal-box"> <a href="#" class="js-modal-close close">×</a>
   <div class="modal-body">
     <div class="form">
-    <div id="login">   
-          <h1>Welcome Back!</h1>
-          
+      <div id="login">
+        <div class="login-img"><img src="images/login-form-img.jpg" alt=""></div>
+        <div class="login-cont">
+          <h1>Book A Cruise To Win A Special Gift Hamper </h1>
           <form action="/" method="post">
-          
             <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email"required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
-            <input type="password"required autocomplete="off"/>
-          </div>
-          
-     
-          
-          <button class="button button-block"/>Log In</button>
-          
+              <label> First Name </label>
+              <input type="text"  autocomplete="off"/>
+            </div>
+            <div class="field-wrap">
+              <label> Last Name </label>
+              <input type="text" autocomplete="off"/>
+            </div>
+            <div class="field-wrap">
+              <label> Email<span class="req">*</span> </label>
+              <input type="email" autocomplete="off"/>
+            </div>
+            <div class="field-wrap">
+              <label> Mobile Number<span class="req">*</span> </label>
+              <input type="text" autocomplete="off"/>
+            </div>
+            <div class="field-wrap">
+              <label> City </label>
+              <input type="text" autocomplete="off"/>
+            </div>
+            <div class="field-wrap">
+              <label> Age </label>
+              <input type="text" autocomplete="off"/>
+            </div>
+            <button class="button button-block" />
+            Submit
+            </button>
           </form>
-
         </div>
-        
-    
-      
-</div> <!-- /form -->
+      </div>
+    </div>
+    <!-- /form --> 
   </div>
-
 </div>
 
 <!-- End Login Popup -->

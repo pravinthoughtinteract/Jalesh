@@ -75,16 +75,21 @@ header {width:81.2%;  margin: 0 auto;position: relative;}
 
 .modal-box {
   display: none;
-  position: fixed;
+ position: fixed;
   z-index: 99999;
   width: 98%;
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-clip: padding-box;    top: 10% !important;
+ background-clip: padding-box;  top: 10% !important; 
 }
+
+
+
 @media (min-width: 32em) {
 
 .modal-box { width: 42%; }
+.modal-box1 {width: 34% !important; background-color: #912196; }
+
 }
 
 .modal-box header,
@@ -295,11 +300,13 @@ a.close:hover {
 }
 
 
+.register-cont{ width:43%; margin: 5% auto 0;}
+
 
 .login-img{width:100%; height:auto; float:left;}
 .login-img img{width:100%; height:auto; float:left;}
 .login-cont{width:90%;height:auto; margin: 0 5% 30px;float: left;}
-.error {width: 100%;height: 15px;font-size: 12px;color: #fff;position: relative;float: left;line-height: 22px;}
+.error {width: 100%;height: 15px;font-size: 12px;color: #fff;position: relative;float: left;line-height: 22px; }
 
 
 .forgot {
@@ -353,6 +360,7 @@ a.close:hover {
 .modal-box {top: 9% !important;}
 .form label { position: absolute;  -webkit-transform: translateY(5px); transform: translateY(5px) !important; font-size:13px; left:10px;}
 .form label.active { -webkit-transform: translateY(19px); transform: translateY(24px) translateY(19px) !important; left: 2px; font-size: 13px; }
+.register-cont{ width: 4%; margin:0;}
 
 
 }
@@ -370,7 +378,7 @@ a.close:hover {
 .form label { position: absolute;  -webkit-transform: translateY(5px); transform: translateY(5px) !important; font-size:13px; left:10px;}
 .form label.active { -webkit-transform: translateY(19px); transform: translateY(24px) translateY(19px) !important; left: 2px; font-size: 13px; }
 .error {height: 14px;font-size: 12px;line-height: 12px; margin-top: 5px;}
-
+.register-cont{ width: 100%; margin:0;}
 }
 
 @media only screen and (min-width:901px) and (max-width:1100px){
@@ -388,6 +396,7 @@ header {width: 91.2%;}
 .form input, textarea {font-size: 14px; padding: 6px 10px;}
 .modal-box { width: 50%; }
 .login-cont {width: 94%; margin: 0 3% 20px;}
+.register-cont{ width:70%; margin: 3% auto 0;}
 }
 
 @media only screen and (min-width:1101px) and (max-width:1200px){	
@@ -400,7 +409,8 @@ header {width: 91.2%;}
 .form label { font-size: 14px; padding:0;}
 .button { font-size: 13px; padding: 6px;left: 9px;}
 .form input, textarea {font-size: 14px; padding: 6px 10px;}
-.modal-box { width: 50%; }	
+.modal-box { width: 50%; }
+.register-cont{ width:70%; margin: 3% auto 0;}	
 }
 @media only screen and (min-width:1201px) and (max-width:1300px){	
 .slide-wrapper { padding:0;}
@@ -412,6 +422,7 @@ header {width: 91.2%;}
 .button { font-size: 13px; padding: 6px;left: 9px;}
 .form input, textarea {font-size: 14px; padding: 6px 10px;}
 .modal-box { width: 50%; }
+.register-cont{ width:60%; margin: 3% auto 0;}
 }
 @media only screen and (min-width:1301px) and (max-width:1400px){	
 .slide-wrapper { padding:0;}
@@ -424,7 +435,8 @@ header {width: 91.2%;}
 .form label { font-size: 14px; padding:0;}
 .button { font-size: 13px; padding: 6px;left: 9px;}
 .form input, textarea {font-size: 14px; padding: 6px 10px;}
-
+.modal-box { width: 50%; }
+.register-cont{ width:50%; margin: 3% auto 0;}
 }
 @media only screen and (min-width:1401px) and (max-width:1500px){
 .slide-wrapper { padding:0;}
@@ -438,6 +450,7 @@ header {width: 91.2%;}
 .form label { font-size: 14px; padding:0;}
 .button { font-size: 13px; padding: 6px;left: 9px;}
 .form input, textarea {font-size: 14px; padding: 6px 10px;}
+.register-cont{ width:50%; margin: 3% auto 0;}
 }
 
 @media only screen and (min-width:1501px) and (max-width:1600px){

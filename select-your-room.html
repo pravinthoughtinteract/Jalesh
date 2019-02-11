@@ -61,7 +61,9 @@
 			$("#top").fadeOut();
         }
 		
-});  });
+});  
+});
+
  
     </script> 
 <script type="text/javascript">
@@ -115,7 +117,7 @@
             <ul class="number">  
 			<li><i class="iconame2"></i><a href="tel:18002668927" class="noactive">18002668927 </a> </li> 
 			<span class="vrline"></span>
-			<li> <a class="js-open-modal noactive" href="#" data-modal-id="popup1">Register</a></li>
+			<li> <a href="register.html">Register</a></li>
 			
 			</ul> 
                     
@@ -183,9 +185,6 @@
                 
                 <ul>
                    
-					
-					
-					
 					<li class="hidden-xs">
                         <span class="line"><span class="badges">1</span></span>
                         <p><span class="visible-xs visible-sm ">Select Trip</span></p>
@@ -297,120 +296,123 @@
 <p>How many Staterooms<br>
 will you need?</p>
 <button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
+<!-- <input type="text" class="txtBox" value="0"> -->
+<div class="output">1</div>
 
 <button type="button" class="add">+</button>
 
 
 </div>
+	<div class="select-your-room-right">
+		<div class="select-your-room-tab">
 
-<div class="select-your-room-right">
-<div class="select-your-room-tab">
+			<div class="select-trip-head pd-off"> 
 
-
-	<div class="select-trip-head pd-off"> 
-
-<div class="select-trip-container tab-on">	
+				<div class="select-trip-container tab-on">	
  
-<ul class="nav nav-tabs" role="tablist">
-  <li role="presentation" class="active"><a href="#stateroom1" role="tab" data-toggle="tab">STATEROOM 1  </a></li>
-  <li role="presentation"><a href="#stateroom2" role="tab" data-toggle="tab">STATEROOM 2</a></li>
-  <li role="presentation"><a href="#stateroom3" role="tab" data-toggle="tab">STATEROOM 3</a></li>
-  <li role="presentation"><a href="#stateroom4" role="tab" data-toggle="tab">STATEROOM 4</a></li>
-  <li role="presentation"><a href="#stateroom5" role="tab" data-toggle="tab">STATEROOM 5</a></li>
-  
-  
-  
-</ul>
-
-</div>
-
- </div>
- <div class="select-trip-cont border-on">
+					<ul class="nav nav-tabs" role="tablist" id="totaltab">
+						  <li role="presentation" class="active"><a href="#stateroom1" role="tab" data-toggle="tab" class="mainTab" id="s1">STATEROOM 1</a></li>
+						  <li role="presentation"><a href="#stateroom2" role="tab" data-toggle="tab" class="mainTab" id="s2" tabindex='-1'>STATEROOM 2</a></li>
+						  <li role="presentation"><a href="#stateroom3" role="tab" data-toggle="tab" class="mainTab" id="s3" tabindex='-1'>STATEROOM 3</a></li>
+						  <li role="presentation"><a href="#stateroom4" role="tab" data-toggle="tab"  class="mainTab" id="s4" tabindex='-1'>STATEROOM 4</a></li>
+						  <li role="presentation"><a href="#stateroom5" role="tab" data-toggle="tab" class="mainTab" id="s5" tabindex='-1'>STATEROOM 5</a></li>
+					</ul>
+				</div>
+			</div>
+ 
+<div class="select-trip-cont border-on">
 <!-- Tab panes -->
 <div class="tab-content">
-  <div role="tabpanel" class="tab-pane active" id="stateroom1">
-<div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
+  	
+  	<div role="tabpanel" class="tab-pane active" id="stateroom1">
+		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subAdults" data-adults-name='Adults1' id="Asub1">-</button>
+					<div class="adults1">1</div>
+				<button type="button" class="addAdults" data-adults-name='Adults1' id="Aadd1">+</button>
+		</div>
 
-<div class="select-main-room-on">
-<p>Children (0-12)</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
-</div>
+		<div class="select-main-room-on">
+			<p>Children (0-12)</p>
+				<button type="button" class="subChild" data-child-name='Child1' id="Csub1">-</button>
+					<div class="child1">0</div>
+				<button type="button" class="addChild" data-child-name='Child1' id="Cadd1">+</button>
+		</div>
+	</div>
 
-<div role="tabpanel" class="tab-pane" id="stateroom2">
-<div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
+	<div role="tabpanel" class="tab-pane" id="stateroom2">
+		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subAdults" data-adults-name='Adults2' id="Asub2">-</button>
+					<div class="adults2">1</div>
+				<button type="button" class="addAdults" data-adults-name='Adults2' id="Aadd2">+</button>
+		</div>
 
-<div class="select-main-room-on">
-<p>Children (0-12)</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
-</div>
+		<div class="select-main-room-on">
+			<p>Children (0-12)</p>
+				<button type="button" class="subChild" data-child-name='Child2' id="Csub2">-</button>
+					<div class="child2">0</div>
+				<button type="button" class="addChild" data-child-name='Child2' id="Cadd2">+</button>
+		</div>
+	</div>
 
-  <div role="tabpanel" class="tab-pane" id="stateroom3">
-  <div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
+  	<div role="tabpanel" class="tab-pane" id="stateroom3">
+  		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subAdults" data-adults-name='Adults3' id="Asub3">-</button>
+					<div class="adults3">1</div>
+				<button type="button" class="addAdults" data-adults-name='Adults3' id="Aadd3">+</button>
+		</div>
 
-<div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div></div>
-  <div role="tabpanel" class="tab-pane" id="stateroom4">
-  <div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
+		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subChild" data-child-name='Child3' id="Csub3">-</button>
+					<div class="child3">0</div>
+			<button type="button" class="addChild" data-child-name='Child3' id="Cadd3">+</button>
+		</div>
+	</div>
 
-<div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div></div>
-  <div role="tabpanel" class="tab-pane" id="stateroom5"><div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div>
+  	<div role="tabpanel" class="tab-pane" id="stateroom4">
+  		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subAdults" data-adults-name='Adults4' id="Asub4">-</button>
+					<div class="adults4">1</div>
+				<button type="button" class="addAdults" data-adults-name='Adults4' id="Asub4">+</button>
+		</div>
 
-<div class="select-main-room-on">
-<p>Adults</p>
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-<button type="button" class="add">+</button>
-</div></div>
+		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subChild" data-child-name='Child4' id="Csub4">-</button>
+					<div class="child4">0</div>
+				<button type="button" class="addChild" data-child-name='Child4' id="Csub4">+</button>
+		</div>
+	</div>
+
+  	<div role="tabpanel" class="tab-pane" id="stateroom5">
+  		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subAdults" data-adults-name='Adults5'  id="Asub5">-</button>
+					<div class="adults5">1</div>
+				<button type="button" class="addAdults" data-adults-name='Adults5'   id="Aadd5">+</button>
+			</div>
+
+		<div class="select-main-room-on">
+			<p>Adults</p>
+				<button type="button" class="subChild" data-child-name='Child5' id="Csub5">-</button>
+					<div class="child5">0</div>
+				<button type="button" class="addChild" data-child-name='Child5' id="Csub5">+</button>
+		</div>
+	</div>
   
-</div></div>
+</div>
+</div>
 </div></div>
 
 
 </div>
 
-
-<div class="number-but button-select-main-proceed"><a href="review-your-stateroom.html">Proceed</a></div>
+<div class="showError"></div>
+<div class="number-but button-select-main-proceed" id="proceedDiv"><a id="proceed">Proceed</a></div>
 
 
 
@@ -470,7 +472,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 <div class="view-dates"><a href="" class='hotel' data-hotel-name='hotel1' id='hotel1'>Select & Continue</a></div>
 	 
 	 </div> 
 
@@ -521,7 +523,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="#stateroom2" role="tab" data-toggle="tab">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" role="tab" data-toggle="tab" class='hotel' data-hotel-name='hotel2' id='hotel2'>Select & Continue</a></div>
 	 
 	 </div> 
 
@@ -573,7 +575,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" class='hotel' data-hotel-name='hotel3' id='hotel3'>Select & Continue</a></div>
 	 
 	 </div> 
 
@@ -624,7 +626,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" class='hotel' data-hotel-name='hotel4' id='hotel4'>Select & Continue</a></div>
 	 
 	 </div> 
 </div>
@@ -677,7 +679,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" class='hotel' data-hotel-name='hotel1' id='hotel1'>Select & Continue</a></div>
 	 
 	 </div> 
 
@@ -725,7 +727,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="#stateroom2" role="tab" data-toggle="tab">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" role="tab" data-toggle="tab" class='hotel' data-hotel-name='hotel2' id='hotel2'>Select & Continue</a></div>
 	 
 	 </div> 
 
@@ -773,7 +775,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" class='hotel' data-hotel-name='hotel3' id='hotel3'>Select & Continue</a></div>
 	 
 	 </div> 
 
@@ -821,7 +823,7 @@ Features</span></p>
 	 <p>Per Cabin</p>
 	 </div>
 	 <p>+Taxes,fees and port expenses<br>92.02 INR*</p>
-	 <div class="view-dates"><a href="select-trip.html">Select & Continue</a></div>
+	 <div class="view-dates"><a href="#" class='hotel' data-hotel-name='hotel4' id='hotel4'>Select & Continue</a></div>
 	 
 	 </div> 
 </div>
@@ -847,7 +849,7 @@ Features</span></p>
 		<div class="ft-one">			
 			<h5>CONTACT US - </h5>
 			<p>Zen Cruises Pvt Ltd</p>
-				
+				<p>Essel Corporate Resources Pvt. Ltd.</p>
 				<p>18<sup>th</sup> floor, A wing Marathon Futurex, N M Joshi Marg,<br>Lower Parel, Mumbai  400 013</p>
 		<div class="ft-on-sub">
 			<p><a href="mailto:admin@jaleshcruises.com"><i class="mail-ft"></i>admin@jaleshcruises.com</a><br><a href="tel:18002668927"><i class="call-ft"></i>18002668927</a></p>

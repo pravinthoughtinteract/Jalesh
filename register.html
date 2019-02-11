@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--><!--<![endif]-->
+<html lang="en">
+<head>
+<title>JALESH CRUISES</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<meta name="author" content="">
+<meta name="Description" content="">
+<meta name="Keywords" content="">
+<link rel="icon" href="favicon.png" type="image/x-icon">
+<!--<link rel="shortcut icon" href="favicon.ico">-->
+<!-- Global CSS -->
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Plugins CSS -->
+<link href="css/reset.css" rel="stylesheet" type="text/css">
+<link href="css/main.css" rel="stylesheet" type="text/css">
+<link href="css/header.css" rel="stylesheet" type="text/css">
+
+
+</head>
+<body>
+
+
+
+
+
+
+
+
+
+
+<!-- Start Login Popup -->
+	<div class="register-cont"> 
+  <div class="modal-body">
+    <div class="form">
+      <div id="login">
+        <div class="login-img"><img src="images/login-form-img.jpg"></div>
+        <div class="login-cont">
+          <h1>Book A Cruise To Win A Special Gift Hamper</h1>
+          <form action="/" method="post">
+            <div class="field-wrap">
+              <label> First Name </label>
+              <input type="text"  autocomplete="off"/>
+<div class="error"><span>Please Enter Your First Name</span></div>
+            </div>
+            <div class="field-wrap">
+              <label> Last Name </label>
+              <input type="text" autocomplete="off"/>
+			  <div class="error"><span>Please Enter Your First Name</span></div>
+            </div>
+            <div class="field-wrap">
+              <label> Email<span class="req">*</span> </label>
+              <input type="email" autocomplete="off"/>
+			  <div class="error"><span>Please Enter Your First Name</span></div>
+            </div>
+            <div class="field-wrap">
+              <label> Mobile Number<span class="req">*</span> </label>
+              <input type="number" autocomplete="off"/>
+			  <div class="error"><span>Please Enter Your First Name</span></div>
+            </div>
+            <div class="field-wrap">
+              <label> City </label>
+              <input type="text" autocomplete="off"/>
+			  <div class="error"><span>Please Enter Your First Name</span></div>
+            </div>
+            <div class="field-wrap">
+              <label> Age </label>
+              <input type="text" autocomplete="off"/>
+			  <div class="error"><span>Please Enter Your First Name</span></div>
+            </div>
+            <button class="button button-block" />
+            Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- /form --> 
+  </div>
+  </div>
+
+<!-- End Login Popup --> 
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> 
+
+
+<script  type="text/javascript">
+
+$('.form').find('input, textarea').on('keyup blur focus', function (e) {
+  
+  var $this = $(this),
+      label = $this.prev('label');
+
+	  if (e.type === 'keyup') {
+			if ($this.val() === '') {
+          label.removeClass('active highlight');
+        } else {
+          label.addClass('active highlight');
+        }
+    } else if (e.type === 'blur') {
+    	if( $this.val() === '' ) {
+    		label.removeClass('active highlight'); 
+			} else {
+		    label.removeClass('highlight');   
+			}   
+    } else if (e.type === 'focus') {
+      
+      if( $this.val() === '' ) {
+    		label.removeClass('highlight'); 
+			} 
+      else if( $this.val() !== '' ) {
+		    label.addClass('highlight');
+			}
+    }
+
+});
+</script>
+</body>
+</html>

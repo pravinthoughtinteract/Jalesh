@@ -27,12 +27,13 @@
 <link href="css/animate.min.css" rel="stylesheet" type="text/css">
 <link href="css/cruise-booking.css" rel="stylesheet" type="text/css">
 <link href="css/select-trip.css" rel="stylesheet" type="text/css">
-<link href="css/traveling.css" rel="stylesheet" type="text/css">
+<link href="css/guest.css" rel="stylesheet" type="text/css">
 
 <!-- Select Trip CSS --> 
 <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> 
-<link href="css/jquery.scrolling-tabs.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/bootstrap.min.css"> 
+<!--<link href="css/jquery.scrolling-tabs-guest.css" rel="stylesheet" type="text/css">-->
+<link href="css/jquery.scrolling-tabs-guest.css" rel="stylesheet" type="text/css">
+ <link rel="stylesheet" href="css/bootstrap.min.css">  
 <link href="css/04.css" rel="stylesheet" type="text/css">
 
 
@@ -47,6 +48,7 @@
 <script src="bxslider/jquery.bxslider.min.js"></script>
 
 
+<script  type="text/javascript" src="js/form_validation.js"></script> 
 <script  type="text/javascript" src="js/include_script.js"></script> 
   <script>
         $(document).ready(function () {
@@ -139,8 +141,7 @@
 		  <li class="nav-item"><a href="#">The Ship</a>
 		   <ul class="maind sub-menu" style="display: none;">
 			<li class="nav-item"><a href="karnika.html" class="">Karnika</a></li>
-			<li class="nav-item"><a href="deck-plans.html" class="padl">-Deck Plans</a></li>
-			<li class="nav-item"><a href="whats-on-karnika.html" class="padl"> -What's On Karnika! </a></li>
+			<li class="nav-item"><a href="deck-plans.html" class="">Deck Plans</a></li>
 			</ul> 
 		  </li>
 		  <li class="nav-item"><a href="about-jalesh.html">ABOUT JALESH</a></li>
@@ -176,19 +177,21 @@
                         <span class="line"><span class="badges">1</span></span>
                         <p><span class="visible-xs visible-sm ">Select Trip</span></p>
                     </li>
+					
+					  <li class="hidden-xs">
+                        <span class="line"><span class="badges">2</span></span>
+                        <p><span class="hidden-sm">Select Cabin </span></p>
+                    </li>
+					
 					 <li class="active">
-                        <span class="line hidden-xs"><span class="badges">2</span></span>
+                        <span class="line hidden-xs"><span class="badges">3</span></span>
 						<div class="text-center visible-xs">
-                            <span class="line"><span class="badge badge-big">2/5</span></span>
+                            <span class="line"><span class="badge badge-big">3/5</span></span>
                         </div>
                        
-                        <p>Select Cabin</p>
+                        <p>Guest Information</p>
                     </li>
-                    
-                    <li class="hidden-xs">
-                        <span class="line"><span class="badges">3</span></span>
-                        <p><span class="hidden-sm">Guest Information </span></p>
-                    </li>
+					
                     <li class="hidden-xs">
                         <span class="line"><span class="badges">4</span></span>
                         <p><span class="hidden-sm">Add-Ons</span></p>
@@ -203,119 +206,139 @@
                     </li>
                 </ul>
             </div>
-			
-			<div class="head-line-main">
-
-		<h1>SELECT NUMBER OF ROOMS</h1>
-	
-	<div class="change-itinerary-section">
-	
-	<h4>3 Nights / 4 Days MUMBAI – NEW MANGALORE 
-–  MORMUGAO – MUMBAI</h4>
-<a href="search-result.html">Change Itinerary</a>
-	</div>
-	
-	
-	<div class="change-date-section" > 
-
-	
-	
-	
-<div class="change-date-section-five">
-	<h4>MON<br>
-<span>NOV 12</span>
-2018</h4></div>
-<div class="change-date-section-arrow"><img src="images/select-your-room/arrow.png">
-</div>
-<div class="change-date-section-five">
-<h4>MON<br>
-<span>DEC 12</span>
-2019</h4></div>
-
-<p>	<a href="#" id="button">Change date</a>
-	</p></div>
-	
-	
-	<div id="content">
-	<div class="details">
-	<a href="">
-	<div class="details-date"><h4><span>Mon</span><br>
-	May 6, 2019
-</h4>	</div>
-	
-	<div class="details-price"><h4><span>From</span><br>
-    INR 17000</h4></div>
-	</a>
-	
-	</div>
-	
-	<div class="details">
-	<a href="">
-	<div class="details-date"><h4><span>Mon</span><br>
-	May 6, 2019
-</h4>	</div>
-	
-	<div class="details-price"><h4><span>From</span><br>
-    INR 25000</h4></div>
-	</a>
-	
-	</div>
-	
-	
-	<div class="details">
-	<a href="">
-	<div class="details-date"><h4><span>Mon</span><br>
-	May 6, 2019
-</h4>	</div>
-	
-	<div class="details-price"><h4><span>From</span><br>
-    INR 17000</h4></div>
-	</a>
-	
-	</div>
-	</div>
-	
-	</div>
-			
-			
 			<div class="select-trip-wrapper">
 			
+<div class="head-line-main">
+	<h1>WHO'S TRAVELING?</h1>  </div>
+<div class="traveling-col-left">
+	<div class="select-trip-head"> 
+<div class="select-trip-container">	
+<ul class="nav nav-tabs" role="tablist" id="totalTab">
+  <li role="presentation" class="active"><a href="#primary" role="tab" data-toggle="tab" id="STATEROOM1">STATEROOM 1    </a></li>
+  <li role="presentation"><a href="#guest-2" role="tab" data-toggle="tab" id="STATEROOM2">STATEROOM 2  </a></li>
+  <li role="presentation"><a href="#guest-3" role="tab" data-toggle="tab" id="STATEROOM3">STATEROOM 3</a></li>
+  <li role="presentation"><a href="#guest-4" role="tab" data-toggle="tab" id="STATEROOM4">STATEROOM 4</a></li>
+  <li role="presentation"><a href="#guest-5" role="tab" data-toggle="tab" id="STATEROOM5">STATEROOM 5</a></li>
+ </ul>
+</div></div>
+	 <div class="select-trip-cont">
+<!-- Tab panes -->
+<div class="tab-content">
+  <div role="tabpanel" class="tab-pane active" id="primary">
+ <div class="select-trip-head"> 
+<div class="select-trip-container">	
+<ul class="nav nav-tabs-0" role="tablist" id="guest-list">
+  <li role="presentation" class="active"><a href="#form-1" role="tab" data-toggle="tab" id="guest1" data-guest-name='guest1'>Primary guest  </a></li>
+  <li role="presentation"><a href="#form-2"  name="form-2" role="tab" data-toggle="tab" id="guest2" data-guest-name='guest2'>Guest 1</a></li>
+  <li role="presentation"><a href="#form-3" role="tab" data-toggle="tab" id="guest3" data-guest-name='guest2'>Guest 2</a></li>
+  <li role="presentation"><a href="#form-4" role="tab" data-toggle="tab" id="guest4" data-guest-name='guest3'>Guest 3</a></li>
 
-
-<div class="select-number">
-	<div class="select-number-rooms">
-	 
-<h2>How many staterooms will you need?</h2>
-<h3>Most rooms accommodate up to 4 guests.</h3>
-	
-	
-	   </div>  
-<div class="select-numbers">
-<div class="select-main">
-<button type="button" class="sub">-</button>
-<input type="text" class="txtBox" value="0">
-
-<button type="button" class="add">+</button>
-
-
+</ul>
 </div>
-<div class="number-but-cont">
-<div class="number-but"><a href="select-your-room.html">Continue</a></div>
+ </div>
+<div class="select-trip-cont">
+<!-- Tab panes -->
+<div class="tab-content">
+<div class="select-trip-section">
+ <form>
+  <div class="trip-section">
+  <ul >
+  <li><input placeholder="First Name" name="fname" data-guest-name='fname'><label>Your first and last name must match what appears on your government-issued photo ID.</label>  </li>
+  <li><input placeholder="Last Name" name="lname" data-guest-name='lname'>  </li>
+  <li> <input placeholder="Phone Number" name="mobile" data-guest-name='mobile'>  </li>
+   <li><input placeholder="Email Address" name="email" data-guest-name='email'>    <label> We'll send your cruise confirmation to this address<label> </li>
+   <li><input placeholder="Select Gender" name="Gender" data-guest-name='gender'>  </li>
+   <li><select>
+   <option value="0"> State or Province</option>
+   <option value="1"> 1</option>
+   <option value="2"> 2</option>
+   <option value="3"> 3</option>
+   <option value="4"> 4</option>
+   </select></li>
+   <li> <p> Date of Birth  </p>
+ <select class="select" name="month" data-guest-name='month'>   <option> MM</option></select>
+   <select class="select" name="day" data-guest-name='day'> <option> DD</option></select>
+<select class="select" name="year" data-guest-name='year'>   <option>  YYYY</option></select>   </li>
+   <div class="your-preferences">
+ <p> Select Your Preferences</p>
+<div class="your-preferences" ><div class="your-preferences-one" name="food" data-guest-name='food'>
+<label class="select-main-check"> Veg Food  <input type="checkbox" checked="checked">  <span class="checkmark"></span></label>
+<label class="select-main-check"> Non-Veg Food  <input type="checkbox" checked="checked">  <span class="checkmark"></span></label></div>
+<div class="your-preferences-two"><p>  Traditional Dining lets you enjoy reserved seating at a set time each day.</p></div>
+<div class="your-preferences-three"> <select>   <option>6:00 pm</option></select></div></div>
+<div class="your-preferences"><div class="your-preferences-one">
+<label class="select-main-check">Jain Food  <input type="checkbox" checked="checked">  <span class="checkmark"></span></label></div>
+<div class="your-preferences-two"><p>My time Dining<span>Enjoy a flexible dining schedule</span></p>
+</div><div class="your-preferences-three"> <select>   <option>6:00 pm</option></select></div>
 </div>
-
-</div>
-<div class="select-numbers">
-<label class="select-main-check"><i><img src="images/select-cabin/stateroom.png"></i>I need an accessible stateroom
-  <input type="checkbox" checked="checked">
-  <span class="checkmark"></span>
-</label>
+<button class="button button-select-main-guests"><input type="submit" value="Continue" id="continue"></button></div>
+ </ul>
+ </div>
+  </form>
+  </div>
  
-	   </div> </div>
-	
+ 
+  
+  
+  
+</div>
+
+
+
+
+
+</div>
+  
+  </div>
+  
+  
+  
+  
+  
+   
+   
+  
+  
+  
+ 
+   
+  
+</div>
+
+
+
+</div>
+ 
+</div> 
 	  
+	<div class="traveling-col-right">
 	  
-	  
-	 
+<h2>Summary
+</h2>
+<p>
+Ocean View                           <span>INR 0000.00</span>          
+</p>
+<p>
+2 Guests<br>
+Deck 3  |  Room 11116 <span class="text-small">Edit</span></p>
+<p>
+Subtotal:                                <span>INR 0000.00</span>  </p>
+<p>
+Taxes & Fees                            <span>INR 0000.00</span>  </p>
+
+
+
+<p class="main-divid">
+TOTAL<br>
+Minimum Deposit                     <span>INR 0000.00</span>  </p>
+
+
+
+<h3>Cancellation Policy</h3>
+<p>In publishing and graphic design, lorem ipsum is a placeholder
+text used to demonstrate the visual form of a document without 
+relying on meaningful content .
+	</p>  </div>
 	  
 	 
 	  
@@ -341,50 +364,30 @@
 		<div class="ft-one">			
 			<h5>CONTACT US - </h5>
 			<p>Zen Cruises Pvt Ltd</p>
-				
+				<p>Essel Corporate Resources Pvt. Ltd.</p>
 				<p>18<sup>th</sup> floor, A wing Marathon Futurex, N M Joshi Marg,<br>Lower Parel, Mumbai  400 013</p>
 		<div class="ft-on-sub">
 			<p><a href="mailto:admin@jaleshcruises.com"><i class="mail-ft"></i>admin@jaleshcruises.com</a><br><a href="tel:18002668927"><i class="call-ft"></i>18002668927</a></p>
 		</div>
 		</div>
-		<div class="ft-two mob-hidden">
+		<div class="ft-two">
 			<ul>
 				<li><a href="index.html">HOME</a></li>
 				<li><a href="plan-your-holiday.html">Plan your Holiday</a></li>
 				<li><a href="entertainment.html">EXPERIENCE</a></li> 
 				<li><a href="accomodation.html">ACCOMMODATION</a></li> 
-				<li><a href="personalized-events.html">Personalized Events</a></li>
+				<li><a href="customised-packages.html">CUSTOMISED PACKAGES</a></li>
 				<li><a href="karnika.html">THE Ship</a></li>
 				<li><a href="about-jalesh.html">ABOUT JALESH</a></li>
 				<li><a href="environment-policy.html">Environment Policy</a></li>
 			</ul>
 		</div>
-		
-		
-		<div class="ft-two">
-			<ul>
-				<li><a href="download-brochure.html" class="brochure">Download E-brochure</a></li>
-				<li><a href="pdf/jalesh-brochure.pdf" target="_blank">View E-brochure</a></li>
-				<li><a href="glossary.html">Glossary</a></li>
-				
-			</ul>
-		</div>
-		<div class="ft-two">
-		<div class="social">
-			<a href="https://www.facebook.com/jaleshcruises" target="_blank" class="fa fa-facebook"></a>
-<a href="https://twitter.com/CruisesJalesh" target="_blank" class="fa fa-twitter"></a>
-<a href="https://www.instagram.com/jaleshcruises/" target="_blank" class="fa fa-instagram"></a>
-
-</div>
-
-
-		</div>
 		<div class="ft-three">
-			<p>Copyright © 2019 jaleshcruises. All rights reserved.</p>
+			<p>Copyright © 2018 jaleshcruises. All rights reserved.</p>
 		</div>
 		</div>
 	</div>
-</section> 
+</section> 	
 
 <!-- Start Login Popup -->
 
@@ -434,7 +437,6 @@
 <!-- End Login Popup -->
 
 
-  
 <script src="dist/js/bind-polyfill.js"></script> 
 <script src="dist/js/smooth-scroll.js"></script> 
 <script src="js/scroll.js"></script> 
@@ -458,31 +460,6 @@
   </script>  
   
 
-<script>
-$(document).ready(function(){
-    
-    $('#button').click( function(e) {
-        
-        e.preventDefault(); // stops link from making page jump to the top
-        e.stopPropagation(); // when you click the button, it stops the page from seeing it as clicking the body too
-        $('#content').toggle();
-        
-    });
-    
-    $('#content').click( function(e) {
-        
-        e.stopPropagation(); // when you click within the content area, it stops the page from seeing it as clicking the body too
-        
-    });
-    
-    $('body').click( function() {
-       
-        $('#content').hide();
-        
-    });
-    
-});
-  </script> 
 
 
 
@@ -498,10 +475,10 @@ $(document).ready(function(){
 	<!-- Select Trip js -->
 	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-  <script  src="js/index.js"></script>
 <script src="js/jquery.scrolling-tabs.js"></script>
 <script>
 $('.nav-tabs').scrollingTabs();
+
 </script>
 
 </body>

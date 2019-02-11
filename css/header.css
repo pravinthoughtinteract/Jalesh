@@ -373,7 +373,7 @@ a.close:hover {
 .modal-box {width: 90%;}
 .button-block {width: 40%;}
 
-.field-wrap { margin-bottom: 19px;width: 46%; margin-right: 10px;}
+.field-wrap { margin-bottom: 19px;width: 100%; margin-right: 10px;}
 .modal-box {top: 9% !important;}
 .form label { position: absolute;  -webkit-transform: translateY(5px); transform: translateY(5px) !important; font-size:13px; left:10px;}
 .form label.active { -webkit-transform: translateY(19px); transform: translateY(24px) translateY(19px) !important; left: 2px; font-size: 13px; }

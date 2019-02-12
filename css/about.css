@@ -25,6 +25,8 @@
 .envirment-policy h2{font-size: 25px;text-align: center;text-transform: uppercase;color: #333333; font-weight:bold;     float: left;     width: 100%;     padding-bottom: 15px;}
 
 .clean-waves-logo{width:253px; height:auto; margin: 50px auto 40px; clear: both;}
+.clean-waves-logo1{width:160px; height:auto; position: absolute; top: 40px;left: 0;}
+.clean-waves-logo1 img{width:100%;}
 
 .contact-main{width:100%;float:left;}
 .contact-container{width: 59%;margin: 0 auto;}
@@ -91,6 +93,7 @@ transition: all 0.5s ease-in;}
 .contact-container {width: 76%;}
 .contact-sub h3{font-size: 18px;}
 .contact-sub p {font-size: 16px;margin-top:20px;}
+.clean-waves-logo1{width: 140px; top: 15px;}
 }
 
 @media only screen and (min-width:1201px) and (max-width:1300px){
@@ -105,6 +108,8 @@ transition: all 0.5s ease-in;}
 .contact-container {width: 75%;}
 .contact-sub h3{font-size: 18px;}
 .contact-sub p {font-size: 16px;margin-top:20px;}
+.clean-waves-logo1{width: 140px; top: 15px;}
+
 }
 
 @media only screen and (min-width:1101px) and (max-width:1200px){
@@ -119,6 +124,7 @@ transition: all 0.5s ease-in;}
 .contact-container {width: 75%;}
 .contact-sub h3{font-size: 18px;}
 .contact-sub p {font-size: 16px;margin-top:20px;}
+.clean-waves-logo1{width: 140px; top: 15px;}
 }
 
 @media only screen and (min-width:1000px) and (max-width:1100px){
@@ -135,6 +141,7 @@ transition: all 0.5s ease-in;}
 .contact-container {width: 88%;}
 .contact-sub h3{font-size: 18px;}
 .contact-sub p {font-size: 16px;margin-top:20px;}
+.clean-waves-logo1{width: 140px; top: 15px;}
 }
 
 
@@ -150,6 +157,7 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 16px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding: 0 5%;margin-bottom: 22px;}
 
 .contact-container {width: 91%;}
@@ -173,6 +181,7 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding:0;margin-bottom: 22px;}
 .contact-container {width: 91%;}
 .contact-sub .contact-left {width:100%;}
@@ -194,6 +203,7 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 .contact-container {width: 91%;}
 .contact-sub .contact-left {width:100%;}
@@ -215,6 +225,7 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
 .contact-container {width: 91%;}
@@ -240,6 +251,7 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
 .contact-container {width: 91%;}
@@ -264,7 +276,8 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li:nth-child(1) {list-style-type: disc; }
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
-.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.about-karnika{position: relative;top: inherit;width: 169px;right: inherit;float: left;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
 .contact-container {width: 91%;}
@@ -276,6 +289,7 @@ transition: all 0.5s ease-in;}
 .contact-sub .contact-right ul li input {width:91%;background: transparent;padding: 12px 4%;font-size: 12px;}
 .contact-sub .contact-right ul li textarea {width:91%;padding: 4% 4%;font-size: 12px;height: 38px;}
 .contact-sub .contact-right ul li input.submit {width:91%;}
+
 
 }
 @media only screen and (min-width:0px) and (max-width:320px){
@@ -290,6 +304,7 @@ transition: all 0.5s ease-in;}
 .abt-2txt ul li{margin-left: 23px;width: 20%;text-align: left; }
 .abt-top-txt h3 a {font-size: 15px;padding: 8px 23px;}
 .about-karnika{position: relative;top: inherit;width: 169px;right: inherit;}
+.clean-waves-logo1{width: 140px;position: relative;top: inherit;left: inherit;float: left;}
 .envirment-policy p {padding:0;margin-bottom: 15px;}
 
 

@@ -4,8 +4,7 @@
 <!--[if !IE]><!--><!--<![endif]-->
 <html lang="en"> 
 <head>
-<title>JALESH
-CRUISES</title>
+<title>JALESH CRUISES</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
@@ -13,7 +12,7 @@ CRUISES</title>
 <meta name="Description" content="">
 <meta name="Keywords" content="">
  <link rel="icon" href="favicon.png" type="image/x-icon">
-<!--<link rel="shortcut icon" href="favicon.ico">-->
+
 <!-- Global CSS -->
 <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap.min.css">   
@@ -22,19 +21,23 @@ CRUISES</title>
 <link href="css/meanmenu.css" rel="stylesheet" type="text/css">
 <link href="css/dining.css" rel="stylesheet" type="text/css">
 <link href="css/header.css" rel="stylesheet" type="text/css">
-<link href="css/footer.css" rel="stylesheet" type="text/css"> 
+<link href="css/footer.css" rel="stylesheet" type="text/css">
+<link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
 <link href="css/animate.min.css" rel="stylesheet" type="text/css">
 <link href="css/an.css" rel="stylesheet" type="text/css">
+<link href="css/casino.css" rel="stylesheet" type="text/css" media="all">
 <link rel="stylesheet" href="pre1/jpreloader.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 
 <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
 
 <script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.meanmenu.js"></script> 
+<script type="text/javascript" src="js/jquery.meanmenu.js"></script>
+<script src="bxslider/jquery.bxslider.min.js"></script> 
 <script  type="text/javascript" src="js/include_script.js"></script>
+
+
 
   <script>
         $(document).ready(function () {
@@ -50,111 +53,21 @@ CRUISES</title>
 });  });
  
     </script>
-	
-	
-	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script> 
-      <script type="text/javascript" src="bxslider/lib/jquery.bxslider.min.js"></script>
-      <link rel="stylesheet" type="text/css" href="bxslider/lib/jquery.bxslider.css">
-  <style type="text/css">
-    div.bxslider {
-    margin-left: 25%;
-    margin-right: 25%;
-}
-.slide{margin:0 15px; }
-  </style>
-  <!-- TODO: Missing CoffeeScript 2 -->
-
-  <script type="text/javascript">
-
-
-    $(window).load(function(){
-      
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-    slideWidth: 1000,
-    minSlides: 2,
-    maxSlides: 3,
-    moveSlides: 1,
-    pager: false,
-    auto: true
-  });
-  
-  if ($(window).width() < 960) {
-   $('.bxslider').bxSlider({
-  minSlides: 1,
-  maxSlides: 1,
-  controls: true,
-  pager: false,
-  slideWidth: 1000,
-  useCSS: false,
-  slideMargin: 40
-});
-	$('.bxslider').bxSlider({
-  minSlides: 1,
-  maxSlides: 1,
-  controls: true,
-  pager: false,
-  slideWidth: 1000,
-  slideMargin: 10
-});
-}
-else {
-   $('.bxslider').bxSlider({
-  minSlides: 4,
-  maxSlides: 4, infiniteLoop: false,
-   hideControlOnEnd:true,
-  controls: true,
-  pager: false,   moveSlides: 1,
-        startSlide: 1,
-  slideWidth: 1000, easing: "easeInBounce",
-        pager: !1,
-  useCSS: false, 
-  slideMargin: 40
-});
-	$('.bxslider').bxSlider({
-  minSlides: 4,
-  maxSlides: 4,  infiniteLoop: false,
-   hideControlOnEnd: true,
-  pager: true, moveSlides: 1, easing: "easeInBounce",
-        pager: !1, 
-   
-  controls: true,
-  slideWidth: 1000,
-  slideMargin: 10
-});
-
-
-
-$(".bx-controls-direction").on( "click", ".bx-prev.disabled", function() {
-    var slideQty = slider.getSlideCount();
-    slider.goToSlide(slideQty-1);
-});
-
-$(".bx-controls-direction").on( "click", ".bx-next.disabled", function() {
-    slider.goToSlide(0);
-});
-}
-  
-  
-});
-
-    });
-
-</script>
 
 
 </head>
 <body> 
 
+
 <!-- Preloader Start --> 
         <div id="main-preloader" class="main-preloader semi-dark-background">
             <div class="main-preloader-inner center">
 
-                <h1 class="preloader-percentage center">
-                   <div style="width: 100%; margin-bottom: 10px;">  <img id="loading" src="images/loader.gif" alt=""></div>
+                <div class="preloader-percentage center">
+                   <div style="width: 100%; margin-bottom: 10px;">  <img id="loading" src="images/loader.gif" alt="loader" title="loader"></div>
                     <span class="preloader-percentage-text">0</span> <!-- Show Percentage Number -->
                     <span class="percentage">%</span>
-                </h1>
+                </div>
                 <div class="preloader-bar-outer">
                     <div class="preloader-bar"></div> <!-- Percentage Precess Bar -->
                 </div>
@@ -164,15 +77,15 @@ $(".bx-controls-direction").on( "click", ".bx-next.disabled", function() {
 <!-- Preloader Start --> 
 
 
+ 
 <div id="top"></div>
 <a class="uparrow" data-scroll data-options='{ "easing": "easeOutQuad" }' href="#top" ></a>
 
 </div>
 
-
 <div class="navi-getion homenav innercontainer">
 	<header>
-	<a href="index.html" class="logocont"><img src="images/logo.png" alt="logo" class="logo"/></a>
+	<a href="index.html" class="logocont"><img src="images/logo.png" alt="logo" title="logo" class="logo"/></a>
 	
 
 	 
@@ -219,7 +132,6 @@ $(".bx-controls-direction").on( "click", ".bx-next.disabled", function() {
 		 </li>
 		  <li class="nav-item"><a href="accomodation.html" class="">Accommodation</a></li>
 		  
-		  
 		  <li class="nav-item"><a href="personalized-events.html">Personalized Events</a></li>
 		  <li class="nav-item"><a href="#">The Ship</a>
 <ul class="maind sub-menu" style="display: none;">
@@ -232,48 +144,218 @@ $(".bx-controls-direction").on( "click", ".bx-next.disabled", function() {
 		</ul> 
 	  </nav> 
 	</header>
-	</div>     <div class="clear"></div>
+	</div>
+	<div class="clear"></div>
 	
 	  
 				
 				 <section class="slide-wrapper">
-				<div class="dining-banner">	<img src="images/casino/main-banner.jpg">
-			</div></section>
+				 
+				<div class="dining-banner">	<img src="images/casino/banner.jpg" alt="What's On Karnika" title="What's On Karnika">
+			</div>
+			</section>
 				 
 					 <section class="dining-section">	
-				<div class="dining-section-dining">
-				<h1>casino</h1>
-				<p>Roll the dice and spend your night with the lady luck and enjoy a flutter at Players Bar & Casino. Located on Deck 8, the Royal Casino will spoil you for choices. From most popular games like Blackjack, Poker, Scratch-off, High Roller, and Slot Machine Games to some amazing table games, this place is sure to rise up your excitement. While you are busy praying for your luck, we are here to quench your thirst with some sparkling spirits. Get ready to experience a slice of Vegas right at sea - with thousands of square feet of lights, action, slots, and tables. </p>
+<div class="dining-section-dining">
+				<h1>Casino</h1>
+				
+				<p>Located on Deck 8, the Player’s Casino will spoil you for choices. From most popular games like Blackjack, Poker, Casino War and Slot Machine Games to some amazing table games, this place is sure to rise up your excitement. </p>
+		
 		 	
-	<div class="casino-cont">		 
-   <div class="bxslider">
-    <div class="slide"><img src="images/casino/img-1.jpg" /></div> 
-	 <div class="slide"><img src="images/casino/img-2.jpg" /></div> 
-	  <div class="slide"><img src="images/casino/img-3.jpg" /></div> 
-	   <div class="slide"><img src="images/casino/img-4.jpg" /></div> 
-	    <div class="slide"><img src="images/casino/img-5.jpg" /></div> 
-		 <div class="slide"><img src="images/casino/img-6.jpg" /></div> 
-		  <div class="slide"><img src="images/casino/img-7.jpg" /></div> 
-		   <div class="slide"><img src="images/casino/img-8.jpg" /></div> 
-		    <div class="slide"><img src="images/casino/img-9.jpg" /></div> 
-			 <div class="slide"><img src="images/casino/img-10.jpg" /></div> 
-			  <div class="slide"><img src="images/casino/img-11.jpg" /></div> 
-			   <div class="slide"><img src="images/casino/img-12.jpg" /></div> 
-			   
+						 </div>		
+
+
+<div class="casino-cont"> 
+
+<div class="cols-12">
+<div class="cols-30">
+
+<div class="casino-col">
+
+<div class="casino-img"><img src="images/casino/img1.jpg" alt="Baccarat" title="Baccarat"></div>
+<div class="casino-caption">
+<h2>Baccarat</h2>
+<div class="casino-caption-line"></div>
+<p>Bet and guess is all you need to do for playing Baccarat.</p>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="cols-30 marlr">
+
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img2.jpg" alt="Mini Flush" title="Mini Flush"></div>
+<div class="casino-caption">
+<h2>Mini Flush</h2>
+<div class="casino-caption-line"></div>
+<p>You can brush up your skills here before you head to the big bet.</p>
 </div>
 </div>
+
+</div>
+
+
+
+<div class="cols-30">
+
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img3.jpg" alt="Teen Patti" title="Teen Patti"></div>
+<div class="casino-caption">
+<h2>Indian Flush a.k.a Teen Patti</h2>
+<div class="casino-caption-line"></div>
+<p>The most hyped and the most popular game amongst the Indian is Teen Patti.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+
+
+<div class="cols-12">
+
+<div class="cols-30 mar_r">
+
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img4.jpg" alt="Roulette" title="Roulette"></div>
+<div class="casino-caption caption-top">
+<h2>Roulette</h2>
+<div class="casino-caption-line"></div>
+<p>Roulette is one exciting game where the player’s heart will race as soon as the ball is dropped on the little wheel.</p>
+</div>
+</div>
+
+</div>
+
+<div class="cols-65">
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img5.jpg" class="desk-img" alt="Sports Betting" title="Sports Betting"><img src="images/casino/img5-mob.jpg" class="mob-img" alt="Sports Betting" title="Sports Betting"></div>
+<div class="casino-caption left">
+<h2>Sports Betting</h2>
+<div class="casino-caption-line"></div>
+<p>Best therapy to refresh your mind, body & soul after indulging in all the fun-filled activities on the cruise. </p>
+</div>
+</div>
+
+</div>
+
+
+<div class="cols-30 mar_r">
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img6.jpg" alt="Casino War" title="Casino War"></div>
+<div class="casino-caption">
+<h2>Casino War</h2>
+<div class="casino-caption-line"></div>
+<p>May the best man win the Casino War. </p>
+</div>
+</div>
+</div>
+
+<div class="cols-30 float_r">
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img7.jpg" alt="Slot Machines" title="Slot Machines"></div>
+<div class="casino-caption caption-top">
+<h2>Slot Machines</h2>
+<div class="casino-caption-line"></div>
+<p>If you hit the jackpot, your luck is way too good to be true. </p>
+</div>
+</div>
+
+</div>
+
+<div class="cols-65">
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img8.jpg" class="desk-img" alt="Blackjack" title="Blackjack">
+<img src="images/casino/img8-mob.jpg" class="mob-img" alt="Blackjack" title="Blackjack"></div>
+<div class="casino-caption left">
+<h2>Blackjack</h2>
+<div class="casino-caption-line"></div>
+<p>The game of 21 is what the Blackjack or the banking game is all about.</p>
+</div>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="cols-12">
+<div class="cols-30">
+
+<div class="casino-col">
+
+<div class="casino-img"><img src="images/casino/img9.jpg" alt="Lottery" title="Lottery"></div>
+<div class="casino-caption">
+<h2>Lottery</h2>
+<div class="casino-caption-line"></div>
+<p>All your favourite lotteries are available onboard. No rules, no regulations, all you need is the luck to be a winner.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="cols-30 marlr">
+
+<div class="casino-col">
+
+<div class="casino-img"><img src="images/casino/img10.jpg" alt="Electronic Roulette" title="Electronic Roulette"></div>
+<div class="casino-caption">
+<h2>Electronic Roulette</h2>
+<div class="casino-caption-line"></div>
+<p>A real revolution for all the roulette lovers to earn with speed & efficiency</p>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="cols-30">
+
+<div class="casino-col">
+<div class="casino-img"><img src="images/casino/img11.jpg" alt="EM Poker" title="EM Poker"></div>
+<div class="casino-caption">
+<h2>Texas Hold´em Poker</h2>
+<div class="casino-caption-line"></div>
+<p>The most easy to learn game in the Casino is undoubtedly Texas Hold’em Poker.</p>
+</div>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+
+</div>						 
+			
+ 
  
 
+
+</section>
+
+
  
- 
- </div>
-  
- 
-  
-  
-		</div>	</section>
 				<section class="book-your-dream-section">
-			<div class="holiday-dream-section">	<img src="images/icon.png">
+			<div class="holiday-dream-section">	<img src="images/icon.png" alt="ship icon" title="ship icon">
 				</div>
 				<h5>Connect With Our Holiday Advisor 
 			</h5>
@@ -330,87 +412,32 @@ $(".bx-controls-direction").on( "click", ".bx-next.disabled", function() {
 		</div>
 		</div>
 	</div>
-</section> 	
+</section>  		 
 
-<!-- Start Login Popup -->
-
-<div id="popup1" class="modal-box"> <a href="#" class="js-modal-close close">×</a>
-  <div class="modal-body">
-    <div class="form">
-      <div id="login">
-        <div class="login-img"><img src="images/login-form-img.jpg" alt=""></div>
-        <div class="login-cont">
-          <h1>Book A Cruise To Win A Special Gift Hamper </h1>
-          <form action="/" method="post">
-            <div class="field-wrap">
-              <label> First Name </label>
-              <input type="text"  autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Last Name </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Email<span class="req">*</span> </label>
-              <input type="email" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Mobile Number<span class="req">*</span> </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> City </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Age </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <button class="button button-block" />
-            Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- /form --> 
-  </div>
-</div>
-
-<!-- End Login Popup -->
-
- 
+	 
 <script src="dist/js/bind-polyfill.js"></script> 
 <script src="dist/js/smooth-scroll.js"></script> 
 <script src="js/scroll.js"></script> 
 <script  type="text/javascript" src="js/smooth.js"></script> 
 <script src="js/jquery.mousewheel.js" type="text/javascript"></script> 
  
-<script src="js/wow.js"></script> 
 
 
 
 
- <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-  </script>
-<script src="pre1/sPreloader.js"></script>
- <script type="text/javascript">        
-     $('body').jpreLoader({
-         preMainSection:     '#main-preloader',
-         prePerText:         '.preloader-percentage-text',
-         preBar:             '.preloader-bar',
-     });       
-</script>
+  
+  
+	
+  <script src="pre1/sPreloader.js"></script>
+
+    <script type="text/javascript">        
+       $('body').jpreLoader({
+           preMainSection:     '#main-preloader',
+           prePerText:         '.preloader-percentage-text',
+           preBar:             '.preloader-bar',
+       });       
+    </script>
+
 
 </body>
 </html>

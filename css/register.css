@@ -212,6 +212,11 @@ html{font-family: 'Philosopher', sans-serif;}
 .ft_four li a.icon1, .ft_four li a.icon2, .ft_four li a.icon3, .ft_four li a.icon4 {width: 33px;height: 34px;}
 
 .enroll_sub_right {margin-top: 37px;min-height: 359px;}
+
+.thank-cont h2{font-size: 25px; padding: 1em 0 0.3em;}
+.thank-cont h3{font-size: 14px;line-height: 18px;}
+.package-content{min-height: 178.5px;}
+.book_btn a {width: 94%; font-size: 16px; line-height: 30px; padding: 0 0em 0 6%;}
 }
 @media only screen and (min-width:1401px) and (max-width:1500px){
 .logo {width: 10%;}
@@ -254,6 +259,12 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li p {font-size: 25px;}
 .first_datesec ul li { margin-left: 4%;}
 .first_datesec ul li a {font-size: 23px;}
+
+
+.thank-cont h2{font-size: 25px; padding: 1em 0 0.3em;}
+.thank-cont h3{font-size: 14px;line-height: 18px;}
+.package-content{min-height: 160.5px;}
+.book_btn a {width: 94%; font-size: 16px; line-height: 30px; padding: 0 0em 0 6%;}
 
 }
 
@@ -300,9 +311,11 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li { margin-left: 4%;}
 .first_datesec ul li a {font-size: 22px;}
 
+.thank-cont h1{font-size: 25px;line-height: 20px; padding: 15px 0 29px;}
 .thank-cont h2{font-size: 25px; padding: 1em 0 0.3em;}
 .thank-cont h3{font-size: 14px;line-height: 18px;}
 .package-content{min-height: 152.5px;}
+.book_btn a {width: 94%; font-size: 16px; line-height: 30px; padding: 0 0em 0 6%;}
 
 }
 
@@ -355,6 +368,12 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li { margin-left: 4%;}
 .first_datesec ul li a {font-size: 20px;}
 
+.thank-cont h1{font-size: 25px;line-height: 20px; padding: 15px 0 29px;}
+.thank-cont h2{font-size: 22px; padding: 0.8em 0 0.1em;}
+.thank-cont h3{font-size: 13px;line-height: 18px;}
+.package-content{min-height: 142.5px;}
+.book_btn a{width: 94%; font-size: 16px; line-height: 30px; padding: 0 0em 0 6%;}
+
 }
 
 @media only screen and (min-width:1101px) and (max-width:1200px){
@@ -402,6 +421,12 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li p {font-size: 22px;}
 .first_datesec ul li { margin-left: 4%;}
 .first_datesec ul li a {font-size: 20px;}
+
+.thank-cont h1{font-size: 25px;line-height: 20px; padding: 15px 0 29px;}
+.thank-cont h2{font-size: 17px; padding: 0.5em 0 0em;}
+.thank-cont h3{font-size: 12px;line-height: 18px;}
+.package-content{min-height: 113.5px;}
+.book_btn a{width: 94%; font-size: 13px; line-height: 26px; padding: 0 0em 0 6%;}
 }
 
 @media only screen and (min-width:1000px) and (max-width:1100px){
@@ -455,6 +480,12 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li {margin-left: 5%;width: 12%;}
 .first_datesec ul li a {font-size: 18px;}
 
+.thank-cont h1{font-size: 25px;line-height: 20px; padding: 15px 0 29px;}
+.thank-cont h2{font-size: 17px; padding: 0.5em 0 0em;}
+.thank-cont h3{font-size: 12px;line-height: 18px;}
+.package-content{min-height: 113.5px;}
+.book_btn a{width: 94%; font-size: 13px; line-height: 26px; padding: 0 0em 0 6%;}
+
 }
 
 @media only screen and (min-width:701px) and (max-width:800px){
@@ -495,9 +526,21 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li a {font-size: 20px;}
 
 
-}
+.thank-cont h1{font-size: 25px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 22px; padding: 0.8em 0 0em;}
+.thank-cont h3{font-size: 16px;line-height: 22px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
 
 }
+
+
 
 
 @media only screen and (min-width:601px) and (max-width:700px){
@@ -539,6 +582,19 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li p {font-size: 23px;}
 .first_datesec ul li {margin-left: 5%;width: 12%;}
 .first_datesec ul li a {font-size: 20px;}
+
+
+.thank-cont h1{font-size: 25px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 22px; padding: 0.8em 0 0em;}
+.thank-cont h3{font-size: 16px;line-height: 22px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
 }
 
 @media only screen and (min-width:501px) and (max-width:600px){
@@ -580,6 +636,19 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li p {font-size: 23px;}
 .first_datesec ul li {margin-left: 5%;width: 12%;}
 .first_datesec ul li a {font-size: 20px;}
+
+
+.thank-cont h1{font-size: 25px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 22px; padding: 0.8em 0 0em;}
+.thank-cont h3{font-size: 16px;line-height: 22px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
 }
 
 @media only screen and (min-width:401px) and (max-width:500px){
@@ -613,6 +682,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .footer_last_sub h3 {font-size: 12px;line-height: 19px;}
 
 
+
 .paddclr{background:#f67064;margin-top: 7%;}
 .enroll_sub_left{width:100%;}
 .enroll_sub_right {width:100%;margin-top: 4%;min-height: auto;}
@@ -623,6 +693,19 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li:first-child {margin: 0;}
 
 .form_sec2 ul li input.submit2 {padding: 7px 0; font-size: 15px;}
+
+.thank-cont h1{font-size: 22px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 18px; padding: 0.5em 0 0em;}
+.thank-cont h3{font-size: 13px;line-height: 18px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
+
 }
 
 @media only screen and (min-width:361px) and (max-width:400px){
@@ -664,6 +747,19 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li a {font-size: 18px;}
 .first_datesec ul li:first-child {margin: 0;}
 .form_sec2 ul li input.submit2 {padding: 7px 0; font-size: 15px;}
+
+
+.thank-cont h1{font-size: 22px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 18px; padding: 0.5em 0 0em;}
+.thank-cont h3{font-size: 13px;line-height: 18px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
 }
 
 @media only screen and (min-width:321px) and (max-width:360px){
@@ -707,6 +803,19 @@ html{font-family: 'Philosopher', sans-serif;}
 
 .form_sec2 ul li input.submit2 {padding: 7px 0; font-size: 15px;}
 
+
+.thank-cont h1{font-size: 22px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 18px; padding: 0.5em 0 0em;}
+.thank-cont h3{font-size: 13px;line-height: 18px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
+
 }
 
 @media only screen and (min-width:0px) and (max-width:320px){
@@ -749,6 +858,19 @@ html{font-family: 'Philosopher', sans-serif;}
 .first_datesec ul li a {font-size: 18px;}
 .first_datesec ul li:first-child {margin: 0;}
 .form_sec2 ul li input.submit2 {padding: 7px 0; font-size: 15px;}
+
+
+.thank-cont h1{font-size: 22px;line-height: 33px; padding: 15px 0;}
+.thank-cont h2{font-size: 18px; padding: 0.5em 0 0em;}
+.thank-cont h3{font-size: 13px;line-height: 18px;}
+.package-content{width: 94%; min-height: auto;text-align: center;}
+.book_btn a{width: 94%; font-size: 15px; line-height: 35px; padding: 0 0em 0 6%; text-align:center;}
+
+.package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
+.package-right {width: 100%;padding-left: 0;}
+.package-img{width: 100%;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.marb {margin-bottom: 30px;}
 }
 
 

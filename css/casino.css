@@ -1,0 +1,152 @@
+
+.casino-cont{width:100%; height:auto; float:left; margin-top:20px;}
+.cols-12{width:100%; height:auto; float:left;}
+.cols-30{width:32.6%; height:auto; float:left;}
+.cols-65{width:66.2%; height:auto; float:left;}
+.left{left:7% !important;}
+
+
+.marlr{margin:0px 1.1%;}
+.mar_r{margin-right:1.1%;}
+.mar_l{margin-left:1.1%;}
+.float_r{float: right;}
+.casino-col{width:100%; height:auto; float:left; position:relative; margin-bottom:30px;}
+.casino-img{width:100%; height:auto; float:left;}
+.casino-img img{width:100%;float:left;}
+.caption-top{top: 80px !important;}
+.casino-caption{width: 72%;left: 14%;bottom: 100px;height:auto;float:left;position:absolute;}
+.casino-caption h2{font-size:42px; color:#fff; text-align:left;}
+.casino-caption p{color:#fff; font-size:20px;text-align:left;    margin:0;  padding:0; border-bottom:none;float: left; }
+.casino-caption-line{width:100%;height: auto;margin: 20px 0;float:left;border-bottom: 4px dotted #fff;}
+.casino-col ul{width:100%;height:auto;margin-top:20px;float:left;list-style: disc;list-style-position: inside;}
+.casino-caption li{ width:45%;color:#fff; font-size:18px; margin-right:20px; float: left; }
+
+.desk-img{display:block;}
+.mob-img{display:none;}
+
+@media only screen and (min-width:1501px) and (max-width:1600px){
+.casino-col { margin-bottom: 26px;}
+.casino-caption h2 {font-size: 36px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 18px;}
+.casino-caption { bottom: 90px;}
+.caption-top {top: 61px !important;}
+.casino-caption li {font-size: 16px; margin-right: 12px;}
+
+}
+
+@media only screen and (min-width:1401px) and (max-width:1500px){
+.casino-col { margin-bottom: 22px;}
+.casino-caption h2 {font-size: 30px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 16px;}
+.casino-caption { bottom: 60px;}
+.caption-top {top: 60px !important;}
+.casino-caption li {font-size: 16px; margin-right: 12px;}
+
+}
+@media only screen and (min-width:1301px) and (max-width:1400px){
+.casino-col { margin-bottom: 22px;}
+.casino-caption h2 {font-size: 30px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 16px;}
+.casino-caption { bottom: 60px;}
+.caption-top {top: 50px !important;}
+.casino-caption li {font-size: 16px; margin-right: 12px;}
+
+
+}
+
+@media only screen and (min-width:1201px) and (max-width:1300px){
+
+.casino-col { margin-bottom: 22px;}
+.casino-caption h2 {font-size: 30px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 16px;}
+.casino-caption { bottom: 60px;}
+.caption-top {top: 49px !important;}
+.casino-caption li {font-size: 16px; margin-right: 12px;}
+}
+
+
+@media only screen and (min-width:1000px) and (max-width:1200px){
+.casino-col { margin-bottom: 16px;}
+.casino-caption h2 {font-size: 25px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 14px;}
+.casino-caption { bottom: 50px;}
+.caption-top {top: 40px !important;}
+.casino-caption li {font-size: 12px; margin-right: 11px;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:769px) and (max-width:990px){ 
+.cols-30 {width: 32.6%;}
+.cols-65 {width: 66.2%;}
+.casino-col { margin-bottom: 10px;margin-right: 11px;}
+.casino-caption h2 {font-size: 18px;}
+.casino-caption-line {margin: 5px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 13px;}
+.casino-caption { bottom: 30px;}
+.caption-top {top: 30px !important;}
+.casino-col ul {margin-top: 5px;}
+.casino-caption li {width: 46%;font-size: 10px; margin-right: 6px;}
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+
+.cols-30 {width: 32.6%;}
+.cols-65 {width: 66.2%;}
+.casino-col { margin-bottom: 10px;margin-right: 11px;}
+.casino-caption h2 {font-size: 18px;}
+.casino-caption-line {margin: 5px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 13px;}
+.casino-caption { bottom: 30px;}
+.caption-top {top: 40px !important;}
+.casino-col ul {margin-top: 5px;}
+.casino-caption li {width: 46%;font-size: 10px; margin-right: 6px;}
+
+}
+
+@media only screen and (min-width:361px) and (max-width:480px){   
+.desk-img{display:none;}
+.mob-img{display:block;}
+.cols-30 {width: 100%;margin-right: 11px;}
+.cols-65 {width: 100%;}
+.casino-col { margin-bottom: 10px;margin-right: 11px;}
+.casino-caption h2 {font-size: 25px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 14px;}
+.casino-caption { bottom: 50px;}
+.caption-top {top: 65px !important;}
+.casino-caption li {font-size: 12px; margin-right: 11px;}
+
+}
+
+@media only screen and (min-width:0px) and (max-width:360px){
+.desk-img{display:none;}
+.mob-img{display:block;}
+.cols-30 {width: 100%;margin-right: 11px;}
+.cols-65 {width: 100%;}
+.casino-col { margin-bottom: 10px;margin-right: 11px;}
+.casino-caption h2 {font-size: 25px;}
+.casino-caption-line {margin: 10px 0; border-bottom: 2px dotted #fff;}
+.casino-caption p { font-size: 14px;}
+.casino-caption { bottom: 50px;}
+.caption-top {top: 45px !important;}
+.casino-caption li {font-size: 12px; margin-right: 11px;}
+
+ }

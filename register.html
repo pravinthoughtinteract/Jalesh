@@ -1,118 +1,138 @@
 <!DOCTYPE html>
-<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
-<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
-<!--[if !IE]><!--><!--<![endif]-->
-<html lang="en">
+<html lang="en"> 
 <head>
-<title>JALESH CRUISES</title>
-<meta charset="utf-8">
+<title>JALESH CRUISES</title> <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
 <meta name="author" content="">
 <meta name="Description" content="">
 <meta name="Keywords" content="">
-<link rel="icon" href="favicon.png" type="image/x-icon">
+ <link rel="icon" href="favicon.png" type="image/x-icon">
 <!--<link rel="shortcut icon" href="favicon.ico">-->
 <!-- Global CSS -->
 <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!-- Plugins CSS -->
+<!-- Plugins CSS -->    
 <link href="css/reset.css" rel="stylesheet" type="text/css">
-<link href="css/main.css" rel="stylesheet" type="text/css">
-<link href="css/header.css" rel="stylesheet" type="text/css">
+<link href="css/register.css" rel="stylesheet" type="text/css">
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'>
 
 
 </head>
-<body>
+<body> 
+<div id="wrapper">
+<div class="essel_connect_top">
+	<div class="top_img">
+		<img src="images/register/banner.jpg" alt="" class="desk"/>
+		<img src="images/register/mob-banner.jpg" alt="" class="mob"/>
+	</div>
+		<div class="essel_connect_top_sub es1">
+			<div class="container">
+			<div class="logo">
+				<a href=""><img src="images/register/logo.png" alt="" /></a>
+			</div>
+			<div class="top_form clr2">
+				<div class="form_in_sec">
+					<div class="top_txt2">
+						<h2>Fill In Your Details Below To Get The Discount Code On Your Registered Email ID. </h2>
+					</div>
+					<div class="form_sec2">
+						<form>
+							<ul>
+								<li>
+									<div>
+										<input name="txtname" id="txtname" type="text" onpaste="return false;" placeholder="First Name">
+										<div class="error"><span>This field is mandatory</span></div>
+									</div>
+									<div class="lastname">
+										<input name="txtname" id="txtname" type="text" onpaste="return false;" class="lastname"placeholder="Last Name">
+										<div class="error"><span>This field is mandatory</span></div>
+									</div>
+								</li>
+								<li>
+									<input name="txtemail" id="txtemail" type="email" onpaste="return false;" placeholder="Email ID " autocomplete="off" onkeyup="this.value=this.value.replace(^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$;">
+									<div class="error"><span>This field is mandatory</span></div>
+								</li>
+								<li>
+									<input name="txtmobile" maxlength="12" id="txtmobile" type="text" onpaste="return false;" placeholder="Mobile Number " autocomplete="off" role="presentation" onkeyup="this.value=this.value.replace(/[^0-9]+/g,'');">
+									<div class="error"><span>This field is mandatory</span></div>
+								</li>
+								<li>
+									<input name="text"  type="text" onpaste="return false;" placeholder="City" autocomplete="off" onkeyup="this.value=this.value.replace(^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$;">
+									<div class="error"><span>This field is mandatory</span></div>
+								</li>
+								<li>
+									<input name="text"  type="text" onpaste="return false;" placeholder="Age" autocomplete="off" onkeyup="this.value=this.value.replace(^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$;">
+									<div class="error"><span>This field is mandatory</span></div>
+								</li>
+								<li>
+								 <input type="checkbox" name="" value="" class="esselcheck">
+									<span class="checkbxtext"> "I authorize Jalesh Cruises & its representatives to call me or SMS me with reference to my enquiry. This consent will override any registration for DNC / NDNC."</span>
+								</li>
+								<li>
+									<input class="submit2" name="submit" id="" type="submit" value="Submit">
+								</li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 
-<!-- Start Login Popup -->
-	<div class="register-cont"> 
-  <div class="modal-body">
-    <div class="form">
-      <div id="login">
-        <div class="login-img"><img src="images/login-form-img.jpg" alt="" title=""></div>
-        <div class="login-cont">
-          <h1>Fill In Your Details Below To Get The Discount Code On Your Registered Email ID.</h1>
-          <form action="/" method="post">
-            <div class="field-wrap">
-              <label> First Name </label>
-              <input type="text"  autocomplete="off"/>
-<div class="error"><span>Please Enter Your First Name</span></div>
-            </div>
-            <div class="field-wrap">
-              <label> Last Name </label>
-              <input type="text" autocomplete="off"/>
-			  <div class="error"><span>Please Enter Your First Name</span></div>
-            </div>
-            <div class="field-wrap">
-              <label> Email<span class="req">*</span> </label>
-              <input type="email" autocomplete="off"/>
-			  <div class="error"><span>Please Enter Your First Name</span></div>
-            </div>
-            <div class="field-wrap">
-              <label> Mobile Number<span class="req">*</span> </label>
-              <input type="number" autocomplete="off"/>
-			  <div class="error"><span>Please Enter Your First Name</span></div>
-            </div>
-            <div class="field-wrap">
-              <label> City </label>
-              <input type="text" autocomplete="off"/>
-			  <div class="error"><span>Please Enter Your First Name</span></div>
-            </div>
-            <div class="field-wrap">
-              <label> Age </label>
-              <input type="text" autocomplete="off"/>
-			  <div class="error"><span>Please Enter Your First Name</span></div>
-            </div>
-            <button class="button button-block" />
-            Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- /form --> 
-  </div>
-  </div>
+<div class="enroll_main_con">
+	<div class="container">
+		<div class="enroll_sub_con">
+			<h2>Experience The New Standard Of Cruising. </h2>
+			<ul>
+				<li class="sec1">
+					<div class="img"><img src="images/register/01/img1.png" alt="" align="middle"/></div>
+				</li>
+				<li class="sec2">
+					<div class="img"><img src="images/register/01/img2.png" alt=""/></div>
+				</li>
+				<li class="sec3">
+					<div class="img"><img src="images/register/01/img3.png" alt=""/></div>
+				</li>
+				<li class="sec4">
+					<div class="img"><img src="images/register/01/img4.png" alt=""/></div>
+				</li>
+				<li class="sec5">
+					<div class="img"><img src="images/register/01/img5.png" alt=""/></div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div class="footer_main">
+	<div class="footer_img"><img src="images/register/footer.png" alt="" /></div>
+	<div class="footer_last">
+		<div class="footer_last_sub">
+			<div class="ft_first">
+				<p>To know more</p>
+				<h3>Call : <a href="callto:18002668927">18002668927</a></h3>
+			</div>
+			<div class="ft_sec">
+				<p><img src="images/register/footerlogo.png" alt="jalesh logo"/></p>
+			</div>
+			<!-- <div class="ft_third"> -->
+				<!-- <p>Click below to register</p> -->
+				<!-- <h3><a href="http://jaleshcruises.com">www.jaleshcruises.com</a></h3> -->
+			<!-- </div> -->
+			<div class="ft_four">
+				<p>Click below to follow us on</p>
+				<ul>
+					<li title="facebook"><a href="https://www.facebook.com/jaleshcruises" target="_blank" class="icon1" tabindex="1"></a></li>
+					<li title="twitter"><a href="https://twitter.com/CruisesJalesh" target="_blank" class="icon2" tabindex="1"></a></li>
+					<li title="Instagram"><a href="https://www.instagram.com/jaleshcruises/" target="_blank" class="icon3" tabindex="1"></a></li>							
+					<li title="linkedin"><a href="https://www.linkedin.com/company/14509758/admin/&#10;" target="_blank" class="icon4" tabindex="1"></a></li>							
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
 
-<!-- End Login Popup --> 
-
-
-<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
-<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script> 
-
-
-<script  type="text/javascript">
-
-$('.form').find('input, textarea').on('keyup blur focus', function (e) {
-  
-  var $this = $(this),
-      label = $this.prev('label');
-
-	  if (e.type === 'keyup') {
-			if ($this.val() === '') {
-          label.removeClass('active highlight');
-        } else {
-          label.addClass('active highlight');
-        }
-    } else if (e.type === 'blur') {
-    	if( $this.val() === '' ) {
-    		label.removeClass('active highlight'); 
-			} else {
-		    label.removeClass('highlight');   
-			}   
-    } else if (e.type === 'focus') {
-      
-      if( $this.val() === '' ) {
-    		label.removeClass('highlight'); 
-			} 
-      else if( $this.val() !== '' ) {
-		    label.addClass('highlight');
-			}
-    }
-
-});
-</script>
+</div>
 </body>
 </html>

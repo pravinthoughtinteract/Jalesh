@@ -535,7 +535,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 
 }
@@ -593,7 +593,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 }
 
@@ -647,7 +647,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 }
 
@@ -703,7 +703,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 
 }
@@ -758,7 +758,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 }
 
@@ -813,7 +813,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 
 }
@@ -869,7 +869,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-left {width: 100%;padding-right: 0;border-right:none;margin-bottom: 30px;}
 .package-right {width: 100%;padding-left: 0;}
 .package-img{width: 100%;}
-.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;}
+.book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 }
 

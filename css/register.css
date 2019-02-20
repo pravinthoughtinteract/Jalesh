@@ -99,7 +99,9 @@ html{font-family: 'Philosopher', sans-serif;}
 .book_btn a{width: 95%;background-color: #f37061;font-size:18px;color:#fff;line-height: 35px;padding: 0 0em 0 1em;font-weight:600;font-family: 'Philosopher', sans-serif;text-transform:uppercase;text-decoration:none;float: left;} 
  .book_btn a:hover{color:#000;}    
 
-
+.center_div{width: 45.9%;height: auto; margin:0 auto;}
+ 
+ 
 
 
 
@@ -537,6 +539,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-img{width: 100%;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
+.center_div{width:100%;}
 
 }
 
@@ -595,6 +598,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-img{width: 100%;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
+.center_div{width:100%;}
 }
 
 @media only screen and (min-width:501px) and (max-width:600px){
@@ -649,6 +653,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-img{width: 100%;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
+.center_div{width:100%;}
 }
 
 @media only screen and (min-width:401px) and (max-width:500px){
@@ -705,6 +710,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-img{width: 100%;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
+.center_div{width:100%;}
 
 }
 
@@ -760,6 +766,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-img{width: 100%;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
+.center_div{width:100%;}
 }
 
 @media only screen and (min-width:321px) and (max-width:360px){
@@ -816,6 +823,8 @@ html{font-family: 'Philosopher', sans-serif;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
 
+.center_div{width:100%;}
+
 }
 
 @media only screen and (min-width:0px) and (max-width:320px){
@@ -871,6 +880,7 @@ html{font-family: 'Philosopher', sans-serif;}
 .package-img{width: 100%;}
 .book_btn{position: relative; left: inherit;bottom: inherit;    margin: 20px 0;    float: left;}
 .marb {margin-bottom: 30px;}
+.center_div{width:100%;}
 }
 
 

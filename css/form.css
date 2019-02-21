@@ -10,12 +10,12 @@
 .sel__box__options::after {  content: '\f00c';  font-family: 'FontAwesome';  font-size: 0.5em;  margin-left: 5px; display: none;}.sel__box__options.selected::after {  display: inline;}.sel__box__options:hover {  background-color: #ebedef;} .sel { }
 .sel--black-panther { border-right: 1px solid #333333;  z-index: 3;}
 .sel--superman {width:260px;  z-index: 2; border-right: 1px solid #333333;}
-.dates {width:350px; height: 50px; float:left; z-index: 2; margin-right:15px; border-right: 1px solid #333333;}
+.dates {width:350px; height: 50px; float:left; z-index: 2; margin-right:15px; /* border-right: 1px solid #333333;*/}
 .fa { font-size: 25px !important;}
 
 
 @-webkit-keyframes fadeInUp {
-  from {
+  from { 
  opacity: 0;
  -webkit-transform: translate3d(0, 20px, 0);
   transform: translate3d(0, 20px, 0);

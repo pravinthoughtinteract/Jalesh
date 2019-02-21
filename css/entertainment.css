@@ -99,7 +99,7 @@
 @media screen and (max-width:767px){
 	.dining-three-section-right, .dining-three-section { height:auto;}
 	.dining-section{ padding:0 15PX;margin:0 auto;}
-	.theatre-text,.theatre-b,.theatre-gal{width:100%; clear:both;  margin-top: 20px;}
+	.theatre-text,.theatre-b,.theatre-gal{width:100% !important; clear:both;  margin-top: 20px;}
 	.dining-three-section.theatrebox{ padding:30px 15px;}
 	.events-desc{width:100%;}
 	.marquee-theater{margin-top: 0;}

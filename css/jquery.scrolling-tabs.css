@@ -65,9 +65,7 @@ border-bottom: 2px solid transparent;
 .nav-tabs > li > a:hover {
 
 }
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
+.nav-tabs > li > a.active  {
   color: #c94e50;
   cursor: default;
   background-color: #fff;

@@ -1580,10 +1580,10 @@
     propActive: 'active',
     propDisabled: 'disabled',
     propContent: 'content',
-    ignoreTabPanes: false,
-    scrollToTabEdge: false,
-    disableScrollArrowsOnFullyScrolled: false,
-    forceActiveTab: false
+    ignoreTabPanes: true,
+    scrollToTabEdge: true,
+    disableScrollArrowsOnFullyScrolled: true,
+    forceActiveTab: true
   };
 
 

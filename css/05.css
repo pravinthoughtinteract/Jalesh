@@ -30,13 +30,19 @@
 .nav-tabs.nav-justified > .active > a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {  border: 1px solid #ddd;}
-@media only screen and (min-width:0px) and (max-width:1000px){
-.nav > li > a { padding: 10px 10px;font-size: 12px;} 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+@media only screen and (min-width:321px) and (max-width:1000px){
+.nav > li > a { padding: 10px 2px;font-size: 14px;    width: 140px;} 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:14px; width: 140px;}
 }
+
+@media only screen and (min-width:320px) and (max-width:360px){
+.nav > li > a { padding: 10px 2px;font-size: 14px;    width: 132px;} 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:14px; width: 132px;}
+}
+
 @media only screen and (min-width:361px) and (max-width:480px){
-.nav > li > a { padding: 10px 15px;font-size: 12px;} 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:12px;}
+.nav > li > a { padding: 10px 2px;font-size: 14px;    width: 140px;} 
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{font-size:14px; width: 140px;}
 }
 
 @media only screen and (min-width:1001px) and (max-width:1152px){ 

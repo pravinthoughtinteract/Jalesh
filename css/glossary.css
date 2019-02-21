@@ -15,8 +15,8 @@
 .tab_content h2{font-size: 95px;text-align: left;text-transform: uppercase;color: #551a57;}
 .gloss_txt_cont .right ul{}
 .gloss_txt_cont .right li{color:#551a57;margin: 20px 0 20px 0;}
-.gloss_txt_cont .right li h3{font-size:36px;}
-.gloss_txt_cont .right li p{font-size:26px;}
+.gloss_txt_cont .right li h3{font-size: 25px;padding-bottom: 5px;}
+.gloss_txt_cont .right li p{font-size: 18px;}
 
  
 @media only screen and (min-width:0px) and (max-width:1000px){ 

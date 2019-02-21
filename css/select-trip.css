@@ -26,7 +26,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdbe1', end
   -o-transition: background-color 1s ease-out;
   transition: background-color 1s ease-out;}
 
-.select-trip-sec-cont:hover{background-color:#f3f3f3;}
+.select-trip-sec-cont:hover{background-color:#ccc;}
 
 .trip-col-15{width: 14%;height:auto;float:left;border-right:1px solid #999;text-align:center;padding: 5px 2%;}
 .trip-col-15:last-child{border-right:none;}
@@ -55,7 +55,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont{width:100%; height:auto; float:left; background-color:#fff; position:relative; padding:40px 0;}
 .stateroom-container{width:100%;height:auto;float:left;padding:0px 40px;position: relative;}
 .stateroom-head{width:100%;height:auto;float:left;border-bottom: 1px solid #cccccc;padding-bottom: 30px;position:relative;}
-.stateroom-head h1{font-size:32px;color:#c94e50; line-height: 32px;font-weight:400;text-align: left; padding-bottom: 10px; margin:0; }
+.stateroom-head h2{font-size:32px;color:#c94e50; line-height: 32px;font-weight:400;text-align: left; padding-bottom: 10px; margin:0; }
 .stateroom-head p{font-size:16px; color:#15264c;line-height: 24px; font-weight:400; text-align: left;padding: 0; margin:0;}
 .stateroom-contin{width: 120px;height:auto;position: absolute;top: 10px;right: 50px;z-index:1;}
 .stateroom-contin a{width:100%;height:auto;font-size: 21px;color:#fff;line-height: 24px;padding: 12px;font-weight:400;float:left;text-align: center;background-color:#460f5a;background-image:linear-gradient(90deg, #460f5a , #d25251);top:0;z-index:99;background:rgb(70,15,90);background:-moz-linear-gradient(left, rgba(70,15,90,1) 1%, rgba(70,15,90,1) 48%, rgba(210,82,81,1) 100%);background:-webkit-linear-gradient(left, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);background:linear-gradient(to right, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#460f5a', endColorstr='#d25251',GradientType=1 );border:none;cursor:pointer;-webkit-transition: all .4s linear;transition: all .10s linear;}
@@ -99,7 +99,7 @@ transition: all 0.4s ease-in;}
 
 .change-stateroom-location-cont{width:100%; height:auto; min-height: 780px; float:left; background-color:#fff; position:relative; padding:0 0 50px;}
 .location-container{width:100%;height:auto;float:left;padding:0px 40px;position: relative;}
-.cruise-img-cont{width:100%; height:auto; float:left; }
+.cruise-img-cont{width:100%; height:auto; float:left; position:relative; }
 .cruise-img-cont a{float:left;position: relative;}
 .cruise-img-cont a:hover{text-decoration:none;}
 .cruise-img-col{width:33.3%; height:auto; float:left; }
@@ -109,10 +109,73 @@ transition: all 0.4s ease-in;}
 .overlay {display: block;background: rgba(221, 165, 226, .32);text-align: center;opacity: 0;visibility: hidden;transition: all 0.2s ease;position: absolute;top: 0;left: 0;width: 100%;height: 100%; transition: 0.3s;}
 .cruise-img-cont a:hover .overlay{visibility: visible; opacity: 1;}
 .cruise-image-title{width:100%; height:auto; text-align:center; margin-top:40px; float:left;}
-.cruise-image-title h1{font-size:24px; color:#ce5050;line-height: 24px; font-weight:400;}
-.cruise-image-title h2{font-size:18px; color:#000;line-height: 24px; font-weight:400;}
+.cruise-image-title h2{font-size:24px; color:#ce5050;line-height: 24px; font-weight:400;}
+.cruise-image-title h3{font-size:18px; color:#000;line-height: 24px; font-weight:400;}
+
+.cruise-image-over{width:100%; height:auto; float:left;}
+.cruise-image-over img{width:100%;}
+
+.hiddencontaner{width:100%;padding:0;background: rgba(255, 255, 255, 0.9);position: absolute;top:0;left:0;}
+.hiddanbox1{width: 33.3%;height:auto;padding: 0px;background:#fff;text-align: center;display:none; float:left;}
+.hiddanbox2{ width: 33.3%;  height:auto; margin:0 auto;background:#fff;text-align: center;  display:none; }
+.hiddanbox3{width: 33.3%;height:auto;padding: 0px;background:#fff;text-align: center;display:none; float:right; }
+
+.cruise-over-result .cross{font-size: 16px;position:absolute;top:20px;left:0px;padding: 5px 15px;z-index:9;color:#fff;background-color:#a0a0a0;}
+
+.cruise-over-result .cross:hover{color:#fff;background-color:#000;}
+.cruise-over-result .cross:focus{color:#fff; text-decoration:none;}
+.cruise-over-deck{width:100%; height:auto; float:left;}
+.deck-list{width:100%; height:auto;float:left; margin-top: 30px;}
+.deck-list ul li{width:100%;list-style:none;float:left; padding-right:0px; margin-bottom: 10px; }
+.deck-list ul li a{font-size:18px;line-height:18px;width:100%; text-decoration:none;color:#000;background-color:#eaeaea;padding:0px; border-radius: 25px; padding: 10px; float:left;}
+.actives{background-color:#61185f !important;color:#fff !important;  }
+.col-left1{width: 30%;float: left;}
+.col-left2{width: 70%;float: left;}
+.deck-list-continue{width:170px;height:auto;margin: 20px 0 0 30%;float: left;}
+.deck-list-continue a{width:100%;height:auto;font-size: 21px;color:#fff;line-height: 24px;padding: 12px;font-weight:400;float:left;text-align: center;background-color:#460f5a;background-image:linear-gradient(90deg, #460f5a , #d25251);top:0;z-index:99;background:rgb(70,15,90);background:-moz-linear-gradient(left, rgba(70,15,90,1) 1%, rgba(70,15,90,1) 48%, rgba(210,82,81,1) 100%);background:-webkit-linear-gradient(left, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);background:linear-gradient(to right, rgba(70,15,90,1) 1%,rgba(70,15,90,1) 48%,rgba(210,82,81,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#460f5a', endColorstr='#d25251',GradientType=1 );border:none;cursor:pointer;-webkit-transition: all .4s linear;transition: all .10s linear;}
+.deck-list-continue a:hover{color:#fff; background: rgb(210,82,81);background:-moz-linear-gradient(left, rgba(210,82,81,1) 1%, rgba(210,82,81,1) 48%, rgba(70,15,90,1) 100%);background:-webkit-linear-gradient(left, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);background:linear-gradient(to right, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d25251', endColorstr='#460f5a',GradientType=1 );-webkit-transition: all 0.4s ease-in; transition: all 0.4s ease-in; text-decoration:none;}
+.deck-list-continue a:focus{color:#fff; text-decoration:none;}
 
 /* ---End-Change-your-stateroom--- */
+
+
+/* ---Start-Change-your-stateroom-inner-page--- */
+
+.change-stateroom-inner-page-cont{width:100%; height:auto;float:left; background-color:#fff; position:relative; padding:0 0 50px;}
+.stateroom-inner-page-container{width:100%;height:auto;float:left;padding:0px 40px;position: relative;}
+.stateroom-inner-page-left{ width:60%; height:auto; float:left;}
+.stateroom-inner-page-right{ width:39%; height:auto; float:right;}
+.stateroom-cruise-img{ width:23.3%; height:auto; float:left;  margin-top: 50px;}
+.stateroom-cruise-img img{ width:100%;}
+.stateroom-cruise-deck{ width:75%; height:auto; float:left; }
+.stateroom-cruise-deck-img {width: 100%;float: left;background-color: #fff;overflow-y: scroll;height: 54vh; padding: 0 31% 0 5%; }
+.stateroom-cruise-deck-img img{ width:100%;}
+.stateroom-cruise-deck-img::-webkit-scrollbar {width: 10px; }
+
+/* Track */
+.stateroom-cruise-deck-img::-webkit-scrollbar-track {     box-shadow: inset 0 0 5px grey;     border-radius: 10px; }
+/* Handle */
+.stateroom-cruise-deck-img::-webkit-scrollbar-thumb {     background:linear-gradient(178deg, #460f5a  33%, #d25251 104%); border-radius: 10px; }
+.row-col-30{width:30%; float:left; padding: 0 3%;}
+.roomtitle{font-size: 15px;color:#000;line-height: 20px;}
+.roomnum{font-size: 16px;color:#000;line-height: 15px;}
+.actives .roomtitle{color:#fff;}
+.actives .roomnum{color:#fff;}
+.numb{background-color:#cf5051; display: inline-block; padding: 0.25em 0.4em; font-size: 75%; font-weight: 700; line-height: 1; text-align: center; white-space: nowrap; vertical-align: baseline; border-radius: 0.25rem;}
+.loc-continues{margin: 20px auto !important;float:none !important;}
+.back-btn{width: auto;height: auto;position: absolute;top: 32%;left: 2%;}
+.back-btn a{font-size: 16px;color: #000000;line-height: 24px;background-color: #a0a0a0;padding: 5px 10px;}
+.back-btn a:hover{color: #fff;background-color: #000;}
+
+/* ---End-Change-your-stateroom-inner-page--- */
+
+
+
+.mobile-cruise-section { border: none; padding: 5px; font: 24px/36px sans-serif; width: 100%; height: auto; overflow-x: scroll; display:none; position:relative; }
+
+
+
+
 
 
 @media only screen and (min-width:1000px) and (max-width:1100px){
@@ -148,7 +211,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-image{width: 20%;}
 .review-stateroom-details {width: 55%;padding: 0 2%;}
 .review-stateroom-price {width: 25%; min-height: 235px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
 .stateroom-head p {font-size: 15px;}
 .stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
 .review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
@@ -164,6 +227,27 @@ transition: all 0.4s ease-in;}
 .review-stateroom-price p{font-size: 13px;line-height: 16px;}
 .stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
 .stateroom-contin { width: 150px;}
+.stateroom-cruise-deck { width: 66%;}
+.stateroom-inner-page-left {width: 54%;}
+.stateroom-inner-page-right {width: 45%;}
+
+/* ---Start-Change-your-stateroom (location)--- */
+
+.change-stateroom-location-cont { min-height: 540px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross {font-size: 13px;padding: 3px 11px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue {width: 100px;margin: 6px 0 0 27%;}
+.deck-list-continue a{font-size: 14px;line-height: 17px;padding: 8px;}
+.cruise-image-title {margin-top: 25px;}
+.cruise-image-title h2{font-size: 20px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 16px;line-height: 18px;}
+.stateroom-cruise-img { margin-top: 40px;}
+.stateroom-cruise-deck-img { padding: 0 19% 0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
+.row-col-30 {width: 33%;}
+.loc-continues { margin: 10px auto !important;}
 
 }
 
@@ -193,7 +277,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 30px 0;}
 .review-stateroom-details {width: 55%;padding: 0 2%;}
 .review-stateroom-price {width: 20%; min-height: 235px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
 .stateroom-head p {font-size: 15px;}
 .stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
 .review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
@@ -209,6 +293,22 @@ transition: all 0.4s ease-in;}
 .review-stateroom-price p{font-size: 13px;line-height: 16px;}
 .stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
 .stateroom-contin { width: 150px;}
+
+/* ---Start-Change-your-stateroom (location)--- */
+
+.change-stateroom-location-cont { min-height: 540px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross { font-size: 15px;padding: 5px 15px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue {width: 125px; margin: 10px 0 0 30%;}
+.deck-list-continue a{font-size: 16px;line-height: 18px; padding: 8px;}
+.cruise-image-title {margin-top: 25px;}
+.cruise-image-title h2{font-size: 20px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 16px;line-height: 18px;}
+.stateroom-cruise-img { margin-top: 40px;}
+.stateroom-cruise-deck-img { padding: 0 22% 0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
 }
 
 @media only screen and (min-width:1201px) and (max-width:1300px){
@@ -239,7 +339,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 30px 0;}
 .review-stateroom-details {width: 55%;padding: 0 2%;}
 .review-stateroom-price {width: 20%; min-height: 235px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
 .stateroom-head p {font-size: 15px;}
 .stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
 .review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
@@ -256,7 +356,21 @@ transition: all 0.4s ease-in;}
 .stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
 .stateroom-contin { width: 150px;}
 
+/* ---Start-Change-your-stateroom (location)--- */
 
+.change-stateroom-location-cont { min-height: 540px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross { font-size: 15px;padding: 5px 15px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue {width: 125px; margin: 10px 0 0 30%;}
+.deck-list-continue a{font-size: 16px;line-height: 18px; padding: 8px;}
+.cruise-image-title {margin-top: 25px;}
+.cruise-image-title h2{font-size: 20px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 16px;line-height: 18px;}
+.stateroom-cruise-img { margin-top: 40px;}
+.stateroom-cruise-deck-img { padding: 0 22% 0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
 
 }
 
@@ -280,8 +394,6 @@ transition: all 0.4s ease-in;}
 .itinerary-middle ul li {font-size: 14px;}
 
 
-
-
 .select-trip-sec-cont { padding: 25px 5%;}
 .trip-date-proceed {width: 23%;}
 .trip-date-proceed span{font-size: 25px;}
@@ -298,7 +410,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 30px 0;}
 .review-stateroom-details {width: 55%;padding: 0 2%;}
 .review-stateroom-price {width: 20%; min-height: 235px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
 .stateroom-head p {font-size: 15px;}
 .stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
 .review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
@@ -316,6 +428,21 @@ transition: all 0.4s ease-in;}
 .stateroom-contin { width: 150px;}
 
 
+/* ---Start-Change-your-stateroom (location)--- */
+
+.change-stateroom-location-cont { min-height: 540px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross { font-size: 15px;padding: 5px 15px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue {width: 125px; margin: 10px 0 0 30%;}
+.deck-list-continue a{font-size: 16px;line-height: 18px; padding: 8px;}
+.cruise-image-title {margin-top: 25px;}
+.cruise-image-title h2{font-size: 20px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 16px;line-height: 18px;}
+.stateroom-cruise-img {width: 140px; margin-top: 40px;}
+.stateroom-cruise-deck-img { padding: 0 22% 0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
 }
 
 @media only screen and (min-width:1401px) and (max-width:1500px){
@@ -352,7 +479,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 30px 0;}
 .review-stateroom-details {width: 55%;padding: 0 2%;}
 .review-stateroom-price {width: 20%; min-height: 235px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 5px;}
 .stateroom-head p {font-size: 15px;}
 .stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
 .review-stateroom-details h3 {font-size: 25px; color: #c94e50; line-height: 25px;}
@@ -369,6 +496,21 @@ transition: all 0.4s ease-in;}
 .stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
 .stateroom-contin { width: 150px;}
 
+/* ---Start-Change-your-stateroom (location)--- */
+
+.change-stateroom-location-cont { min-height: 540px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross { font-size: 15px;padding: 5px 15px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue {width: 125px; margin: 10px 0 0 30%;}
+.deck-list-continue a{font-size: 16px;line-height: 18px; padding: 8px;}
+.cruise-image-title {margin-top: 25px;}
+.cruise-image-title h2{font-size: 20px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 16px;line-height: 18px;}
+.stateroom-cruise-img { margin-top: 40px;}
+.stateroom-cruise-deck-img { padding: 0 22% 0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
 
 
 }
@@ -389,6 +531,7 @@ transition: all 0.4s ease-in;}
 .cruise-booking-price p{font-size: 14px;line-height: 20px;}
 .view-dates a{ font-size: 16px;    padding: 7px;}
 .view-dates { margin-top: 45px;}
+
 
 
 }
@@ -427,7 +570,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 20px 0;}
 .stateroom-container {padding: 0px 15px;}
 .stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
 .stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
 .review-stateroom-section {padding: 5px;}
 .review-stateroom-image {width: 30%;}
@@ -475,7 +618,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 20px 0;}
 .stateroom-container {padding: 0px 15px;}
 .stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
 .stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
 .review-stateroom-section {padding: 5px;}
 .review-stateroom-image {width: 30%;}
@@ -495,6 +638,55 @@ transition: all 0.4s ease-in;}
 .stateroom-contin { width: 150px;}
 .review-stateroom-price {width: 69%;min-height: 240px;}
 .stateroom-lable {width: 100px; padding: 2px;font-size: 13px; line-height: 22px;}
+
+
+/* ---Start-Change-your-stateroom (location)--- */
+
+
+.back-btn {top: 22%;}
+.stateroom-inner-page-container {padding: 0px 15px;}
+.location-container {padding: 0px 15px;}
+.loc-height{height: 95px !important;}
+.stateroom-inner-page-left {width: 100%;}
+.stateroom-cruise-deck { width: 73%;}
+.stateroom-inner-page-right { width: 100%;float: left;}
+.change-stateroom-location-cont { min-height: 580px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross {font-size: 13px;padding: 3px 11px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue { width: 120px; margin: 0 auto; float: none;}
+.deck-list-continue a{font-size: 19px;line-height: 17px;padding: 10px;}
+.cruise-image-title {margin-top: 25px; position: absolute;bottom: 0;}
+.cruise-image-title h2{font-size: 18px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 14px;line-height: 15px;}
+.stateroom-cruise-img { width: 26%; margin-top: 40px;}
+.stateroom-cruise-deck-img { padding:0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
+.row-col-30 {width: 33%; padding: 0 2%;}
+.loc-continues { margin: 10px auto !important;}
+
+.hiddanbox1 {width: 100%; padding: 0 16%;}
+.hiddanbox2 {width: 100%; padding: 0 16%;}
+.hiddanbox3 {width: 100%; padding: 0 16%;}
+
+
+
+
+/* mobile-cruise-section */
+
+.mob-hidden{display:none;}
+.mobile-cruise-section {display:block;}
+.mob-cruise-cont{width:1100px; height:auto;position: absolute;top: 0;left: 0}
+
+/* Scrollbar styles */
+::-webkit-scrollbar { width: 12px; height: 12px; } 
+::-webkit-scrollbar-track {  box-shadow: inset 0 0 5px grey;     border-radius: 10px;  }
+::-webkit-scrollbar-thumb { background:linear-gradient(178deg, #460f5a  33%, #d25251 104%); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #88ba1c;}
+.mob-cruise1{width:33.3%; height:auto;float:left;}
+.size{width:366px; height: 285px; float: left; display: block;}
+.book-top{margin-top: 80px;}
 
 }
 
@@ -527,7 +719,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 20px 0;}
 .stateroom-container {padding: 0px 15px;}
 .stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
 .stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
 .review-stateroom-section {padding: 5px;}
 .review-stateroom-image {width: 30%;}
@@ -547,6 +739,55 @@ transition: all 0.4s ease-in;}
 .stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
 .stateroom-contin { width: 150px;}
 .review-stateroom-price {width: 69%;min-height: 240px;}
+
+
+/* ---Start-Change-your-stateroom (location)--- */
+
+
+.back-btn {top: 22%;}
+.stateroom-inner-page-container {padding: 0px 15px;}
+.location-container {padding: 0px 15px;}
+.loc-height{height: 95px !important;}
+.stateroom-inner-page-left {width: 100%;}
+.stateroom-cruise-deck { width: 73%;}
+.stateroom-inner-page-right { width: 100%;float: left;}
+.change-stateroom-location-cont { min-height: 580px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross {font-size: 13px;padding: 3px 11px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue { width: 120px; margin: 0 auto; float: none;}
+.deck-list-continue a{font-size: 19px;line-height: 17px;padding: 10px;}
+.cruise-image-title {margin-top: 25px; position: absolute;bottom: 0;}
+.cruise-image-title h2{font-size: 18px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 14px;line-height: 15px;}
+.stateroom-cruise-img { width: 26%; margin-top: 40px;}
+.stateroom-cruise-deck-img { padding:0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
+.row-col-30 {width: 33%; padding: 0 2%;}
+.loc-continues { margin: 10px auto !important;}
+
+.hiddanbox1 {width: 100%; padding: 0 16%;}
+.hiddanbox2 {width: 100%; padding: 0 16%;}
+.hiddanbox3 {width: 100%; padding: 0 16%;}
+
+
+
+
+/* mobile-cruise-section */
+
+.mob-hidden{display:none;}
+.mobile-cruise-section {display:block;}
+.mob-cruise-cont{width:1100px; height:auto;position: absolute;top: 0;left: 0}
+
+/* Scrollbar styles */
+::-webkit-scrollbar { width: 12px; height: 12px; } 
+::-webkit-scrollbar-track {  box-shadow: inset 0 0 5px grey;     border-radius: 10px;  }
+::-webkit-scrollbar-thumb { background:linear-gradient(178deg, #460f5a  33%, #d25251 104%); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #88ba1c;}
+.mob-cruise1{width:33.3%; height:auto;float:left;}
+.size{width:366px; height: 285px; float: left; display: block;}
+.book-top{margin-top: 80px;}
 
 }
 
@@ -580,7 +821,7 @@ transition: all 0.4s ease-in;}
 .review-stateroom-cont {padding: 20px 0;}
 .stateroom-container {padding: 0px 15px;}
 .stateroom-contin {position: relative;top: inherit;right: inherit;margin-top: 10px;width: 120px;}
-.stateroom-head h1{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
+.stateroom-head h2{font-size: 28px;line-height: 28px;padding-bottom: 10px;}
 .stateroom-contin a{font-size: 18px;line-height: 18px; padding: 10px;}
 .review-stateroom-section {padding: 5px;}
 .review-stateroom-image {width: 100%;}
@@ -600,6 +841,57 @@ transition: all 0.4s ease-in;}
 .stateroom-contin a{ font-size: 18px; line-height: 18px; padding: 10px;}
 .stateroom-contin { width: 150px;}
 .review-stateroom-price {width: 100%;min-height: 240px;}
+
+
+
+
+/* ---Start-Change-your-stateroom (location)--- */
+
+
+.back-btn {top: 22%;}
+.stateroom-inner-page-container {padding: 0px 15px;}
+.location-container {padding: 0px 15px;}
+.loc-height{height: 55px !important;}
+.stateroom-inner-page-left {width: 100%;}
+.stateroom-cruise-deck { width: 73%;}
+.stateroom-inner-page-right { width: 100%;float: left;}
+.change-stateroom-location-cont { min-height: 580px;}
+.deck-list { margin-top: 20px;}
+.cruise-over-result .cross {font-size: 13px;padding: 3px 11px;}
+.deck-list ul li a{font-size: 16px;line-height: 18px; padding: 0px; border-radius: 20px;padding: 8px;}
+.deck-list-continue { width: 120px; margin: 0 auto; float: none;}
+.deck-list-continue a{font-size: 19px;line-height: 17px;padding: 10px;}
+.cruise-image-title {margin-top: 25px; position: absolute;bottom: 0;}
+.cruise-image-title h2{font-size: 18px;line-height: 19px;}
+.cruise-image-title h3 { font-size: 14px;line-height: 15px;}
+.stateroom-cruise-img { width: 26%; margin-top: 40px;}
+.stateroom-cruise-deck-img { padding:0 5%;}
+.roomtitle {font-size: 13px; line-height: 20px;}
+.roomnum {font-size: 13px; line-height: 20px;}
+.row-col-30 {width: 33%; padding: 0 2%;}
+.loc-continues { margin: 10px auto !important;}
+
+.hiddanbox1 {width: 100%;}
+.hiddanbox2 {width: 100%;}
+.hiddanbox3 {width: 100%;}
+
+
+
+
+/* mobile-cruise-section */
+
+.mob-hidden{display:none;}
+.mobile-cruise-section {display:block;}
+.mob-cruise-cont{width:1100px; height:auto;position: absolute;top: 0;left: 0}
+
+/* Scrollbar styles */
+::-webkit-scrollbar { width: 12px; height: 12px; } 
+::-webkit-scrollbar-track {  box-shadow: inset 0 0 5px grey;     border-radius: 10px;  }
+::-webkit-scrollbar-thumb { background:linear-gradient(178deg, #460f5a  33%, #d25251 104%); border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #88ba1c;}
+.mob-cruise1{width:33.3%; height:auto;float:left;}
+.size{width:366px; height: 285px; float: left; display: block;}
+.book-top{margin-top: 50px;}
 
 }
 

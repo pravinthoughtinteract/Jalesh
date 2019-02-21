@@ -59,7 +59,6 @@
 .view-dates a:hover{color:#fff;background: rgb(210,82,81);background:-moz-linear-gradient(left, rgba(210,82,81,1) 1%, rgba(210,82,81,1) 48%, rgba(70,15,90,1) 100%);background:-webkit-linear-gradient(left, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);background:linear-gradient(to right, rgba(210,82,1) 1%,rgba(210,82,81,1) 48%,rgba(70,15,90,1) 100%);filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#d25251', endColorstr='#460f5a',GradientType=1 );-webkit-transition: all 0.4s ease-in; transition: all 0.4s ease-in; text-decoration:none;}
 
 .view-dates a:focus{color:#fff; text-decoration:none;}
-
 .pagination {display: inline-block;    padding-left: 0;margin: 20px 0;border-radius: 4px; float:right;  }
 .pagination a {color: black;float: left;padding: 8px 16px;text-decoration: none;transition: background-color .3s;border: 1px solid 551755;margin: 0 4px; }
 .pagination li{float:left;}
@@ -76,9 +75,7 @@
 .itinerary-middle ul{width: 100%;height:auto;float:left;margin:0;}
 .itinerary-middle ul li{font-size: 16px;color:#000;line-height: 22px;font-weight:400;text-align: left;padding-bottom: 5px;}
 .itinerary-right p{ font-size: 16px;}
-
-
-.change-itinerary-section{    position: absolute;    top: 15px;    width: 25%;     left: 3%;}
+.change-itinerary-section{    position: absolute;    top: 15px;    width: 32%;     left: 3%;}
 .change-itinerary-section h4{color:#330066; font-size:16px; float: left; margin:0;    line-height: 22px;   font-weight: bold; text-align: left;}
 .change-itinerary-section h4 span{color:#666666;font-size:12px;}
 .change-itinerary-section a{text-decoration:underline; color:#c64c51;float: left; font-size:12px;}
@@ -89,9 +86,8 @@
 .change-date-section-five h4 span{    font-size: 18px;    color: #000;    text-align: center;    width: 100%;    float: left;}
 .change-date-section p{width:100%; float:left;    text-align: center;line-height: normal; margin: 0;}
 .change-date-section p a{text-align:center; color:#c64c51; font-size:12px; text-decoration:underline;}
-.head-line-main{width:100%; float:left;    background: #fff;
-    position: relative;}
-.head-line-main h1{color: #15264c; font-size: 24px; font-weight: normal; text-align: center; padding: 40px 0 25px; box-shadow: 2px 0px 12px #999}
+.head-line-main{width:100%; float:left;    background: #fff;    position: relative;}
+.head-line-main h2{color: #15264c; font-size: 24px; font-weight: normal; text-align: center; padding: 40px 0 25px; box-shadow: 2px 0px 12px #999}
 
 #content{background:#4e1363;display: none;height:auto;width: 20%;top: 91px;position:absolute;overflow:scroll;height:300px;overflow-x: hidden;z-index:98;right:0;-webkit-transition: all 0.4s ease-in;transition: all 0.4s ease-in;}
 .details{width:100%; float:left;padding: 10px;    border-bottom: 1px solid #fff;}
@@ -123,18 +119,12 @@
 .booking-price-amount span sup {font-size: 20px;}
 #booking-breadcum ul li {margin: 0px -10px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '---------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
-
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {  content: '---------';    color: #e0e0e0;    font-weight: 400;    font-size: 12px;}
 #booking-breadcum li.active:first-child .line::before{content:'---------';font-weight:400;visibility:visibility;font-size:12px;}
 #booking-breadcum li > p { font-size: 14px;}
 .change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px; padding: 40px 0 47px;}
+.head-line-main h2{font-size:18px; padding: 40px 0 47px;}
 .change-date-section {right: 10px; top: 26px; width: 19%;}
 #content{width: 35%;top: 100px;}
 .details-date h4 {font-size: 16px;}
@@ -162,18 +152,12 @@
 .booking-price-amount span sup {font-size: 20px;}
 #booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
-
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {    content: '------------';    color: #e0e0e0;    font-weight: 400;    font-size: 12px;}
 #booking-breadcum li.active:first-child .line::before{content:'------------';font-weight:400;visibility:visibility;font-size:12px;}
 #booking-breadcum li > p { font-size: 14px;}
 .change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px;}
+.head-line-main h2{font-size:18px;}
 #content{width: 35%;  top: 91px;}
 .details-date h4 {    font-size: 16px;}
 .details-price h4 {    font-size: 16px;}
@@ -200,23 +184,16 @@
 .booking-price-amount span sup {font-size: 20px;}
 #booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
-
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {    content: '------------';    color: #e0e0e0;    font-weight: 400;    font-size: 12px;}
 #booking-breadcum li.active:first-child .line::before{content:'------------';font-weight:400;visibility:visibility;font-size:12px;}
 #booking-breadcum li > p { font-size: 14px;}
 .change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px;}
+.head-line-main h2{font-size:18px;}
 #content{width: 35%;top: 84px;}
 .details-date h4 {    font-size: 16px;}
 .details-price h4 {    font-size: 16px;}
 .change-date-section { right: 10px; top: 16px;}
-
 }
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
@@ -239,21 +216,15 @@
 .cruise-booking-image {width: 34%;}
 #booking-breadcum ul li {margin: 0px -5px 25px;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after { content: '--------------';    color: #e0e0e0;    font-weight: 400;    font-size: 12px;}
 #booking-breadcum li > p { font-size: 14px;}.change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px;    padding: 40px 0 33px;}
-
+.head-line-main h2{font-size:18px;    padding: 40px 0 33px;}
 #content{width: 35%;top: 84px;}
 .details-date h4 {    font-size: 16px;}
 .details-price h4 {    font-size: 16px;}
 .change-date-section {right: 10px;}
-
+.change-itinerary-section h4{font-size: 13px;line-height: 20px;}
 }
 
 @media only screen and (min-width:1401px) and (max-width:1500px){
@@ -275,20 +246,14 @@
 .view-dates { margin-top: 34px;}
 .cruise-booking-image {width: 34%;}
 .itinerary-middle ul li {font-size: 14px;}
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}.change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after { content: '--------------';    color: #e0e0e0;    font-weight: 400;  font-size: 12px;}
+.change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px;}
-
+.head-line-main h2{font-size:18px;}
 #content{width: 35%;top: 84px;}
 .details-date h4 {    font-size: 16px;}
 .details-price h4 {    font-size: 16px;}
 }
-
 
 @media only screen and (min-width:1501px) and (max-width:1600px){
 #booking-breadcum {width: 85%;}
@@ -305,21 +270,15 @@
 .cruise-booking-price p{font-size: 14px;line-height: 20px;}
 .view-dates a{ font-size: 16px;    padding: 7px;}
 .view-dates { margin-top: 45px;}
-
-#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after {
-    content: '--------------';
-    color: #e0e0e0;
-    font-weight: 400;
-    font-size: 12px;
-}.change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
+#booking-breadcum li span.line::before, #booking-breadcum li span.line::after, #booking-breadcum li.active span.line::before, #booking-breadcum li.active span.line::after { content: '--------------'; color: #e0e0e0; font-weight: 400;    font-size: 12px;}
+.change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px;}
-
+.head-line-main h2{font-size:18px;}
 #content{width: 35%;top: 84px;}
 .details-date h4 {    font-size: 16px;}
 .details-price h4 {    font-size: 16px;}
-
 }
+
 @media only screen and (min-width:1601px) and (max-width:1700px){
 #booking-breadcum {width: 92%; margin-left: 8%;}
 .cruise-booking-details h3 {    font-size: 20px;       line-height: normal;     padding-top: 20px;}
@@ -334,7 +293,7 @@
 .view-dates a{    font-size: 16px;}
 .change-itinerary-section h3 { font-size: 13px; line-height: 18px;}
 .change-itinerary-section{      top: 10px;  width: 35%;}
-.head-line-main h1{font-size:18px;}
+.head-line-main h2{font-size:18px;}
 #content{width: 35%;  top: 91px;}
 .details-date h4 {    font-size: 16px;}
 .details-price h4 {    font-size: 16px;}
@@ -357,10 +316,8 @@
 .cruise-booking-details p{font-size: 15px;line-height: 22px;}
 .cruise-booking-details p span { font-size: 16px;}
 .itinerary-content h3{font-size: 18px;}
-.change-itinerary-section {    position: relative;       width: 94%;    left: 0;    margin: 0 auto;}
+.change-itinerary-section {    position: relative;    width: 56%; left: 10px;    margin: 0;    float: left;}
 .change-itinerary-section h3 { font-size: 14px;   line-height: 20px; }
-
-
 #booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
 #booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
 #booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
@@ -368,10 +325,11 @@
 .hidden-xs {display: none !important;}
 .visible-xs {display: block !important;}
 .badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
-.head-line-main h1{    font-size: 20px;}
-.change-date-section {    position: relative;       width: 100%;    float: left;}
-#content{width: 100%;top: 270px;}
+.head-line-main h2{    font-size: 20px;}
+.change-date-section {       position: relative;    width: 34%;    float: right;}
+#content{    width: 50%; top: 200px;}
 .head-line-main { height: 245px;}
+.change-itinerary-section h4{font-size: 14px;}
 }
 
 @media only screen and (min-width:769px) and (max-width:800px){
@@ -394,8 +352,6 @@
 .cruise-booking-details p{font-size: 15px;line-height: 22px;}
 .cruise-booking-details p span { font-size: 16px;}
 .itinerary-content h3{font-size: 18px;}
-
-
 #booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
 #booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
 #booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
@@ -405,10 +361,11 @@
 .badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
 .change-itinerary-section {    position: relative;       width: 94%;    left: 0;    margin: 0 auto;}
 .change-itinerary-section h3 { font-size: 14px;   line-height: 20px; }
-.head-line-main h1{    font-size: 20px;}
+.head-line-main h2{    font-size: 20px;}
 .change-date-section {    position: relative;       width: 100%;    float: left;}
 #content{width: 100%;top: 270px;}
 .head-line-main { height: 281px;}
+.change-itinerary-section h4{font-size: 14px;}
 }
 
 @media only screen and (min-width:481px) and (max-width:768px){
@@ -434,9 +391,6 @@
 .cruise-booking-details p{font-size: 15px;line-height: 22px;}
 .cruise-booking-details p span { font-size: 16px;}
 .itinerary-content h3{font-size: 18px;}
-
-
-
 #booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
 #booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
 #booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
@@ -446,10 +400,11 @@
 .badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
 .change-itinerary-section {    position: relative;       width: 94%;    left: 0;    margin: 0 auto;}
 .change-itinerary-section h3 { font-size: 14px;   line-height: 20px; }
-.head-line-main h1{    font-size: 20px;}
+.head-line-main h2{    font-size: 20px;}
 .change-date-section {    position: relative;       width: 100%;    float: left;}
 #content{width: 100%;top: 270px;}
 .head-line-main { height: 245px;}
+.change-itinerary-section h4{font-size: 13px; margin-right: 10px;}
 }
 
 @media only screen and (min-width:0px) and (max-width:480px){ 
@@ -476,9 +431,6 @@
 .cruise-booking-details p span { font-size: 16px;}
 .itinerary-content h3{font-size: 18px;}
 .cruise-container {width: 90%;}
-
-
-
 #booking-breadcum li.active .badges {padding: 2px 8px; font-size: 13px;}
 #booking-breadcum .badges{padding: 2px 7px; font-size: 13px;}
 #booking-breadcum li.active > p { font-size: 17px;padding: 5px 5px 0;}
@@ -488,9 +440,9 @@
 .badge-big {height: 50px;padding-top: 16px !important;background-color: #c94e50;border: 2px solid #c94e50;border-radius: 50% !important;padding: 14px 12px !important;font-size: 17px !important;}
 .change-itinerary-section {    position: relative;       width: 94%;    left: 0;    margin: 0 auto;}
 .change-itinerary-section h3 { font-size: 14px;   line-height: 20px; }
-.head-line-main h1{    font-size: 20px;}
-.change-date-section {    position: relative;       width: 100%;    float: left;}
-#content{width: 100%;top: 270px;}
-.head-line-main { height: 281px;}
-
+.head-line-main h2{    font-size: 18px; padding: 15px 0 15px;}
+.change-date-section {    position: relative; width: 73%; float: left; margin: 10px 0;}
+#content{width: 100%;top: 250px;}
+.head-line-main { height: 245px;}
+.change-itinerary-section h4{font-size: 13px;}
 }

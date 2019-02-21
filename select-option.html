@@ -12,10 +12,11 @@
 <meta name="Description" content="">
 <meta name="Keywords" content="">
  <link rel="icon" href="favicon.png" type="image/x-icon">
-<!--<link rel="shortcut icon" href="favicon.ico">-->
+
 <!-- Global CSS -->
 <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
-  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
 <link href="css/form.css" rel="stylesheet" type="text/css"> 
 <!-- Plugins CSS -->    
 <link href="css/reset.css" rel="stylesheet" type="text/css">
@@ -72,18 +73,18 @@
         <div id="main-preloader" class="main-preloader semi-dark-background">
             <div class="main-preloader-inner center">
 
-                <h1 class="preloader-percentage center">
-                   <div style="width: 100%; margin-bottom: 10px;">  <img id="loading" src="images/loader.gif" alt=""></div>
+                <div class="preloader-percentage center">
+                   <div style="width: 100%; margin-bottom: 10px;">  <img id="loading" src="images/loader.gif" alt="loader" title="loader"></div>
                     <span class="preloader-percentage-text">0</span> <!-- Show Percentage Number -->
                     <span class="percentage">%</span>
-                </h1>
+                </div>
                 <div class="preloader-bar-outer">
                     <div class="preloader-bar"></div> <!-- Percentage Precess Bar -->
                 </div>
 
             </div>
         </div>
-        <!-- Preloader Start --> 
+<!-- Preloader Start -->  
  
 <div id="top"></div>
 <a class="uparrow" data-scroll data-options='{ "easing": "easeOutQuad" }' href="#top" ></a>
@@ -93,7 +94,7 @@
 
 <div class="navi-getion homenav innercontainer">
 	<header>
-	<a href="index.html" class="logocont"><img src="images/logo.png" alt="logo" class="logo"/></a>
+	<a href="index.html" class="logocont"><img src="images/logo.png" alt="logo" title="logo" class="logo"/></a>
 	
 
 	 
@@ -212,7 +213,7 @@
 <div class="select-option">
 <div class="select-main-option">
 <p>We pick your room</p>
-<img src="images/select-cabin/img-1.jpg"> 
+<img src="images/select-cabin/img-1.jpg" alt="" title=""> 
 <h3>INR <span>15000*</span> <span class="option-small">per person</span></h3>
 
 <div class="number-but button-select-main-option"><a href="select-your-room.html">Select</a></div>
@@ -220,7 +221,7 @@
 
 <div class="select-main-option-you">
 <p>You pick your room</p> 
-<img src="images/select-cabin/img-2.jpg">
+<img src="images/select-cabin/img-2.jpg" alt="" title="">
 <h3>INR <span>18000*</span> <span class="option-small"> per person</span></h3>
 
 <div class="number-but button-select-main-option"><a href="select-your-room.html">Select</a></div>
@@ -305,93 +306,17 @@
 	</div>
 </section> 	
 
-<!-- Start Login Popup -->
 
-	<div id="popup1" class="modal-box"> <a href="#" class="js-modal-close close">×</a>
-  <div class="modal-body">
-    <div class="form">
-      <div id="login">
-        <div class="login-img"><img src="images/login-form-img.jpg" alt=""></div>
-        <div class="login-cont">
-          <h1>Book A Cruise To Win A Special Gift Hamper </h1>
-          <form action="/" method="post">
-            <div class="field-wrap">
-              <label> First Name </label>
-              <input type="text"  autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Last Name </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Email<span class="req">*</span> </label>
-              <input type="email" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Mobile Number<span class="req">*</span> </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> City </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <div class="field-wrap">
-              <label> Age </label>
-              <input type="text" autocomplete="off"/>
-            </div>
-            <button class="button button-block" />
-            Submit
-            </button>
-          </form>
-        </div>
-      </div>
-    </div>
-    <!-- /form --> 
-  </div>
-</div>
-
-<!-- End Login Popup -->
-
-
-  
 <script src="dist/js/bind-polyfill.js"></script> 
 <script src="dist/js/smooth-scroll.js"></script> 
 <script src="js/scroll.js"></script> 
 <script  type="text/javascript" src="js/smooth.js"></script> 
 <script src="js/jquery.mousewheel.js" type="text/javascript"></script>  
-<script src="js/wow.js"></script>
 
-
-
- <script>
-    wow = new WOW(
-      {
-        animateClass: 'animated',
-        offset:       100,
-        callback:     function(box) {
-          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-        }
-      }
-    );
-    wow.init();
-  </script>  
-  
-
-
-
-
-  <script src="pre1/sPreloader.js"></script>
-   <script type="text/javascript">        
-       $('body').jpreLoader({
-           preMainSection:     '#main-preloader',
-           prePerText:         '.preloader-percentage-text',
-           preBar:             '.preloader-bar',
-       });       
-    </script>
 	
 	<!-- Select Trip js -->
-	<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-<script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
   <script  src="js/index.js"></script>
 <script src="js/jquery.scrolling-tabs.js"></script>
 <script>

@@ -13,26 +13,27 @@ CRUISES</title>
 <meta name="Description" content="">
 <meta name="Keywords" content="">
  <link rel="icon" href="favicon.png" type="image/x-icon">
+<!--<link rel="shortcut icon" href="favicon.ico">-->
 <!-- Global CSS -->
 <link href="https://fonts.googleapis.com/css?family=Philosopher:400,700" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">   
+<link rel="stylesheet" href="css/bootstrap.min.css">   
 <!-- Plugins CSS -->    
 <link href="css/reset.css" rel="stylesheet" type="text/css">
 <link href="css/meanmenu.css" rel="stylesheet" type="text/css">
 <link href="css/dining.css" rel="stylesheet" type="text/css">
 <link href="css/header.css" rel="stylesheet" type="text/css">
-<link href="css/footer.css" rel="stylesheet" type="text/css">
-<link href="bxslider/jquery.bxslider.css" rel="stylesheet" />
+<link href="css/footer.css" rel="stylesheet" type="text/css"> 
 <link href="css/animate.min.css" rel="stylesheet" type="text/css">
 <link href="css/an.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="pre1/jpreloader.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
-<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script> 
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.meanmenu.js"></script>
-<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery.meanmenu.js"></script> 
 <script  type="text/javascript" src="js/include_script.js"></script>
 
   <script>
@@ -49,6 +50,97 @@ CRUISES</title>
 });  });
  
     </script>
+	
+	
+	<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.0.js"></script> 
+      <script type="text/javascript" src="bxslider/lib/jquery.bxslider.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="bxslider/lib/jquery.bxslider.css">
+  <style type="text/css">
+    div.bxslider {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.slide{margin:0 15px; }
+  </style>
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">
+
+
+    $(window).load(function(){
+      
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    slideWidth: 1000,
+    minSlides: 2,
+    maxSlides: 3,
+    moveSlides: 1,
+    pager: false,
+    auto: true
+  });
+  
+  if ($(window).width() < 960) {
+   $('.bxslider').bxSlider({
+  minSlides: 1,
+  maxSlides: 1,
+  controls: true,
+  pager: false,
+  slideWidth: 1000,
+  useCSS: false,
+  slideMargin: 40
+});
+	$('.bxslider').bxSlider({
+  minSlides: 1,
+  maxSlides: 1,
+  controls: true,
+  pager: false,
+  slideWidth: 1000,
+  slideMargin: 10
+});
+}
+else {
+   $('.bxslider').bxSlider({
+  minSlides: 4,
+  maxSlides: 4, infiniteLoop: false,
+   hideControlOnEnd:true,
+  controls: true,
+  pager: false,   moveSlides: 1,
+        startSlide: 1,
+  slideWidth: 1000, easing: "easeInBounce",
+        pager: !1,
+  useCSS: false, 
+  slideMargin: 40
+});
+	$('.bxslider').bxSlider({
+  minSlides: 4,
+  maxSlides: 4,  infiniteLoop: false,
+   hideControlOnEnd: true,
+  pager: true, moveSlides: 1, easing: "easeInBounce",
+        pager: !1, 
+   
+  controls: true,
+  slideWidth: 1000,
+  slideMargin: 10
+});
+
+
+
+$(".bx-controls-direction").on( "click", ".bx-prev.disabled", function() {
+    var slideQty = slider.getSlideCount();
+    slider.goToSlide(slideQty-1);
+});
+
+$(".bx-controls-direction").on( "click", ".bx-next.disabled", function() {
+    slider.goToSlide(0);
+});
+}
+  
+  
+});
+
+    });
+
+</script>
 
 
 </head>
@@ -69,13 +161,14 @@ CRUISES</title>
 
             </div>
         </div>
-<!-- Preloader Start --> 
+<!-- Preloader Start -->  
 
 
 <div id="top"></div>
 <a class="uparrow" data-scroll data-options='{ "easing": "easeOutQuad" }' href="#top" ></a>
 
 </div>
+
 
 <div class="navi-getion homenav innercontainer">
 	<header>
@@ -95,8 +188,8 @@ CRUISES</title>
 	 <nav>
 		<ul>
 		  <li class="nav-item"><a href="index.html">Home</a></li>
-		  <li class="nav-item"><a class="a-active" href="plan-your-holiday.html">Plan your Holiday</a></li>
-		  <li class="nav-item"><a href="#">EXPERIENCE </a>
+		  <li class="nav-item"><a href="plan-your-holiday.html">Plan your Holiday</a></li>
+		  <li class="nav-item"><a class="a-active" href="#">EXPERIENCE </a>
 		  
 		  
 		 <ul class="maind sub-menu2" style="display: none;">
@@ -126,6 +219,7 @@ CRUISES</title>
 		 </li>
 		  <li class="nav-item"><a href="accomodation.html" class="">Accommodation</a></li>
 		  
+		  
 		  <li class="nav-item"><a href="personalized-events.html">Personalized Events</a></li>
 		  <li class="nav-item"><a href="#">The Ship</a>
 <ul class="maind sub-menu" style="display: none;">
@@ -138,49 +232,40 @@ CRUISES</title>
 		</ul> 
 	  </nav> 
 	</header>
-	</div>   <div class="clear"></div>
+	</div>     <div class="clear"></div>
 	
 	  
 				
 				 <section class="slide-wrapper">
-				<div class="dining-banner">	<img src="images/plan-you-holiday/international/ras-al-khaimah/banner.jpg" alt="Ras Al Khaimah" title="Ras Al Khaimah">
+				<div class="dining-banner">	<img src="images/casino/main-banner.jpg" alt="Casino" title="Casino">
 			</div></section>
 				 
 					 <section class="dining-section">	
 				<div class="dining-section-dining">
-				<h1>Ras Al Khaimah</h1>
-				<p>Ras Al Khaimah is the northernmost city of the UAE. It's known for its Arabian Gulf beaches. 
-Although much of the city is modern, the wonderfully atmospheric Jazirat al-Hamra is a major tourist attraction as it gives a taste of the peaceful Emirati life of the pearl divers and fishermen. 
-</p>
+				<h1>casino</h1>
+				<p>Roll the dice and spend your night with the lady luck and enjoy a flutter at Players Bar & Casino. Located on Deck 8, the Royal Casino will spoil you for choices. From most popular games like Blackjack, Poker, Scratch-off, High Roller, and Slot Machine Games to some amazing table games, this place is sure to rise up your excitement. While you are busy praying for your luck, we are here to quench your thirst with some sparkling spirits. Get ready to experience a slice of Vegas right at sea - with thousands of square feet of lights, action, slots, and tables. </p>
 		 	
-			 <div class="itineraries-but-sec"><div class="itineraries-but"><a href="#">View Itineraries</a> </div></div>
-  
-  
-  
-  
-  
-  
-   
-
-  <div class="dining-three-section mar-top0">
-		<div class="dining-three-section-img">	
-		<ul class="plan-holiday-slider">
-			<li><img src="images/plan-you-holiday/international/ras-al-khaimah/img1.jpg" alt="Ras Al Khaimah" title="Ras Al Khaimah"></li>
-			<li><img src="images/plan-you-holiday/international/ras-al-khaimah/img2.jpg" alt="Ras Al Khaimah" title="Ras Al Khaimah"></li>
-			<li><img src="images/plan-you-holiday/international/ras-al-khaimah/img3.jpg" alt="Ras Al Khaimah" title="Ras Al Khaimah"></li>	
-			<li><img src="images/plan-you-holiday/international/ras-al-khaimah/img4.jpg" alt="Ras Al Khaimah" title="Ras Al Khaimah"></li>	
-			<li><img src="images/plan-you-holiday/international/ras-al-khaimah/img5.jpg" alt="Ras Al Khaimah" title="Ras Al Khaimah"></li>			
-		</ul>
-		</div>
-		
-		<div class="dining-three-cont">
-		<h2>The Rising Emirate of the UAE</h2>
-
-<p>An excursion here includes visiting the National Museum of Ras Al Khaimah which occupies a century-old fort. The museum features the regional history and archaeological exhibits. Nearby is the large traditional Mohammed bin Salem Mosque. Northeast, the mountaintop Dhayah Fort dates from the 19th century. Jazirat al-Hamra is an abandoned fishing village that provides a very photogenic sightseeing opportunity. The tour also includes trekking on mountains, relaxing on beaches and lot more. </p>
- </div>
+	<div class="casino-cont">		 
+   <div class="bxslider">
+    <div class="slide"><img src="images/casino/img-1.jpg" alt="Casino" title="Casino" /></div> 
+	 <div class="slide"><img src="images/casino/img-2.jpg" alt="Casino" title="Casino" /></div> 
+	  <div class="slide"><img src="images/casino/img-3.jpg" alt="Casino" title="Casino"/></div> 
+	   <div class="slide"><img src="images/casino/img-4.jpg" alt="Casino" title="Casino" /></div> 
+	    <div class="slide"><img src="images/casino/img-5.jpg" alt="Casino" title="Casino" /></div> 
+		 <div class="slide"><img src="images/casino/img-6.jpg" alt="Casino" title="Casino" /></div> 
+		  <div class="slide"><img src="images/casino/img-7.jpg" alt="Casino" title="Casino" /></div> 
+		   <div class="slide"><img src="images/casino/img-8.jpg" alt="Casino" title="Casino" /></div> 
+		    <div class="slide"><img src="images/casino/img-9.jpg" alt="Casino" title="Casino" /></div> 
+			 <div class="slide"><img src="images/casino/img-10.jpg" alt="Casino" title="Casino" /></div> 
+			  <div class="slide"><img src="images/casino/img-11.jpg" alt="Casino" title="Casino" /></div> 
+			   <div class="slide"><img src="images/casino/img-12.jpg" alt="Casino" title="Casino" /></div> 
+			   
+</div>
+</div>
  
- </div>
 
+ 
+ 
  </div>
   
  
@@ -245,14 +330,33 @@ Although much of the city is modern, the wonderfully atmospheric Jazirat al-Hamr
 		</div>
 		</div>
 	</div>
-</section> 		 
+</section> 	
 
+
+ 
 <script src="dist/js/bind-polyfill.js"></script> 
 <script src="dist/js/smooth-scroll.js"></script> 
 <script src="js/scroll.js"></script> 
-<script type="text/javascript" src="js/smooth.js"></script> 
+<script  type="text/javascript" src="js/smooth.js"></script> 
 <script src="js/jquery.mousewheel.js" type="text/javascript"></script> 
-<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+ 
+<script src="js/wow.js"></script> 
+
+
+
+
+ <script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+          console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+  </script>
 <script src="pre1/sPreloader.js"></script>
  <script type="text/javascript">        
      $('body').jpreLoader({
@@ -261,5 +365,6 @@ Although much of the city is modern, the wonderfully atmospheric Jazirat al-Hamr
          preBar:             '.preloader-bar',
      });       
 </script>
+
 </body>
 </html>

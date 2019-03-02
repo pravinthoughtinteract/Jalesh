@@ -7,7 +7,8 @@ $(document).ready(function(){
 	var hotelData = ['0','0','0','0','0'];
 	window.sTab=1;  
 	//window.getIdLi=s1;  
-	var vala;    
+	var vala;   
+	window.vala=1; 
 	var valc;  
 	var alldata= [];
 	var clickLi;
@@ -22,7 +23,7 @@ $('.add').click(function() {
     	$('.output').html(function(i, val) { 
     if(val<5){var sTab=parseInt(val)+1;
     	window.sTab=sTab;
-
+    	//alert(window.sTab);
     	$("#totaltab li:nth-child("+sTab+")").show();
     	return val*1+1
     	} });
@@ -31,11 +32,13 @@ $('.add').click(function() {
 	$('.sub').click(function() {
    		$('.output').html(function(i, val) { 
     if (val>1){var sTab=parseInt(val);
-    	window.sTab=sTab;
-    	var decTab=parseInt(window.sTab) - 1;
+    	window.sTab=parseInt(sTab)-1;
+    	//alert(window.sTab);
+    	var decTab=parseInt(window.sTab);
 		$("#totaltab #s"+decTab).click();
 		$('.showError').html();
     	$("#totaltab li:nth-child("+sTab+")").hide();
+
     	return val*1-1} });
 	});
 
@@ -45,7 +48,7 @@ $('.hotel').on('click', function(e){
 		var lenOfhotel=window.sTab;
 
 		var getIdHotel=$('.hotel')[0].id;
-
+		//window.sTab=parseInt(window.sTab) - 1;
 		
 		switch(getIdHotel){
 case'hotel1':
@@ -55,7 +58,8 @@ case'hotel1':
 			if(window.clickLi=='STATEROOM 1'){
 				
 				if(window.sTab!=1)
-				{$("#totaltab #s2").click();}
+				{	//alert(window.sTab);
+					$("#totaltab #s2").click();}
 				$('.showError').html('');
 				var nameHotel=$(this).data('hotel-name');
 				hotelData.splice(0, 1, nameHotel);
@@ -90,7 +94,8 @@ case'hotel1':
 			}
 			else if(window.clickLi=='STATEROOM 4'){
 				if(window.sTab!=4)
-				{$("#totaltab #s5").click();}
+				{
+					$("#totaltab #s5").click();}
 				$('.showError').html('');
 				var nameHotel=$(this).data('hotel-name');
 				hotelData.splice(3, 1, nameHotel);
@@ -118,7 +123,7 @@ case'hotel2':
 				$('.showError').html('');
 				var nameHotel=$(this).data('hotel-name');
 				hotelData.splice(0, 1, nameHotel);
-				alert(hotelData[0]);
+				//alert(hotelData[0]);
 				console.log(hotelData);
 
 				
@@ -280,7 +285,10 @@ case'hotel4':
 
 		var indexcount=parseInt(sTab)-1;
 		var countTab=window.clickLi.substring(10);
-		if((sTab==countTab) &&(window.clickLi=="STATEROOM "+ sTab)){
+		// alert(indexcount);
+		// alert(sTab);
+		// alert(countTab);
+		if((sTab==countTab) && (window.clickLi=="STATEROOM "+ sTab)){
 			  if(hotelData[indexcount]==="hotel1"){
 
 			  $("#hotel1").parent().addClass('hotel-select').removeClass('view-dates');
@@ -305,6 +313,13 @@ case'hotel4':
 			  else if(hotelData[indexcount]==="hotel4"){
 
 			  $("#hotel4").parent().addClass('hotel-select').removeClass('view-dates');
+			  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
+			  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
+			  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
+			  }
+			  else{
+
+			  $("#hotel4").parent().addClass('view-dates').removeClass('hotel-select');
 			  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
 			  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
 			  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
@@ -345,6 +360,13 @@ $('#totaltab li:nth-child(1)').click(function() {
   $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
   }
+  else{
+
+  $("#hotel4").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
+  }
 
 });
 
@@ -378,6 +400,13 @@ $('#totaltab li:nth-child(2)').click(function() {
   $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
   }
+  else{
+
+  $("#hotel4").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
+  }
 });
 
 $('#totaltab li:nth-child(3)').click(function() {
@@ -402,6 +431,13 @@ $('#totaltab li:nth-child(3)').click(function() {
   }
   else if(hotelData[2]==="hotel4"){
   $("#hotel4").parent().addClass('hotel-select').removeClass('view-dates');
+  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
+  }
+  else{
+
+  $("#hotel4").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
@@ -434,6 +470,13 @@ $('#totaltab li:nth-child(4)').click(function() {
   $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
   }
+  else{
+
+  $("#hotel4").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
+  }
 });
 
 $('#totaltab li:nth-child(5)').click(function() {
@@ -458,6 +501,13 @@ $('#totaltab li:nth-child(5)').click(function() {
   }
   else if(hotelData[4]==="hotel4"){
   $("#hotel4").parent().addClass('hotel-select').removeClass('view-dates');
+  $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
+  $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
+  }
+  else{
+
+  $("#hotel4").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel3").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel2").parent().addClass('view-dates').removeClass('hotel-select');
   $("#hotel1").parent().addClass('view-dates').removeClass('hotel-select');
@@ -529,46 +579,56 @@ $('.subChild,.addChild').on('click', function(e){
 
 $("#Asub1").click(function() {
    		$(".adults1").html(function(i, vala) { 
-    if (vala>1){
+    var cval = $( ".child1" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if((tot>1 && tot<=4) && vala>1) {
+    	// alert('hi');
     	vala=vala*1-1;
     	window.vala=vala;
-    	$('.child1').text(0);
     	return vala}
     });
 });
 $("#Asub2").click(function() {
    		$(".adults2").html(function(i, vala) { 
-    if (vala>1){
+    var cval = $( ".child2" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if((tot>1 && tot<=4) && vala>1){
     	vala=vala*1-1;
     	window.vala=vala;
-    	$('.child2').text(0);
+    	
     	return vala}
     });
 });
 $("#Asub3").click(function() {
    		$(".adults3").html(function(i, vala) { 
-    if (vala>1){
+    var cval = $( ".child3" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if((tot>1 && tot<=4) && vala>1){
     	vala=vala*1-1;
     	window.vala=vala;
-    	$('.child3').text(0);
+    	
     	return vala}
     });
 });
 $("#Asub4").click(function() {
    		$(".adults4").html(function(i, vala) { 
-    if (vala>1){
+    var cval = $( ".child4" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if((tot>1 && tot<=4) && vala>1){
     	vala=vala*1-1;
     	window.vala=vala;
-    	$('.child4').text(0);
+    	
     	return vala}
     });
 });
 $("#Asub5").click(function() {
    		$(".adults5").html(function(i, vala) { 
-    if (vala>1){
+    var cval = $( ".child5" ).text();;
+    var tot=parseInt(vala)+parseInt(cval);
+    if((tot>1 && tot<=4) && vala>1){
     	vala=vala*1-1;
     	window.vala=vala;
-    	$('.child5').text(0);
+    	
     	return vala}
     });
 });
@@ -576,46 +636,51 @@ $("#Asub5").click(function() {
 
 $("#Aadd1").click(function() {
     	$(".adults1").html(function(i, vala) {
-    if(vala<4){
+    	var cval = $( ".child1" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if(tot>=1 && tot<4){
     	vala=vala*1+1;
     	window.vala=vala;
-    	$('.child1').text(0);
     	return vala};
 	});
 });
 $("#Aadd2").click(function() {
     	$(".adults2").html(function(i, vala) {
-    if(vala<4){
+   var cval = $( ".child2" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if(tot>=1 && tot<4){
     	vala=vala*1+1;
     	window.vala=vala;
-    	$('.child2').text(0);
     	return vala};
 	});
 });
 $("#Aadd3").click(function() {
     	$(".adults3").html(function(i, vala) {
-    if(vala<4){
+  var cval = $( ".child3" ).text();
+    var tot=parseInt(vala)+parseInt(cval);
+    if(tot>=1 && tot<4){
     	vala=vala*1+1;
     	window.vala=vala;
-    	$('.child3').text(0);
     	return vala};
 	});
 });
 $("#Aadd4").click(function() {
     	$(".adults4").html(function(i, vala) {
-    if(vala<4){
+   var cval = $( ".child4" ).text()
+    var tot=parseInt(vala)+parseInt(cval);
+    if(tot>=1 && tot<4){
     	vala=vala*1+1;
     	window.vala=vala;
-    	$('.child4').text(0);
     	return vala};
 	});
 });
 $("#Aadd5").click(function() {
     	$(".adults5").html(function(i, vala) {
-    if(vala<4){
+    var cval = $( ".child5" ).text()
+    var tot=parseInt(vala)+parseInt(cval);
+    if(tot>=1 && tot<4){
     	vala=vala*1+1;
     	window.vala=vala;
-    	$('.child5').text(0);
     	return vala};
 	});
 });
@@ -623,31 +688,56 @@ $("#Aadd5").click(function() {
 $("#Csub1").click(function() {
 
    		$(".child1").html(function(i, valc) { 
-    if (valc>0){return valc*1-1}
+    var cval = $( ".adults1" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if((tot>1 && tot<=4) && valc>=1){
+    	valc=valc*1-1;
+    	window.valc=valc;
+    	return valc}
     });
 });
 $("#Csub2").click(function() {
 
    		$(".child2").html(function(i, valc) { 
-    if (valc>0){return valc*1-1}
+   var cval = $( ".adults2" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if((tot>1 && tot<=4) && valc>=1){
+    	valc=valc*1-1;
+    	window.valc=valc;
+    	return valc}
     });
 });
 $("#Csub3").click(function() {
 
    		$(".child3").html(function(i, valc) { 
-    if (valc>0){return valc*1-1}
+    var cval = $( ".adults3" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if((tot>1 && tot<=4) && valc>=1){
+    	valc=valc*1-1;
+    	window.valc=valc;
+    	return valc}
     });
 });
 $("#Csub4").click(function() {
 
    		$(".child4").html(function(i, valc) { 
-    if (valc>0){return valc*1-1}
+    var cval = $( ".adults4" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if((tot>1 && tot<=4) && valc>=1){
+    	valc=valc*1-1;
+    	window.valc=valc;
+    	return valc}
     });
 });
 $("#Csub5").click(function() {
 
    		$(".child5").html(function(i, valc) { 
-    if (valc>0){return valc*1-1}
+    var cval = $( ".adults5" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if((tot>1 && tot<=4) && valc>=1){
+    	valc=valc*1-1;
+    	window.valc=valc;
+    	return valc}
     });
 });
 
@@ -655,32 +745,58 @@ $("#Csub5").click(function() {
 $("#Cadd1").click(function() {
 
     	$(".child1").html(function(i, valc) { 
-    	var chi=4-window.vala;
-    if(valc<chi){return valc*1+1};});
+    	var cval = $( ".adults1" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    //alert(tot);
+    if(tot>=1 && tot<4){
+    	valc=valc*1+1;
+    	window.valc=valc;
+    	return valc}
+    	});
 });
 $("#Cadd2").click(function() {
 
     	$(".child2").html(function(i, valc) { 
-    	var chi=4-window.vala;
-    if(valc<chi){return valc*1+1};});
+    	var cval = $( ".adults2" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if(tot>=1 && tot<4){
+    	valc=valc*1+1;
+    	window.valc=valc;
+    	return valc}
+    });
 });
 $("#Cadd3").click(function() {
 
     	$(".child3").html(function(i, valc) { 
-    	var chi=4-window.vala;
-    if(valc<chi){return valc*1+1};});
+    	var cval = $( ".adults3" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if(tot>=1 && tot<4){
+    	valc=valc*1+1;
+    	window.valc=valc;
+    	return valc}
+    });
 });
 $("#Cadd4").click(function() {
 
     	$(".child4").html(function(i, valc) { 
-    	var chi=4-window.vala;
-    if(valc<chi){return valc*1+1};});
+    	var cval = $( ".adults4" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if(tot>=1 && tot<4){
+    	valc=valc*1+1;
+    	window.valc=valc;
+    	return valc}
+    });
 });
 $("#Cadd5").click(function() {
 
     	$(".child5").html(function(i, valc) { 
-    	var chi=4-window.vala;
-    if(valc<chi){return valc*1+1};});
+    	var cval = $( ".adults5" ).text()
+    var tot=parseInt(valc)+parseInt(cval);
+    if(tot>=1 && tot<4){
+    	valc=valc*1+1;
+    	window.valc=valc;
+    	return valc}
+    });
 });
 
 $("#proceedDiv #proceed").click(function(){

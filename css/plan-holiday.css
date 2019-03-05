@@ -110,7 +110,7 @@ background-color: #f37061;
 .blank-bg{background:url('../images/bg22.jpg') right no-repeat; background-size:cover;}
 
 
-
+.cols-12{width:100%; height:auto; float:left; position:relative;}
 .cols-6{width:50%; height:auto; float:left; position:relative;}
 .cols-3{width:25%; height:auto; float:left; position:relative;}
 
@@ -300,6 +300,7 @@ padding: 30px;}
 .holiday-eight img{height:100%;}
 .holiday-nine{width: 100%;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 }
@@ -335,6 +336,7 @@ padding: 30px;}
 .plan-holiday-section-plan-inner-page p { font-size: 13px;}
 .tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 }
@@ -370,6 +372,7 @@ padding: 30px;}
 .plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
 .tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 }
@@ -405,6 +408,7 @@ padding: 30px;}
 .plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
 .tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 }
@@ -442,6 +446,7 @@ padding: 30px;}
 .plan-holiday-section-plan-inner-page p { font-size: 13px; padding: 0;}
 .tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 }
@@ -479,6 +484,7 @@ padding: 30px;}
 
 .tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 }
@@ -514,6 +520,7 @@ padding: 30px;}
 .itineraries-but { margin: 35px auto;}
 .tab button {padding: 9px 40px; font-size: 18px; width: 100%; margin-bottom: 5px;}
 .holiday img { min-height: auto;}
+.cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
 

@@ -892,15 +892,17 @@
 
     function getNewElScrollerElementWrappingNavTabsInstance($navTabsInstance) {
       var $tabsContainer = $('<div class="scrtabs-tab-container"></div>'),
-          $leftArrow = $('<div class="scrtabs-tab-scroll-arrow scrtabs-js-tab-scroll-arrow-left prev"></div>'),
-          $rightArrow = $('<div class="scrtabs-tab-scroll-arrow scrtabs-js-tab-scroll-arrow-right next"> </div>'),
+          $leftArrow = $('<div id="arrow-l" class="scrtabs-tab-scroll-arrow scrtabs-js-tab-scroll-arrow-left prev"></div>'),
+          $rightArrow = $('<div id="arrow-r" class="scrtabs-tab-scroll-arrow scrtabs-js-tab-scroll-arrow-right next"> </div>'),
           $fixedContainer = $('<div class="scrtabs-tabs-fixed-container"></div>'),
           $movableContainer = $('<div class="scrtabs-tabs-movable-container"></div>');
 
+     
       return $tabsContainer
                 .append($leftArrow,
                         $fixedContainer.append($movableContainer.append($navTabsInstance)),
                         $rightArrow);
+        
     }
 
     function getNewElTabAnchor(tab, propNames) {
@@ -1583,9 +1585,10 @@
     ignoreTabPanes: true,
     scrollToTabEdge: true,
     disableScrollArrowsOnFullyScrolled: true,
-    forceActiveTab: true
+    forceActiveTab: false
   };
 
 
 
 }(jQuery, window));
+

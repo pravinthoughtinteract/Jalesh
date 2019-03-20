@@ -25,6 +25,9 @@ a, a:hover, a:focus{text-decoration:none !important;}
 #myVideo {position:relative;right: 0;bottom: 0;min-width: 100%;min-height: 100%;  }
 video {width: 100%; height: auto;}
 
+
+.errorss{position: absolute;  bottom: 6px; color:red;}
+
 /*------------------------------- vertical carousel indicators ------------------------------*/
 
 .carousel-indicators{position:absolute;top:auto;bottom: 9%;margin:auto;height: 20px;right: 11.5%;left:auto;width:auto;}
@@ -123,7 +126,7 @@ video {width: 100%; height: auto;}
 .ih-item.square.effect3.bottom_to_top .info {top: auto;-webkit-transform: translateY(100%); -moz-transform: translateY(100%);-ms-transform: translateY(100%);-o-transform: translateY(100%);transform: translateY(100%);}
 .ih-item.square.effect3.bottom_to_top a:hover .img {-webkit-transform: translateY(-10px);-moz-transform: translateY(-10px);-ms-transform: translateY(-10px);-o-transform: translateY(-10px);transform: translateY(-10px);} 
 .ih-item.square.effect3.bottom_to_top a:hover .v-logo{bottom:50%;}
-.booking-form{width:100%; height:auto; float:left;  background: url(../images/img.png);  background-repeat: no-repeat;  padding: 0 0px 0 0;  background-position: left top;}
+.booking-form{width:100%; height:auto; float:left;  background: url(../images/img.png);  background-repeat: no-repeat;  padding: 0 0px 0 0;  background-position: left top; position:relative;}
 .booking-form-cont{width:80%;height:auto;margin:0 auto;padding: 45px 0 20px;}
 .booking-form-cont-in{width: 100%;height: auto;margin: 15px auto 53px;padding: 20px;background-color: #fff;border: 4px solid #993f5c;float: left;}
 .booking-form-cont h1{font-size:36px; font-weight: 400; color:#330066; }
@@ -335,6 +338,7 @@ transition: all 0.4s ease-in;}
 @media only screen and (min-width:1301px) and (max-width:1400px){
 .slide-wrapper { padding: 78px 0 0 0;}
 .home-banner{height:505px;}
+.home-banner img{width:100%;}
 .home-video{height:505px;}
 .carousel-indicators { bottom: 7%;right: 9.7%;}
 .carousel-control { right: 14% !important;}
@@ -812,10 +816,14 @@ transition: all 0.4s ease-in;}
 .dec-banner{display:none !important;}
 .mob-banner{display:block !important;}
 .mob-banner iframe{width:100%; height:268px; }
+
+.errorss { position: relative;}
+
  }
  
  
   @media only screen and (min-width:361px) and (max-width:480px){ 
   .mob-banner iframe{width:100%; height:360px; }
+  
   }
  

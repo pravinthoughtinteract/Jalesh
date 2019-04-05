@@ -99,11 +99,17 @@
 
 
 
+.excursions-but-sec{width: auto;height:auto;float:left;position: absolute;left: 0;top: 40px;}
+.excursions-but{width: 199px;height:auto;margin: 0 auto;}
+.excursions-but a{color:#fff;background:#2d0e2e;border:1px solid #917391;padding:10px 20px;margin: 0 auto 40px;font-size:15px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;float: left;transition: all 0.5s ease;} 
+.excursions-but a:hover{color:#fff; background:#f37061; border:1px solid #ffccc6;} 
+
+
+
 .itineraries-but-sec{width: auto;height:auto;float:left;position: absolute;right: 0;top: 40px;}
 .itineraries-but{width: 199px;height:auto;margin: 0 auto;}
 .itineraries-but a{color:#fff;background:#2d0e2e;border:1px solid #917391;padding:10px 20px;margin: 0 auto 40px;font-size:15px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;float: left;transition: all 0.5s ease;} 
 .itineraries-but a:hover{color:#fff; background:#f37061; border:1px solid #ffccc6;} 
-
 
 /* bread-crum */
 .bread-crum{width:100%;float:left;margin:7px 0 0;padding:0;}
@@ -156,6 +162,8 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-controls-direction a {bottom: 4px;}
 .corporate-pati-main .bx-wrapper .bx-prev {left: 6%;}
 .corporate-pati-main .bx-wrapper .bx-next {left: 11%;}
+.excursions-but { width: 165px;}
+.excursions-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .itineraries-but { width: 165px;}
 .itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .bread-crum ul li {font-size: 13px;}
@@ -189,6 +197,8 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-controls-direction a {bottom: 4px;}
 .corporate-pati-main .bx-wrapper .bx-prev {left: 10%;}
 .corporate-pati-main .bx-wrapper .bx-next {left: 14%;}
+.excursions-but { width: 165px;}
+.excursions-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .itineraries-but { width: 165px;}
 .itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .bread-crum ul li {font-size: 13px;}
@@ -223,6 +233,8 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-controls-direction a {bottom: 4px;}
 .corporate-pati-main .bx-wrapper .bx-prev {left: 10%;}
 .corporate-pati-main .bx-wrapper .bx-next {left: 14%;}
+.excursions-but { width: 165px;}
+.excursions-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .itineraries-but { width: 165px;}
 .itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .bread-crum ul li {font-size: 13px;}
@@ -256,6 +268,8 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-controls-direction a {bottom: 4px;}
 .corporate-pati-main .bx-wrapper .bx-prev {left: 10%;}
 .corporate-pati-main .bx-wrapper .bx-next {left: 14%;}
+.excursions-but { width: 165px;}
+.excursions-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .itineraries-but { width: 165px;}
 .itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .bread-crum ul li {font-size: 14px;}
@@ -278,6 +292,8 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-controls-direction a {bottom: 4px;}
 .corporate-pati-main .bx-wrapper .bx-prev {left: 10%;}
 .corporate-pati-main .bx-wrapper .bx-next {left: 14%;}
+.excursions { width: 165px;}
+.excursions a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .itineraries-but { width: 165px;}
 .itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .bread-crum ul li {font-size: 14px;}
@@ -296,6 +312,8 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-controls-direction a {bottom: 4px;}
 .corporate-pati-main .bx-wrapper .bx-prev {left: 10%;}
 .corporate-pati-main .bx-wrapper .bx-next {left: 14%;}
+.excursions { width: 165px;}
+.excursions a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 .itineraries-but { width: 165px;}
 .itineraries-but a{padding: 7px 15px; margin: 0 auto 30px;font-size: 14px;letter-spacing: 1px;}
 
@@ -345,6 +363,7 @@ font-size: 22px;}
 .dining-three-section-right ul {text-align: left;}
 .dining-cafe-text h2 {font-size: 28px; }
 .corporate-pati-main .bx-wrapper .bx-next {background: url(../images/controls1a.png) no-repeat -11px -4px !important;}
+.excursions-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 .itineraries-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 }
 
@@ -392,6 +411,7 @@ font-size: 22px;}
 .bread-crum ul li {font-size: 13px;}
 .corporate-pati-main .bx-wrapper .bx-next {background: url(../images/controls1a.png) no-repeat -11px -4px !important;}
 .bar-section-img img {width: 30px !important;}
+.excursions-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 .itineraries-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 
 }
@@ -444,6 +464,7 @@ font-size: 22px;}
 .bread-crum ul li {font-size: 13px;}
 .corporate-pati-main .bx-wrapper .bx-next {background: url(../images/controls1a.png) no-repeat -11px -4px !important;}
 .bar-section-img img {width: 30px !important;}
+.excursions-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 .itineraries-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 
 }
@@ -497,6 +518,7 @@ font-size: 22px;}
 .corporate-pati-main .bx-wrapper .bx-next {background: url(../images/controls1a.png) no-repeat -11px -4px !important;}
 .bar-section-nav-cont { margin-top: 8px;}
 .bar-section-img img {width: 30px !important;}
+.excursions-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 .itineraries-but-sec{width: 100%;height:auto;float:left;position: relative;right: 0;top: 26px;}
 
 

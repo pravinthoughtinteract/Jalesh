@@ -114,6 +114,9 @@ background-color: #f37061;
 .cols-6{width:50%; height:auto; float:left; position:relative;}
 .cols-3{width:25%; height:auto; float:left; position:relative;}
 
+.desk{display:block;}
+.mob{display:none;}
+
 /* Start Internet Explorere 9 CSS */
 
 @media screen and (min-width:0\0) { 
@@ -245,6 +248,8 @@ padding: 30px;}
 }
 
 @media only screen and (min-width:701px) and (max-width:800px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3.5% 50px;}
 .plan-holiday-banner {margin:78px 0 0 0;}
 .plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
@@ -275,6 +280,8 @@ padding: 30px;}
 
 
 @media only screen and (min-width:601px) and (max-width:700px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3.5% 50px;}
 .plan-holiday-banner {margin:23px 0 0 0;}
 .plan-holiday-section-plan h1 {font-size: 22px;margin: 0px 0 30px 0;}
@@ -306,6 +313,8 @@ padding: 30px;}
 }
 
 @media only screen and (min-width:480px) and (max-width:500px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;}
 .plan-holiday-banner {margin:0 0 0 0;}
 .holid-sec {position: relative;}
@@ -341,6 +350,8 @@ padding: 30px;}
 .cols-3{width:100%; }
 }
 @media only screen and (min-width:414px) and (max-width:479px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;}
 .plan-holiday-banner {margin:0 0 0 0;}
 .holid-sec {position: relative;}
@@ -377,6 +388,8 @@ padding: 30px;}
 .cols-3{width:100%; }
 }
 @media only screen and (min-width:401px) and (max-width:413px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;}
 .plan-holiday-banner {margin:0 0 0 0;}
 .holid-sec {position: relative;}
@@ -415,6 +428,8 @@ padding: 30px;}
 
 
 @media only screen and (min-width:361px) and (max-width:400px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;padding: 3%;}
 .plan-holiday-banner {margin:0 0 0 0;}
 .holid-sec {position: relative;}
@@ -452,6 +467,8 @@ padding: 30px;}
 }
 
 @media only screen and (min-width:321px) and (max-width:360px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;padding: 3%;}
 .plan-holiday-banner {margin:0 0 0 0;}
 .holid-sec {position: relative;}
@@ -489,6 +506,8 @@ padding: 30px;}
 .cols-3{width:100%; }
 }
 @media only screen and (min-width:0px) and (max-width:320px){
+.desk{display:none;}
+.mob{display:block;}
 .plan-holiday-section-plan {width: 93%;margin: 0 3% 50px;padding: 3%;}
 .plan-holiday-banner {margin:0 0 0 0;}
 .holid-sec {position: relative;}
@@ -523,5 +542,6 @@ padding: 30px;}
 .cols-12{width:100%;}
 .cols-6{width:100%;}
 .cols-3{width:100%; }
+
 
 }

@@ -205,7 +205,8 @@ $(".meanclose").click(function(){alert();
 		pager: false,
 		controls: true,
 		mode:"fade",
-		auto: false,
+		auto: true,
+		pause: 4000
   });
   
 	$('.corporate-partie-slider').bxSlider({

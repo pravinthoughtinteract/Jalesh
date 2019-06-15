@@ -1,4 +1,4 @@
-.abt-main{width:100%;float:left; margin: 40px 0 100px;}
+.abt-main{width:100%;float:left;margin: 40px 0 0px;}
 .abt-top-txt p{border-bottom: 0;width:auto;padding: 0 20%;line-height: 27px;color:#000;}
 .abt-bg{background:url('../images/about/about-bg.jpg');background-repeat:no-repeat;}
 .abt-sub-txt{width:100%;float:left;margin:0;padding: 10% 0;}
@@ -24,7 +24,7 @@
 .envirment-policy p{border-bottom: 0;width:auto;padding: 0 20%;line-height: 27px;color:#000; text-align:center;}
 .envirment-policy h2{font-size: 25px;text-align: center;text-transform: uppercase;color: #333333; font-weight:bold;     float: left;     width: 100%;     padding-bottom: 15px;}
 
-.clean-waves-logo{width:253px; height:auto; margin: 50px auto 40px; clear: both;}
+.clean-waves-logo{width: 170px;height:auto;margin: 50px auto 40px;clear: both;}
 .clean-waves-logo1{width:160px;height:auto;position: absolute;top: 40px;left: 0;}
 .clean-waves-logo1 img{width:100%;}
 
@@ -65,7 +65,7 @@ transition: all 0.5s ease-in;}
 @media only screen and (min-width:1501px) and (max-width:1600px){
 .abt-2txt ul {width: 76%;}
 .abt-top-txt p {padding: 0 9%;}
-.abt-main {margin: 5% 0;}
+.abt-main {margin: 5% 0 0;}
 .abt-sub-txt {padding: 14% 0;}
 .envirment-policy p {padding: 0 9%;}
 .contact-container {width: 71%;}
@@ -74,7 +74,7 @@ transition: all 0.5s ease-in;}
 @media only screen and (min-width:1401px) and (max-width:1500px){
 .abt-2txt ul {width: 90%;}
 .abt-top-txt p {padding:0 5%;}
-.abt-main {margin: 5% 0;}
+.abt-main {margin: 5% 0 0;}
 .abt-sub-txt {padding: 14% 0;}
 .envirment-policy p {padding: 0 5%;}
 .contact-container {width: 76%;}
@@ -85,7 +85,7 @@ transition: all 0.5s ease-in;}
 @media only screen and (min-width:1301px) and (max-width:1400px){
 .abt-2txt ul {width: 95%;}
 .abt-top-txt p {padding:0 5%;}
-.abt-main {margin: 5% 0;}
+.abt-main {margin: 5% 0 0;}
 .abt-sub-txt {padding: 9% 0;}
 .abt-bg {background-position: center;}
 .abt-top-txt h3 a {font-size: 17px;padding: 8px 23px;}
@@ -99,7 +99,7 @@ transition: all 0.5s ease-in;}
 @media only screen and (min-width:1201px) and (max-width:1300px){
 .abt-2txt ul {width: 100%;}
 .abt-top-txt p {padding:0 5%;line-height: 24px;}
-.abt-main {margin: 5% 0;}
+.abt-main {margin: 5% 0 0;}
 .abt-sub-txt {padding: 9% 0;}
 .abt-bg {background-position: center;}
 .abt-main p {line-height: 19px;}
@@ -131,7 +131,7 @@ transition: all 0.5s ease-in;}
 .abt-main h3 {font-size: 27px;margin-bottom: 8px;}
 .abt-2txt ul {width: 89%;}
 .abt-top-txt p {padding:0 5%;line-height: 24px;}
-.abt-main {margin: 5% 0;}
+.abt-main {margin: 5% 0 0;}
 .abt-sub-txt {padding: 13% 0;}
 .abt-bg {background-position: center;}
 .abt-main p {line-height: 20px;font-size: 13px;}

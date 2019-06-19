@@ -6,7 +6,7 @@
 .dining-banner h5{ position:absolute; text-align:center; width:100%; color:#fff; font-size:50px;    margin: 8% 0;text-transform: uppercase;}
 .dining-section {  width: 100%;    float: left; }
 .dining-section-dining{ width:80%; margin:0 auto; position:relative;}
-.dining-section p{color:#551a57; font-size:15px;text-align:center;    margin: 0px 0 40px 0;  padding: 0 0 40px 0; border-bottom:1px solid #dddddd;float: left;    width: 100%;}
+.dining-section p{color:#551a57;font-size:15px;text-align:center;margin: 0px 0 40px 0;padding: 0 0 40px 0;border-bottom:1px solid #dddddd;float: left;width: 100%;line-height: 24px;}
 .dining-section h2{font-size:40px; color:#323232; text-transform:uppercase;}
 .dining-section h2 span{color:#737373; font-size:18px; text-transform:none;float: left;    width: 100%;    margin: 20px 0;}
 .dining h3{  font-size:45px; text-align:center; text-transform:uppercase;  color:#ffffff; font-weight: 600;margin: 50px 0 30px 0;}
@@ -207,8 +207,8 @@ font-size: 22px;}
 }
 
 @media only screen and (min-width:1301px) and (max-width:1400px){
-	.dining-banner {    margin: 82px 0 0 0;}
-	.dining-section h1 { margin: 40px 0 25px 0; font-size: 30px;}
+.dining-banner { margin: 82px 0 0 0;}
+.dining-section h1 { margin: 40px 0 35px 0; font-size: 30px;}
 .dining-two-section-img ul li {font-size: 15px; padding: 7px 0;}
 .dining-two-section-img ul {margin: 8% 0;}
 .dining-two-section h2 {margin:25px 0; font-size: 30px;}
